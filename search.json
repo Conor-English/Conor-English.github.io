@@ -32,28 +32,7 @@
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "Below are some of my recent works:\n\n\n\nFocused on data cleaning, manipulation, and exploration.\nTools used: Python, Pandas\n\nView Project ➔\n\n\n\n\n\nBuilt and evaluated predictive models.\nTools used: Python, scikit-learn\n\nView Project ➔\n\n\n\n\n\nScraped web data and created visualizations.\nTools used: Python, BeautifulSoup, Plotly\n\nView Project ➔"
-  },
-  {
-    "objectID": "projects/index.html#data-analysis-with-pandas",
-    "href": "projects/index.html#data-analysis-with-pandas",
-    "title": "Projects",
-    "section": "",
-    "text": "Focused on data cleaning, manipulation, and exploration.\nTools used: Python, Pandas\n\nView Project ➔"
-  },
-  {
-    "objectID": "projects/index.html#linear-regression-modeling",
-    "href": "projects/index.html#linear-regression-modeling",
-    "title": "Projects",
-    "section": "",
-    "text": "Built and evaluated predictive models.\nTools used: Python, scikit-learn\n\nView Project ➔"
-  },
-  {
-    "objectID": "projects/index.html#web-scraping-and-visualization",
-    "href": "projects/index.html#web-scraping-and-visualization",
-    "title": "Projects",
-    "section": "",
-    "text": "Scraped web data and created visualizations.\nTools used: Python, BeautifulSoup, Plotly\n\nView Project ➔"
+    "text": "🚀 My Featured Projects\n\n\n📊 Data Analysis with Pandas\nSkills: Data Cleaning, Manipulation, EDA\nTools: Python, Pandas\nView Project ➔\n\n\n📈 Linear Regression Modeling\nSkills: Predictive Modeling, Evaluation\nTools: Python, scikit-learn\nView Project ➔\n\n\n🌐 Web Scraping and Visualization\nSkills: Web Scraping, Data Visualization\nTools: Python, BeautifulSoup, Plotly\nView Project ➔"
   },
   {
     "objectID": "projects/project2.html",
