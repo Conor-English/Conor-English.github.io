@@ -7,6 +7,6 @@ format: html
 
 Below are some of my recent projects:
 
-- [Data Analysis with Pandas](project1.qmd)
-- [Linear Regression Modeling](project2.qmd)
-- [Web Scraping and Visualization](project3.qmd)
+- [Data Analysis with Pandas](project1.html)
+- [Linear Regression Modeling](project2.html)
+- [Web Scraping and Visualization](project3.html)
