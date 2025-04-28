@@ -16,5 +16,14 @@
   },
   "projects/code project3.qmd": {
     "code project3.html": "fc34a01c"
+  },
+  "projects/project1.qmd": {
+    "project1.html": "61c6e8db"
+  },
+  "projects/project2.qmd": {
+    "project2.html": "9537e8e7"
+  },
+  "projects/project3.qmd": {
+    "project3.html": "884108fd"
   }
 }

@@ -1,14 +1,14 @@
 [
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
+    "objectID": "projects/project3.html",
+    "href": "projects/project3.html",
+    "title": "Project 1: Data Analysis with Pandas",
     "section": "",
-    "text": "My Projects\nBelow are some of my recent projects:\n\nData Analysis with Pandas\nLinear Regression Modeling\nWeb Scraping and Visualization"
+    "text": "Overview\nIn this project, I analyzed real-world datasets using Python and Pandas to extract meaningful insights.\n\n\nSkills Demonstrated\n\nData Cleaning\nData Manipulation\nExploratory Data Analysis (EDA)\n\n\n\nKey Code Example\nimport pandas as pd\n\n\nLoad data\ndf = pd.read_csv(“data.csv”)\n\n\nSimple analysis\nsummary = df.describe() summary"
   },
   {
-    "objectID": "projects/code project2.html",
-    "href": "projects/code project2.html",
+    "objectID": "projects/project1.html",
+    "href": "projects/project1.html",
     "title": "Project 1: Data Analysis with Pandas",
     "section": "",
     "text": "Overview\nIn this project, I analyzed real-world datasets using Python and Pandas to extract meaningful insights.\n\n\nSkills Demonstrated\n\nData Cleaning\nData Manipulation\nExploratory Data Analysis (EDA)\n\n\n\nKey Code Example\nimport pandas as pd\n\n\nLoad data\ndf = pd.read_csv(“data.csv”)\n\n\nSimple analysis\nsummary = df.describe() summary"
@@ -28,15 +28,15 @@
     "text": "About this site"
   },
   {
-    "objectID": "projects/code project1.html",
-    "href": "projects/code project1.html",
-    "title": "Project 1: Data Analysis with Pandas",
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
     "section": "",
-    "text": "Overview\nIn this project, I analyzed real-world datasets using Python and Pandas to extract meaningful insights.\n\n\nSkills Demonstrated\n\nData Cleaning\nData Manipulation\nExploratory Data Analysis (EDA)\n\n\n\nKey Code Example\nimport pandas as pd\n\n\nLoad data\ndf = pd.read_csv(“data.csv”)\n\n\nSimple analysis\nsummary = df.describe() summary"
+    "text": "My Projects\nBelow are some of my recent projects:\n\nData Analysis with Pandas\nLinear Regression Modeling\nWeb Scraping and Visualization"
   },
   {
-    "objectID": "projects/code project3.html",
-    "href": "projects/code project3.html",
+    "objectID": "projects/project2.html",
+    "href": "projects/project2.html",
     "title": "Project 1: Data Analysis with Pandas",
     "section": "",
     "text": "Overview\nIn this project, I analyzed real-world datasets using Python and Pandas to extract meaningful insights.\n\n\nSkills Demonstrated\n\nData Cleaning\nData Manipulation\nExploratory Data Analysis (EDA)\n\n\n\nKey Code Example\nimport pandas as pd\n\n\nLoad data\ndf = pd.read_csv(“data.csv”)\n\n\nSimple analysis\nsummary = df.describe() summary"
