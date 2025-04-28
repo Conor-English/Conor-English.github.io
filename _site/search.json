@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Conor-English.github.io",
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "My Projects\nWelcome to my Projects page!\nHere, you will find detailed writeups about my coding and academic projects.\nStay tuned as I build and grow my portfolio."
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,12 @@
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Conor-English.github.io",
+    "section": "",
+    "text": "Welcome\nWelcome to my portfolio website!\nExplore my projects, experiences, and work below.\nUse the navigation bar to move around."
   }
 ]
