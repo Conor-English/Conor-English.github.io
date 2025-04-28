@@ -3,10 +3,31 @@ title: "Projects"
 format: html
 ---
 
-# My Projects
+# ✨ My Projects
 
-Below are some of my recent projects:
+Here are some of my recent projects:
 
-- [Data Analysis with Pandas](/projects/project1.html)
-- [Linear Regression Modeling](/projects/project2.html)
-- [Web Scraping and Visualization](/projects/project3.html)
+::: {.grid}
+
+::: {.card}
+### Data Analysis with Pandas
+A project focused on data cleaning, manipulation, and analysis using Pandas.
+
+[View Project ➔](project1.qmd)
+:::
+
+::: {.card}
+### Linear Regression Modeling
+A project on building and evaluating regression models in Python.
+
+[View Project ➔](project2.qmd)
+:::
+
+::: {.card}
+### Web Scraping and Visualization
+A project involving scraping websites and creating visualizations.
+
+[View Project ➔](project3.qmd)
+:::
+
+:::
