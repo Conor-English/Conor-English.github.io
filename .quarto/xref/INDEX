@@ -7,5 +7,14 @@
   },
   "projects/index.qmd": {
     "index.html": "908e797e"
+  },
+  "projects/code project1.qmd": {
+    "code project1.html": "afa550af"
+  },
+  "projects/code project2.qmd": {
+    "code project2.html": "5a527f99"
+  },
+  "projects/code project3.qmd": {
+    "code project3.html": "fc34a01c"
   }
 }

@@ -1,0 +1,23 @@
+---
+title: "Project 1: Data Analysis with Pandas"
+format: html
+---
+
+# Overview
+In this project, I analyzed real-world datasets using **Python** and **Pandas** to extract meaningful insights.
+
+# Skills Demonstrated
+- Data Cleaning
+- Data Manipulation
+- Exploratory Data Analysis (EDA)
+
+# Key Code Example
+```{python}
+import pandas as pd
+
+# Load data
+df = pd.read_csv("data.csv")
+
+# Simple analysis
+summary = df.describe()
+summary

@@ -5,7 +5,8 @@ format: html
 
 # My Projects
 
-Welcome to my Projects page!  
-Here, you will find detailed writeups about my coding and academic projects.
+Below are some of my recent projects:
 
-Stay tuned as I build and grow my portfolio.
+- [Data Analysis with Pandas](project1.qmd)
+- [Linear Regression Modeling](project2.qmd)
+- [Web Scraping and Visualization](project3.qmd)
