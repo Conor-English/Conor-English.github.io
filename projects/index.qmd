@@ -14,7 +14,7 @@ format: html
 <h4>📊 Data Analysis with Pandas</h4>
 <p><strong>Skills:</strong> Data Cleaning, Manipulation, EDA<br>
 <strong>Tools:</strong> Python, Pandas</p>
-<a href="project1.qmd" class="btn btn-primary">View Project ➔</a>
+<a href="project1.html" class="btn btn-primary">View Project ➔</a>
 </div>
 </div>
 
@@ -23,7 +23,7 @@ format: html
 <h4>📈 Linear Regression Modeling</h4>
 <p><strong>Skills:</strong> Predictive Modeling, Evaluation<br>
 <strong>Tools:</strong> Python, scikit-learn</p>
-<a href="project2.qmd" class="btn btn-primary">View Project ➔</a>
+<a href="project2.html" class="btn btn-primary">View Project ➔</a>
 </div>
 </div>
 
@@ -32,7 +32,7 @@ format: html
 <h4>🌐 Web Scraping and Visualization</h4>
 <p><strong>Skills:</strong> Web Scraping, Data Visualization<br>
 <strong>Tools:</strong> Python, BeautifulSoup, Plotly</p>
-<a href="project3.qmd" class="btn btn-primary">View Project ➔</a>
+<a href="project3.html" class="btn btn-primary">View Project ➔</a>
 </div>
 </div>
 
