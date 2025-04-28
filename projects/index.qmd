@@ -1,0 +1,11 @@
+---
+title: "Projects"
+format: html
+---
+
+# My Projects
+
+Welcome to my Projects page!  
+Here, you will find detailed writeups about my coding and academic projects.
+
+Stay tuned as I build and grow my portfolio.
