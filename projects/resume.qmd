@@ -1,0 +1,35 @@
+---
+title: "Resume"
+format: html
+---
+
+# 📄 Resume
+
+## Education
+- 🎓 Bachelor of Science in Computer Science  
+  Springfield University, 2020–2024
+
+## Skills
+- **Programming:** Python, JavaScript, SQL
+- **Data Analysis:** Pandas, NumPy, Plotly
+- **Web Development:** HTML5, CSS3, Quarto
+- **Tools:** Git, GitHub, Jupyter Notebook, VS Code
+
+## Experience
+- **Data Science Intern**  
+  Apex Analytics — Summer 2023  
+  - Built machine learning models to forecast sales.
+  - Automated data collection pipelines using Python.
+
+- **Personal Projects**  
+  - Created an interactive portfolio website with Quarto.
+  - Analyzed environmental data to identify pollution trends.
+
+## Certifications
+- Python for Data Science — Coursera
+- Introduction to SQL — Udemy
+
+## Contact
+- 📧 Email: example.email@domain.com
+- 🔗 GitHub: [random-user](https://github.com/random-user)
+- 🌐 Website: [random-user.github.io](https://random-user.github.io)

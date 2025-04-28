@@ -25,5 +25,8 @@
   },
   "projects/project3.qmd": {
     "project3.html": "884108fd"
+  },
+  "projects/resume.qmd": {
+    "resume.html": "844a759d"
   }
 }
