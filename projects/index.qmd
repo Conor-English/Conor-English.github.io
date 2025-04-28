@@ -5,29 +5,30 @@ format: html
 
 # ✨ My Projects
 
-Here are some of my recent projects:
+Below are some of my recent works:
 
-::: {.grid}
-
+::: {.grid columns=1}
 ::: {.card}
-### Data Analysis with Pandas
-A project focused on data cleaning, manipulation, and analysis using Pandas.
+### 📊 Data Analysis with Pandas
+- Focused on data cleaning, manipulation, and exploration.
+- Tools used: **Python, Pandas**
 
 [View Project ➔](project1.qmd)
 :::
 
 ::: {.card}
-### Linear Regression Modeling
-A project on building and evaluating regression models in Python.
+### 📈 Linear Regression Modeling
+- Built and evaluated predictive models.
+- Tools used: **Python, scikit-learn**
 
 [View Project ➔](project2.qmd)
 :::
 
 ::: {.card}
-### Web Scraping and Visualization
-A project involving scraping websites and creating visualizations.
+### 🌐 Web Scraping and Visualization
+- Scraped web data and created visualizations.
+- Tools used: **Python, BeautifulSoup, Plotly**
 
 [View Project ➔](project3.qmd)
 :::
-
 :::

@@ -32,7 +32,7 @@
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "✨ My Projects\nHere are some of my recent projects:\n\n\nData Analysis with Pandas\nA project focused on data cleaning, manipulation, and analysis using Pandas.\nView Project ➔\n\n\nLinear Regression Modeling\nA project on building and evaluating regression models in Python.\nView Project ➔\n\n\nWeb Scraping and Visualization\nA project involving scraping websites and creating visualizations.\nView Project ➔"
+    "text": "✨ My Projects\nBelow are some of my recent works:\n\n\n📊 Data Analysis with Pandas\n\nFocused on data cleaning, manipulation, and exploration.\nTools used: Python, Pandas\n\nView Project ➔\n\n\n📈 Linear Regression Modeling\n\nBuilt and evaluated predictive models.\nTools used: Python, scikit-learn\n\nView Project ➔\n\n\n🌐 Web Scraping and Visualization\n\nScraped web data and created visualizations.\nTools used: Python, BeautifulSoup, Plotly\n\nView Project ➔"
   },
   {
     "objectID": "projects/project2.html",
