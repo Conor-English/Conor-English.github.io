@@ -5,30 +5,36 @@ format: html
 
 # 🚀 My Featured Projects
 
-::: {.grid cols="1" cols-md="3" gap="lg"}
+<div class="container" style="max-width: 1200px; margin: auto;">
 
-::: {.card}
-### 📊 Data Analysis with Pandas
-**Skills:** Data Cleaning, Manipulation, EDA  
-**Tools:** Python, Pandas
+<div class="row row-cols-1 row-cols-md-3 g-4">
 
-[🔗 View Project ➔](project1.qmd)
-:::
+<div class="col">
+<div class="card h-100 p-3">
+<h4>📊 Data Analysis with Pandas</h4>
+<p><strong>Skills:</strong> Data Cleaning, Manipulation, EDA<br>
+<strong>Tools:</strong> Python, Pandas</p>
+<a href="project1.qmd" class="btn btn-primary">View Project ➔</a>
+</div>
+</div>
 
-::: {.card}
-### 📈 Linear Regression Modeling
-**Skills:** Predictive Modeling, Evaluation  
-**Tools:** Python, scikit-learn
+<div class="col">
+<div class="card h-100 p-3">
+<h4>📈 Linear Regression Modeling</h4>
+<p><strong>Skills:</strong> Predictive Modeling, Evaluation<br>
+<strong>Tools:</strong> Python, scikit-learn</p>
+<a href="project2.qmd" class="btn btn-primary">View Project ➔</a>
+</div>
+</div>
 
-[🔗 View Project ➔](project2.qmd)
-:::
+<div class="col">
+<div class="card h-100 p-3">
+<h4>🌐 Web Scraping and Visualization</h4>
+<p><strong>Skills:</strong> Web Scraping, Data Visualization<br>
+<strong>Tools:</strong> Python, BeautifulSoup, Plotly</p>
+<a href="project3.qmd" class="btn btn-primary">View Project ➔</a>
+</div>
+</div>
 
-::: {.card}
-### 🌐 Web Scraping and Visualization
-**Skills:** Web Scraping, Data Visualization  
-**Tools:** Python, BeautifulSoup, Plotly
-
-[🔗 View Project ➔](project3.qmd)
-:::
-
-:::
+</div>
+</div>
