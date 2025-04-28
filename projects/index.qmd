@@ -5,14 +5,14 @@ format: html
 
 # 🚀 My Featured Projects
 
-::: {.grid cols="3"}
-  
+::: {.grid cols="1" cols-md="3" gap="lg"}
+
 ::: {.card}
 ### 📊 Data Analysis with Pandas
 **Skills:** Data Cleaning, Manipulation, EDA  
 **Tools:** Python, Pandas
 
-[View Project ➔](project1.qmd)
+[🔗 View Project ➔](project1.qmd)
 :::
 
 ::: {.card}
@@ -20,7 +20,7 @@ format: html
 **Skills:** Predictive Modeling, Evaluation  
 **Tools:** Python, scikit-learn
 
-[View Project ➔](project2.qmd)
+[🔗 View Project ➔](project2.qmd)
 :::
 
 ::: {.card}
@@ -28,7 +28,7 @@ format: html
 **Skills:** Web Scraping, Data Visualization  
 **Tools:** Python, BeautifulSoup, Plotly
 
-[View Project ➔](project3.qmd)
+[🔗 View Project ➔](project3.qmd)
 :::
 
 :::
