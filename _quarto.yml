@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: .
 
 website:
   title: "Conor-English.github.io"
@@ -16,6 +17,3 @@ format:
       - brand
     css: styles.css
     toc: true
-
-
-
