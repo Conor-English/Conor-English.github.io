@@ -7,28 +7,27 @@ format: html
 
 Below are some of my recent works:
 
-::: {.grid columns=1}
-::: {.card}
-### 📊 Data Analysis with Pandas
+## 📊 Data Analysis with Pandas
+
 - Focused on data cleaning, manipulation, and exploration.
 - Tools used: **Python, Pandas**
 
 [View Project ➔](project1.qmd)
-:::
 
-::: {.card}
-### 📈 Linear Regression Modeling
+---
+
+## 📈 Linear Regression Modeling
+
 - Built and evaluated predictive models.
 - Tools used: **Python, scikit-learn**
 
 [View Project ➔](project2.qmd)
-:::
 
-::: {.card}
-### 🌐 Web Scraping and Visualization
+---
+
+## 🌐 Web Scraping and Visualization
+
 - Scraped web data and created visualizations.
 - Tools used: **Python, BeautifulSoup, Plotly**
 
 [View Project ➔](project3.qmd)
-:::
-:::

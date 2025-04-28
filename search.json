@@ -32,7 +32,28 @@
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "✨ My Projects\nBelow are some of my recent works:\n\n\n📊 Data Analysis with Pandas\n\nFocused on data cleaning, manipulation, and exploration.\nTools used: Python, Pandas\n\nView Project ➔\n\n\n📈 Linear Regression Modeling\n\nBuilt and evaluated predictive models.\nTools used: Python, scikit-learn\n\nView Project ➔\n\n\n🌐 Web Scraping and Visualization\n\nScraped web data and created visualizations.\nTools used: Python, BeautifulSoup, Plotly\n\nView Project ➔"
+    "text": "Below are some of my recent works:\n\n\n\nFocused on data cleaning, manipulation, and exploration.\nTools used: Python, Pandas\n\nView Project ➔\n\n\n\n\n\nBuilt and evaluated predictive models.\nTools used: Python, scikit-learn\n\nView Project ➔\n\n\n\n\n\nScraped web data and created visualizations.\nTools used: Python, BeautifulSoup, Plotly\n\nView Project ➔"
+  },
+  {
+    "objectID": "projects/index.html#data-analysis-with-pandas",
+    "href": "projects/index.html#data-analysis-with-pandas",
+    "title": "Projects",
+    "section": "",
+    "text": "Focused on data cleaning, manipulation, and exploration.\nTools used: Python, Pandas\n\nView Project ➔"
+  },
+  {
+    "objectID": "projects/index.html#linear-regression-modeling",
+    "href": "projects/index.html#linear-regression-modeling",
+    "title": "Projects",
+    "section": "",
+    "text": "Built and evaluated predictive models.\nTools used: Python, scikit-learn\n\nView Project ➔"
+  },
+  {
+    "objectID": "projects/index.html#web-scraping-and-visualization",
+    "href": "projects/index.html#web-scraping-and-visualization",
+    "title": "Projects",
+    "section": "",
+    "text": "Scraped web data and created visualizations.\nTools used: Python, BeautifulSoup, Plotly\n\nView Project ➔"
   },
   {
     "objectID": "projects/project2.html",
