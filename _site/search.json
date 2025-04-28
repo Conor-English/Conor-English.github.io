@@ -1,10 +1,59 @@
 [
   {
+    "objectID": "projects/resume.html",
+    "href": "projects/resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "🎓 Bachelor of Science in Computer Science\nSpringfield University, 2020–2024\n\n\n\n\n\nProgramming: Python, JavaScript, SQL\nData Analysis: Pandas, NumPy, Plotly\nWeb Development: HTML5, CSS3, Quarto\nTools: Git, GitHub, Jupyter Notebook, VS Code\n\n\n\n\n\nData Science Intern\nApex Analytics — Summer 2023\n\nBuilt machine learning models to forecast sales.\nAutomated data collection pipelines using Python.\n\nPersonal Projects\n\nCreated an interactive portfolio website with Quarto.\nAnalyzed environmental data to identify pollution trends.\n\n\n\n\n\n\nPython for Data Science — Coursera\nIntroduction to SQL — Udemy\n\n\n\n\n\n📧 Email: example.email@domain.com\n🔗 GitHub: random-user\n🌐 Website: random-user.github.io"
+  },
+  {
+    "objectID": "projects/resume.html#education",
+    "href": "projects/resume.html#education",
+    "title": "Resume",
+    "section": "",
+    "text": "🎓 Bachelor of Science in Computer Science\nSpringfield University, 2020–2024"
+  },
+  {
+    "objectID": "projects/resume.html#skills",
+    "href": "projects/resume.html#skills",
+    "title": "Resume",
+    "section": "",
+    "text": "Programming: Python, JavaScript, SQL\nData Analysis: Pandas, NumPy, Plotly\nWeb Development: HTML5, CSS3, Quarto\nTools: Git, GitHub, Jupyter Notebook, VS Code"
+  },
+  {
+    "objectID": "projects/resume.html#experience",
+    "href": "projects/resume.html#experience",
+    "title": "Resume",
+    "section": "",
+    "text": "Data Science Intern\nApex Analytics — Summer 2023\n\nBuilt machine learning models to forecast sales.\nAutomated data collection pipelines using Python.\n\nPersonal Projects\n\nCreated an interactive portfolio website with Quarto.\nAnalyzed environmental data to identify pollution trends."
+  },
+  {
+    "objectID": "projects/resume.html#certifications",
+    "href": "projects/resume.html#certifications",
+    "title": "Resume",
+    "section": "",
+    "text": "Python for Data Science — Coursera\nIntroduction to SQL — Udemy"
+  },
+  {
+    "objectID": "projects/resume.html#contact",
+    "href": "projects/resume.html#contact",
+    "title": "Resume",
+    "section": "",
+    "text": "📧 Email: example.email@domain.com\n🔗 GitHub: random-user\n🌐 Website: random-user.github.io"
+  },
+  {
+    "objectID": "projects/project2.html",
+    "href": "projects/project2.html",
+    "title": "Project 1: Data Analysis with Pandas",
+    "section": "",
+    "text": "Overview\nIn this project, I analyzed real-world datasets using Python and Pandas to extract meaningful insights.\n\n\nSkills Demonstrated\n\nData Cleaning\nData Manipulation\nExploratory Data Analysis (EDA)\n\n\n\nKey Code Example\nimport pandas as pd\n\n\nLoad data\ndf = pd.read_csv(“data.csv”)\n\n\nSimple analysis\nsummary = df.describe() summary"
+  },
+  {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "My Projects\nWelcome to my Projects page!\nHere, you will find detailed writeups about my coding and academic projects.\nStay tuned as I build and grow my portfolio."
+    "text": "🚀 My Featured Projects\n\n\n\n\n\n📊 Data Analysis with Pandas\n\n\nSkills: Data Cleaning, Manipulation, EDA Tools: Python, Pandas\n\nView Project ➔\n\n\n\n\n\n📈 Linear Regression Modeling\n\n\nSkills: Predictive Modeling, Evaluation Tools: Python, scikit-learn\n\nView Project ➔\n\n\n\n\n\n🌐 Web Scraping and Visualization\n\n\nSkills: Web Scraping, Data Visualization Tools: Python, BeautifulSoup, Plotly\n\nView Project ➔"
   },
   {
     "objectID": "about.html",
@@ -19,5 +68,19 @@
     "title": "Conor-English.github.io",
     "section": "",
     "text": "Welcome\nWelcome to my portfolio website!\nExplore my projects, experiences, and work below.\nUse the navigation bar to move around."
+  },
+  {
+    "objectID": "projects/project1.html",
+    "href": "projects/project1.html",
+    "title": "Project 1: Data Analysis with Pandas",
+    "section": "",
+    "text": "Overview\nIn this project, I analyzed real-world datasets using Python and Pandas to extract meaningful insights.\n\n\nSkills Demonstrated\n\nData Cleaning\nData Manipulation\nExploratory Data Analysis (EDA)\n\n\n\nKey Code Example\nimport pandas as pd\n\n\nLoad data\ndf = pd.read_csv(“data.csv”)\n\n\nSimple analysis\nsummary = df.describe() summary"
+  },
+  {
+    "objectID": "projects/project3.html",
+    "href": "projects/project3.html",
+    "title": "Project 1: Data Analysis with Pandas",
+    "section": "",
+    "text": "Overview\nIn this project, I analyzed real-world datasets using Python and Pandas to extract meaningful insights.\n\n\nSkills Demonstrated\n\nData Cleaning\nData Manipulation\nExploratory Data Analysis (EDA)\n\n\n\nKey Code Example\nimport pandas as pd\n\n\nLoad data\ndf = pd.read_csv(“data.csv”)\n\n\nSimple analysis\nsummary = df.describe() summary"
   }
 ]

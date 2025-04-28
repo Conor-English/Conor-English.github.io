@@ -1,6 +1,5 @@
 project:
   type: website
-  output-dir: .
 
 website:
   title: "Conor-English.github.io"
@@ -12,6 +11,8 @@ website:
         text: Projects
       - href: about.qmd
         text: About
+      - href: resume.qmd
+        text: Resume
 
 format:
   html:
