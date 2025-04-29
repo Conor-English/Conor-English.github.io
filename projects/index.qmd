@@ -11,28 +11,34 @@ format: html
 
 <div class="col">
 <div class="card h-100 p-3">
+<img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Pandas Project">
 <h4>📊 Data Analysis with Pandas</h4>
 <p><strong>Skills:</strong> Data Cleaning, Manipulation, EDA<br>
 <strong>Tools:</strong> Python, Pandas</p>
-<a href="./project1.html" class="btn btn-primary">View Project ➔</a>
+<p>This project focuses on using Pandas to clean, manipulate, and analyze large datasets.</p>
+<a href="project1.html" class="btn btn-primary mt-auto">View Project ➔</a>
 </div>
 </div>
 
 <div class="col">
 <div class="card h-100 p-3">
+<img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Regression Project">
 <h4>📈 Linear Regression Modeling</h4>
 <p><strong>Skills:</strong> Predictive Modeling, Evaluation<br>
 <strong>Tools:</strong> Python, scikit-learn</p>
-<a href="./project2.html" class="btn btn-primary">View Project ➔</a>
+<p>This project builds a linear regression model to predict outcomes and evaluate model performance.</p>
+<a href="project2.html" class="btn btn-primary mt-auto">View Project ➔</a>
 </div>
 </div>
 
 <div class="col">
 <div class="card h-100 p-3">
+<img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Web Scraping Project">
 <h4>🌐 Web Scraping and Visualization</h4>
 <p><strong>Skills:</strong> Web Scraping, Data Visualization<br>
 <strong>Tools:</strong> Python, BeautifulSoup, Plotly</p>
-<a href="./project3.html" class="btn btn-primary">View Project ➔</a>
+<p>This project involves scraping data from the web and creating visualizations using Plotly.</p>
+<a href="project3.html" class="btn btn-primary mt-auto">View Project ➔</a>
 </div>
 </div>
 
