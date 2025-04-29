@@ -8,7 +8,7 @@ format: html
 <div class="row row-cols-1 row-cols-md-2 g-4">
 
 <div class="col">
-<div class="card h-100 shadow-sm" style="border-radius: 10px;">
+<div class="card h-100 shadow-sm hover-shadow" style="border-radius: 10px; transition: transform 0.3s ease;">
 <div class="card-body">
 <h4>📊 Data Analysis with Pandas</h4>
 <p><strong>Skills:</strong> Data Cleaning, Manipulation, EDA<br>
@@ -20,7 +20,7 @@ format: html
 </div>
 
 <div class="col">
-<div class="card h-100 shadow-sm" style="border-radius: 10px;">
+<div class="card h-100 shadow-sm hover-shadow" style="border-radius: 10px; transition: transform 0.3s ease;">
 <div class="card-body">
 <h4>📈 Linear Regression Modeling</h4>
 <p><strong>Skills:</strong> Predictive Modeling, Evaluation<br>
@@ -32,7 +32,7 @@ format: html
 </div>
 
 <div class="col">
-<div class="card h-100 shadow-sm" style="border-radius: 10px;">
+<div class="card h-100 shadow-sm hover-shadow" style="border-radius: 10px; transition: transform 0.3s ease;">
 <div class="card-body">
 <h4>🌐 Web Scraping and Visualization</h4>
 <p><strong>Skills:</strong> Web Scraping, Data Visualization<br>
