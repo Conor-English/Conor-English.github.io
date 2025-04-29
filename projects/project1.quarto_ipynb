@@ -20,7 +20,7 @@
         "\n",
         "# Key Code Example\n"
       ],
-      "id": "baffba5c"
+      "id": "463f9815"
     },
     {
       "cell_type": "code",
@@ -35,7 +35,7 @@
         "summary = df.describe()\n",
         "summary"
       ],
-      "id": "e511430e",
+      "id": "d62cebfc",
       "execution_count": null,
       "outputs": []
     },
@@ -45,7 +45,7 @@
       "source": [
         "# 📊 Visualization Example\n"
       ],
-      "id": "9bec4574"
+      "id": "d15d8c4b"
     },
     {
       "cell_type": "code",
@@ -65,7 +65,7 @@
         "plt.grid(True)\n",
         "plt.show()"
       ],
-      "id": "5021f079",
+      "id": "bb77665a",
       "execution_count": null,
       "outputs": []
     }

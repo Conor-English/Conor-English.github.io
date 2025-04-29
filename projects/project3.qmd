@@ -1,23 +1,56 @@
 ---
-title: "Project 1: Data Analysis with Pandas"
+title: "Project 3: Web Scraping and Visualization"
 format: html
 ---
 
 # Overview
-In this project, I analyzed real-world datasets using **Python** and **Pandas** to extract meaningful insights.
+In this project, I scraped data from the web using **BeautifulSoup**, processed it with **Pandas**, and created interactive visualizations with **Plotly**.
 
 # Skills Demonstrated
+- Web Scraping
 - Data Cleaning
-- Data Manipulation
-- Exploratory Data Analysis (EDA)
+- Interactive Visualization
 
 # Key Code Example
+
 ```{python}
+import requests
+from bs4 import BeautifulSoup
 import pandas as pd
 
-# Load data
-df = pd.read_csv("data.csv")
+# Simulated web scraping
+html_content = """
+<table>
+<tr><th>Country</th><th>Population</th></tr>
+<tr><td>USA</td><td>331 million</td></tr>
+<tr><td>Canada</td><td>38 million</td></tr>
+<tr><td>Mexico</td><td>128 million</td></tr>
+</table>
+"""
 
-# Simple analysis
-summary = df.describe()
-summary
+# Parse the HTML
+soup = BeautifulSoup(html_content, "html.parser")
+rows = soup.find_all("tr")
+
+# Extract data
+data = []
+for row in rows[1:]:  # Skip header
+    cols = row.find_all("td")
+    country = cols[0].text
+    population = cols[1].text
+    data.append({"Country": country, "Population": population})
+
+# Create DataFrame
+df = pd.DataFrame(data)
+df
+```
+
+# 🌍 Visualization Example
+
+```{python}
+import plotly.express as px
+
+# Simple bar plot
+fig = px.bar(df, x="Country", y="Population", title="Population by Country")
+fig.show()
+```
