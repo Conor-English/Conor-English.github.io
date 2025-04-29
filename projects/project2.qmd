@@ -1,23 +1,64 @@
 ---
-title: "Project 1: Data Analysis with Pandas"
+title: "Project 2: Linear Regression Modeling"
 format: html
 ---
 
 # Overview
-In this project, I analyzed real-world datasets using **Python** and **Pandas** to extract meaningful insights.
+In this project, I built and evaluated simple **linear regression** models using **Python** and **scikit-learn**.
 
 # Skills Demonstrated
-- Data Cleaning
-- Data Manipulation
-- Exploratory Data Analysis (EDA)
+- Predictive Modeling
+- Model Evaluation (R², MAE, RMSE)
+- Visualization of Regression Lines
 
 # Key Code Example
+
 ```{python}
 import pandas as pd
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error, r2_score
 
-# Load data
-df = pd.read_csv("data.csv")
+# Generate sample data
+data = {
+    "X": [1, 2, 3, 4, 5, 6],
+    "Y": [3, 4, 2, 5, 6, 7]
+}
+df = pd.DataFrame(data)
 
-# Simple analysis
-summary = df.describe()
-summary
+# Split data
+X = df[["X"]]
+y = df["Y"]
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Train model
+model = LinearRegression()
+model.fit(X_train, y_train)
+
+# Predict
+predictions = model.predict(X_test)
+
+# Evaluate
+r2 = r2_score(y_test, predictions)
+mse = mean_squared_error(y_test, predictions)
+
+r2, mse
+```
+
+# 📈 Visualization Example
+
+```{python}
+import matplotlib.pyplot as plt
+
+# Scatter plot
+plt.scatter(X, y, color='blue')
+
+# Regression line
+plt.plot(X, model.predict(X), color='red')
+
+plt.title("Linear Regression Line")
+plt.xlabel("X")
+plt.ylabel("Y")
+plt.grid(True)
+plt.show()
+```
