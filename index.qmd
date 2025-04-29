@@ -1,10 +1,16 @@
 ---
-title: "Conor-English.github.io"
+title: "Welcome"
+format: html
 ---
 
-# Welcome
+# 👋 Welcome
 
-Welcome to my portfolio website!  
-Explore my projects, experiences, and work below.
+Welcome to my personal portfolio website!
 
-Use the navigation bar to move around.
+- Explore my Projects
+- View my Resume
+- Learn more About Me
+- Read my Reflection
+
+Use the menu above to navigate!
+

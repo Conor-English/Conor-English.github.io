@@ -34,5 +34,11 @@
   },
   "projects/about.qmd": {
     "about.html": "59eb9d92"
+  },
+  "reflection.qmd": {
+    "reflection.html": "b768de2a"
+  },
+  "resume.qmd": {
+    "resume.html": "9874a15c"
   }
 }
