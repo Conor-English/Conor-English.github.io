@@ -19,8 +19,6 @@ website:
 
 format:
   html:
-    theme:
-      light: cosmo
-    google-fonts: 
-      - Poppins
+    theme: cosmo
+    css: styles.css
     toc: true
