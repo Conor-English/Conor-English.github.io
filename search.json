@@ -51,9 +51,9 @@
   {
     "objectID": "projects/project2.html",
     "href": "projects/project2.html",
-    "title": "Project 1: Data Analysis with Pandas",
+    "title": "Project 2: Linear Regression Modeling",
     "section": "",
-    "text": "Overview\nIn this project, I analyzed real-world datasets using Python and Pandas to extract meaningful insights.\n\n\nSkills Demonstrated\n\nData Cleaning\nData Manipulation\nExploratory Data Analysis (EDA)\n\n\n\nKey Code Example\nimport pandas as pd\n\n\nLoad data\ndf = pd.read_csv(“data.csv”)\n\n\nSimple analysis\nsummary = df.describe() summary"
+    "text": "Overview\nIn this project, I built and evaluated simple linear regression models using Python and scikit-learn.\n\n\nSkills Demonstrated\n\nPredictive Modeling\nModel Evaluation (R², MAE, RMSE)\nVisualization of Regression Lines\n\n\n\nKey Code Example\n\nimport pandas as pd\nfrom sklearn.linear_model import LinearRegression\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import mean_squared_error, r2_score\n\n# Generate sample data\ndata = {\n    \"X\": [1, 2, 3, 4, 5, 6],\n    \"Y\": [3, 4, 2, 5, 6, 7]\n}\ndf = pd.DataFrame(data)\n\n# Split data\nX = df[[\"X\"]]\ny = df[\"Y\"]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n\n# Train model\nmodel = LinearRegression()\nmodel.fit(X_train, y_train)\n\n# Predict\npredictions = model.predict(X_test)\n\n# Evaluate\nr2 = r2_score(y_test, predictions)\nmse = mean_squared_error(y_test, predictions)\n\nr2, mse\n\n(-42.91999999999997, 10.979999999999993)\n\n\n\n\n📈 Visualization Example\n\nimport matplotlib.pyplot as plt\n\n# Scatter plot\nplt.scatter(X, y, color='blue')\n\n# Regression line\nplt.plot(X, model.predict(X), color='red')\n\nplt.title(\"Linear Regression Line\")\nplt.xlabel(\"X\")\nplt.ylabel(\"Y\")\nplt.grid(True)\nplt.show()"
   },
   {
     "objectID": "projects/index.html",
@@ -81,13 +81,13 @@
     "href": "projects/project1.html",
     "title": "Project 1: Data Analysis with Pandas",
     "section": "",
-    "text": "Overview\nIn this project, I analyzed real-world datasets using Python and Pandas to extract meaningful insights.\n\n\nSkills Demonstrated\n\nData Cleaning\nData Manipulation\nExploratory Data Analysis (EDA)\n\n\n\nKey Code Example\nimport pandas as pd\n\n\nLoad data\ndf = pd.read_csv(“data.csv”)\n\n\nSimple analysis\nsummary = df.describe() summary"
+    "text": "Overview\nIn this project, I analyzed real-world datasets using Python and Pandas to extract meaningful insights.\n\n\nSkills Demonstrated\n\nData Cleaning\nData Manipulation\nExploratory Data Analysis (EDA)\n\n\n\nKey Code Example\n\n\nImport Libraries\nimport pandas as pd import matplotlib.pyplot as plt\n\n\nLoad sample data\ndf = pd.DataFrame({ “A”: [1, 2, 3, 4, 5], “B”: [5, 4, 3, 2, 1] })\n\n\nBasic summary\nsummary = df.describe() summary"
   },
   {
     "objectID": "projects/project3.html",
     "href": "projects/project3.html",
-    "title": "Project 1: Data Analysis with Pandas",
+    "title": "Project 3: Web Scraping and Visualization",
     "section": "",
-    "text": "Overview\nIn this project, I analyzed real-world datasets using Python and Pandas to extract meaningful insights.\n\n\nSkills Demonstrated\n\nData Cleaning\nData Manipulation\nExploratory Data Analysis (EDA)\n\n\n\nKey Code Example\nimport pandas as pd\n\n\nLoad data\ndf = pd.read_csv(“data.csv”)\n\n\nSimple analysis\nsummary = df.describe() summary"
+    "text": "Overview\nIn this project, I scraped data from the web using BeautifulSoup, processed it with Pandas, and created interactive visualizations with Plotly.\n\n\nSkills Demonstrated\n\nWeb Scraping\nData Cleaning\nInteractive Visualization\n\n\n\nKey Code Example\n\nimport requests\nfrom bs4 import BeautifulSoup\nimport pandas as pd\n\n# Simulated web scraping\nhtml_content = \"\"\"\n&lt;table&gt;\n&lt;tr&gt;&lt;th&gt;Country&lt;/th&gt;&lt;th&gt;Population&lt;/th&gt;&lt;/tr&gt;\n&lt;tr&gt;&lt;td&gt;USA&lt;/td&gt;&lt;td&gt;331 million&lt;/td&gt;&lt;/tr&gt;\n&lt;tr&gt;&lt;td&gt;Canada&lt;/td&gt;&lt;td&gt;38 million&lt;/td&gt;&lt;/tr&gt;\n&lt;tr&gt;&lt;td&gt;Mexico&lt;/td&gt;&lt;td&gt;128 million&lt;/td&gt;&lt;/tr&gt;\n&lt;/table&gt;\n\"\"\"\n\n# Parse the HTML\nsoup = BeautifulSoup(html_content, \"html.parser\")\nrows = soup.find_all(\"tr\")\n\n# Extract data\ndata = []\nfor row in rows[1:]:  # Skip header\n    cols = row.find_all(\"td\")\n    country = cols[0].text\n    population = cols[1].text\n    data.append({\"Country\": country, \"Population\": population})\n\n# Create DataFrame\ndf = pd.DataFrame(data)\ndf\n\n\n\n\n\n\n\n\nCountry\nPopulation\n\n\n\n\n0\nUSA\n331 million\n\n\n1\nCanada\n38 million\n\n\n2\nMexico\n128 million\n\n\n\n\n\n\n\n\n\n🌍 Visualization Example\n\nimport plotly.express as px\n\n# Simple bar plot\nfig = px.bar(df, x=\"Country\", y=\"Population\", title=\"Population by Country\")\nfig.show()"
   }
 ]

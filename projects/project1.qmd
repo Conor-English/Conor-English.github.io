@@ -14,30 +14,16 @@ In this project, I analyzed real-world datasets using **Python** and **Pandas** 
 # Key Code Example
 
 ```{python}
+# Import Libraries
 import pandas as pd
-
-# Load data
-df = pd.read_csv("data.csv")
-
-# Simple analysis
-summary = df.describe()
-summary
-```
-
-# 📊 Visualization Example
-
-```{python}
 import matplotlib.pyplot as plt
 
-# Example Data
-x = [1, 2, 3, 4, 5]
-y = [2, 4, 6, 8, 10]
+# Load sample data
+df = pd.DataFrame({
+    "A": [1, 2, 3, 4, 5],
+    "B": [5, 4, 3, 2, 1]
+})
 
-# Create plot
-plt.plot(x, y, marker="o")
-plt.title("Simple Line Plot")
-plt.xlabel("X Axis")
-plt.ylabel("Y Axis")
-plt.grid(True)
-plt.show()
-```
+# Basic summary
+summary = df.describe()
+summary
