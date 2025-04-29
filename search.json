@@ -70,18 +70,18 @@
     "text": "📊 Visualization Example\n\n\nShow the code\n# Create a simple line plot\nplt.plot(df[\"A\"], df[\"B\"], marker=\"o\")\nplt.title(\"Sample Line Plot of A vs B\")\nplt.xlabel(\"A values\")\nplt.ylabel(\"B values\")\nplt.grid(True)\nplt.show()"
   },
   {
+    "objectID": "projects/about.html",
+    "href": "projects/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Conor-English.github.io",
     "section": "",
     "text": "Welcome\nWelcome to my portfolio website!\nExplore my projects, experiences, and work below.\nUse the navigation bar to move around."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
   },
   {
     "objectID": "projects/index.html",

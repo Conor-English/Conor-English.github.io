@@ -31,5 +31,8 @@
   },
   "projects/reflection.qmd": {
     "reflection.html": "4fd498d5"
+  },
+  "projects/about.qmd": {
+    "about.html": "59eb9d92"
   }
 }
