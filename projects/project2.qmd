@@ -4,61 +4,45 @@ format: html
 ---
 
 # Overview
-In this project, I built and evaluated simple **linear regression** models using **Python** and **scikit-learn**.
+In this project, I built and evaluated a **Linear Regression** model using **Python** and **scikit-learn**.
 
 # Skills Demonstrated
 - Predictive Modeling
-- Model Evaluation (R², MAE, RMSE)
-- Visualization of Regression Lines
+- Model Evaluation
+- Data Visualization
 
 # Key Code Example
 
 ```{python}
+# Import Libraries
+import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_squared_error, r2_score
 
-# Generate sample data
-data = {
-    "X": [1, 2, 3, 4, 5, 6],
-    "Y": [3, 4, 2, 5, 6, 7]
-}
-df = pd.DataFrame(data)
-
-# Split data
-X = df[["X"]]
-y = df["Y"]
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+# Create sample data
+np.random.seed(0)
+X = 2 * np.random.rand(100, 1)
+y = 4 + 3 * X + np.random.randn(100, 1)
 
 # Train model
 model = LinearRegression()
-model.fit(X_train, y_train)
+model.fit(X, y)
 
-# Predict
-predictions = model.predict(X_test)
+# Predict values
+y_pred = model.predict(X)
 
-# Evaluate
-r2 = r2_score(y_test, predictions)
-mse = mean_squared_error(y_test, predictions)
+# Model Coefficients
+coef = model.coef_[0][0]
+intercept = model.intercept_[0]
+coef, intercept
 
-r2, mse
-```
-
-# 📈 Visualization Example
-
-```{python}
-import matplotlib.pyplot as plt
-
-# Scatter plot
-plt.scatter(X, y, color='blue')
-
-# Regression line
-plt.plot(X, model.predict(X), color='red')
-
-plt.title("Linear Regression Line")
+# Plot data and regression line
+plt.scatter(X, y, color="blue", label="Data Points")
+plt.plot(X, y_pred, color="red", linewidth=2, label="Regression Line")
+plt.title("Linear Regression Fit")
 plt.xlabel("X")
-plt.ylabel("Y")
+plt.ylabel("y")
+plt.legend()
 plt.grid(True)
 plt.show()
-```
