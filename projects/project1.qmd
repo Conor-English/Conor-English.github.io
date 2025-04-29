@@ -12,6 +12,7 @@ In this project, I analyzed real-world datasets using **Python** and **Pandas** 
 - Exploratory Data Analysis (EDA)
 
 # Key Code Example
+
 ```{python}
 import pandas as pd
 
@@ -21,3 +22,22 @@ df = pd.read_csv("data.csv")
 # Simple analysis
 summary = df.describe()
 summary
+```
+
+# 📊 Visualization Example
+
+```{python}
+import matplotlib.pyplot as plt
+
+# Example Data
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 6, 8, 10]
+
+# Create plot
+plt.plot(x, y, marker="o")
+plt.title("Simple Line Plot")
+plt.xlabel("X Axis")
+plt.ylabel("Y Axis")
+plt.grid(True)
+plt.show()
+```

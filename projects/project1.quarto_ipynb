@@ -1,0 +1,83 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Project 1: Data Analysis with Pandas\"\n",
+        "format: html\n",
+        "---\n",
+        "\n",
+        "\n",
+        "# Overview\n",
+        "In this project, I analyzed real-world datasets using **Python** and **Pandas** to extract meaningful insights.\n",
+        "\n",
+        "# Skills Demonstrated\n",
+        "- Data Cleaning\n",
+        "- Data Manipulation\n",
+        "- Exploratory Data Analysis (EDA)\n",
+        "\n",
+        "# Key Code Example\n"
+      ],
+      "id": "6dd6c060"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "# Load data\n",
+        "df = pd.read_csv(\"data.csv\")\n",
+        "\n",
+        "# Simple analysis\n",
+        "summary = df.describe()\n",
+        "summary"
+      ],
+      "id": "2ac9fc70",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "# 📊 Visualization Example\n"
+      ],
+      "id": "cc1b8acf"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "# Example Data\n",
+        "x = [1, 2, 3, 4, 5]\n",
+        "y = [2, 4, 6, 8, 10]\n",
+        "\n",
+        "# Create plot\n",
+        "plt.plot(x, y, marker=\"o\")\n",
+        "plt.title(\"Simple Line Plot\")\n",
+        "plt.xlabel(\"X Axis\")\n",
+        "plt.ylabel(\"Y Axis\")\n",
+        "plt.grid(True)\n",
+        "plt.show()"
+      ],
+      "id": "50e0e526",
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\User\\anaconda3\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
