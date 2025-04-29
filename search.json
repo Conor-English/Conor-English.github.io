@@ -81,7 +81,14 @@
     "href": "projects/project1.html",
     "title": "Project 1: Data Analysis with Pandas",
     "section": "",
-    "text": "Overview\nIn this project, I analyzed real-world datasets using Python and Pandas to extract meaningful insights.\n\n\nSkills Demonstrated\n\nData Cleaning\nData Manipulation\nExploratory Data Analysis (EDA)\n\n\n\nKey Code Example\n\n\nImport Libraries\nimport pandas as pd import matplotlib.pyplot as plt\n\n\nLoad sample data\ndf = pd.DataFrame({ “A”: [1, 2, 3, 4, 5], “B”: [5, 4, 3, 2, 1] })\n\n\nBasic summary\nsummary = df.describe() summary"
+    "text": "In this project, I analyzed real-world datasets using Python and Pandas to extract meaningful insights."
+  },
+  {
+    "objectID": "projects/project1.html#visualization-example",
+    "href": "projects/project1.html#visualization-example",
+    "title": "Project 1: Data Analysis with Pandas",
+    "section": "📊 Visualization Example",
+    "text": "📊 Visualization Example\n\n\nShow the code\n# Create a simple line plot\nplt.plot(df[\"A\"], df[\"B\"], marker=\"o\")\nplt.title(\"Sample Line Plot of A vs B\")\nplt.xlabel(\"A values\")\nplt.ylabel(\"B values\")\nplt.grid(True)\nplt.show()"
   },
   {
     "objectID": "projects/project3.html",
