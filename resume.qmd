@@ -1,37 +1,39 @@
 ---
-title: "Resume"
+title: "📄 Resume"
 format: html
 ---
 
 # 📄 Resume
 
-## Education
-- 🎓 **Bachelor of Science in Computer Science**  
-  Springfield University | 2020–2024
+**Download my full CV:**  
+[![Download CV](https://img.shields.io/badge/Download-My%20CV-blue?style=for-the-badge)](../CV.pdf)
 
-## Skills
-- **Programming:** Python, JavaScript, SQL
-- **Data Analysis:** Pandas, NumPy, Plotly
-- **Web Development:** HTML5, CSS3, Quarto
-- **Tools:** Git, GitHub, Jupyter Notebook, VS Code
+---
 
-## Experience
-- **Data Science Intern**  
-  Apex Analytics | Summer 2023  
-  - Built machine learning models to forecast sales.
-  - Automated data collection pipelines using Python.
+# Education
+🎓 Bachelor of Science in Computer Science  
+Springfield University | 2020–2024
 
-## Personal Projects
+# Skills
+**Programming**: Python, JavaScript, SQL  
+**Data Analysis**: Pandas, NumPy, Plotly  
+**Web Development**: HTML5, CSS3, Quarto  
+**Tools**: Git, GitHub, Jupyter Notebook, VS Code
+
+# Experience
+🧠 Data Science Intern — Apex Analytics — Summer 2023
+- Built machine learning models to forecast sales.
+- Automated data collection pipelines using Python.
+
+# Personal Projects
 - Created an interactive portfolio website with Quarto.
 - Analyzed environmental data to identify pollution trends.
 
-## Certifications
+# Certifications
 - Python for Data Science — Coursera
 - Introduction to SQL — Udemy
 
-## Contact
-- 📧 **Email:** example.email@domain.com
-- 🔗 **GitHub:** [random-user](https://github.com/random-user)
-- 🌐 **Website:** [random-user.github.io](https://random-user.github.io)
-
----
+# Contact
+📧 Email: example.email@domain.com  
+🔗 GitHub: github.com/Conor-English  
+🌐 Website: conor-english.github.io
