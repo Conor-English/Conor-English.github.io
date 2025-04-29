@@ -10,13 +10,12 @@ website:
         text: Home
       - href: projects/index.qmd
         text: Projects
-      - href: projects/resume.qmd
+      - href: resume.qmd
         text: Resume
       - href: about.qmd
         text: About
       - href: reflection.qmd
         text: Reflection
-  
 
 format:
   html:
