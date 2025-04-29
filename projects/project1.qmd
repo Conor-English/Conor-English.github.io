@@ -1,6 +1,8 @@
 ---
 title: "Project 1: Data Analysis with Pandas"
-format: html
+format:
+  html:
+    code-execution: auto
 ---
 
 # Overview
