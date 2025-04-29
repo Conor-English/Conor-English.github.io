@@ -3,18 +3,20 @@ title: "Conor-English.github.io"
 format: html
 ---
 
+![](banner.png){width=100% style="border-radius: 12px; margin-bottom: 20px;"}
+
 # 👋 Welcome!
 
 Welcome to my portfolio website — a showcase of my projects, skills, and journey in data science and development!
 
-### 🧠 Explore:
+# 🧠 Explore:
 
-- **Projects:** Discover my featured coding projects and real-world data analyses.
-- **Resume:** View my experience, education, and skills.
-- **Reflection:** Read insights into my learning journey and challenges.
+- **[Projects](projects/index.qmd)**: Discover my featured coding projects and real-world data analyses.  
+- **[Resume](projects/resume.qmd)**: View my experience, education, and skills.  
+- **[Reflection](reflection.qmd)**: Read insights into my learning journey and challenges.
 
 ---
 
 Stay tuned as I continue to build, learn, and share more exciting work!
 
-> "Success is the sum of small efforts repeated day in and day out."
+> “Success is the sum of small efforts repeated day in and day out.”
