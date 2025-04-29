@@ -4,53 +4,46 @@ format: html
 ---
 
 # Overview
-In this project, I scraped data from the web using **BeautifulSoup**, processed it with **Pandas**, and created interactive visualizations with **Plotly**.
+In this project, I scraped data from the web using **Python** and created visualizations to present insights.
 
 # Skills Demonstrated
 - Web Scraping
 - Data Cleaning
-- Interactive Visualization
+- Data Visualization
 
 # Key Code Example
 
 ```{python}
+# Import Libraries
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+import matplotlib.pyplot as plt
 
-# Simulated web scraping
-html_content = """
-<table>
-<tr><th>Country</th><th>Population</th></tr>
-<tr><td>USA</td><td>331 million</td></tr>
-<tr><td>Canada</td><td>38 million</td></tr>
-<tr><td>Mexico</td><td>128 million</td></tr>
-</table>
-"""
-
-# Parse the HTML
+# Scrape sample data
+url = "https://example.com"
+html_content = "<html><body><table><tr><th>Item</th><th>Value</th></tr><tr><td>Apples</td><td>10</td></tr><tr><td>Oranges</td><td>15</td></tr></table></body></html>"
 soup = BeautifulSoup(html_content, "html.parser")
-rows = soup.find_all("tr")
 
-# Extract data
+# Parse table into DataFrame
+table = soup.find("table")
+rows = table.find_all("tr")
 data = []
-for row in rows[1:]:  # Skip header
+for row in rows[1:]:
     cols = row.find_all("td")
-    country = cols[0].text
-    population = cols[1].text
-    data.append({"Country": country, "Population": population})
+    data.append([col.text for col in cols])
 
-# Create DataFrame
-df = pd.DataFrame(data)
-df
-```
+df = pd.DataFrame(data, columns=["Item", "Value"])
+df["Value"] = df["Value"].astype(int)
 
-# 🌍 Visualization Example
+# Show DataFrame
+print(df)
 
-```{python}
-import plotly.express as px
-
-# Simple bar plot
-fig = px.bar(df, x="Country", y="Population", title="Population by Country")
-fig.show()
+# Visualization
+plt.bar(df["Item"], df["Value"], color=["green", "orange"])
+plt.title("Sample Scraped Data Visualization")
+plt.xlabel("Item")
+plt.ylabel("Value")
+plt.grid(axis="y")
+plt.show()
 ```
