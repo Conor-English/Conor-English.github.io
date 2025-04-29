@@ -1,16 +1,20 @@
 ---
-title: "Welcome"
+title: "Conor-English.github.io"
 format: html
 ---
 
-# 👋 Welcome
+# 👋 Welcome!
 
-Welcome to my personal portfolio website!
+Welcome to my portfolio website — a showcase of my projects, skills, and journey in data science and development!
 
-- Explore my Projects
-- View my Resume
-- Learn more About Me
-- Read my Reflection
+### 🧠 Explore:
 
-Use the menu above to navigate!
+- **Projects:** Discover my featured coding projects and real-world data analyses.
+- **Resume:** View my experience, education, and skills.
+- **Reflection:** Read insights into my learning journey and challenges.
 
+---
+
+Stay tuned as I continue to build, learn, and share more exciting work!
+
+> "Success is the sum of small efforts repeated day in and day out."

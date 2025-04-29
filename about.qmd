@@ -1,5 +1,31 @@
 ---
 title: "About"
+format: html
 ---
 
-About this site
+# 👤 About Me
+
+Hello! I'm Conor, a passionate learner in the fields of **data science**, **analytics**, and **web development**.
+
+I enjoy exploring new technologies, analyzing data, and building projects that solve real-world problems.
+
+---
+
+# 🛠️ Skills Overview
+
+- **Programming Languages:** Python, SQL, JavaScript
+- **Libraries & Frameworks:** Pandas, NumPy, Matplotlib, Scikit-learn
+- **Tools:** Git, GitHub, VS Code, Jupyter Notebook
+- **Web Development:** HTML5, CSS3, Quarto
+
+---
+
+# 🎯 Goals
+
+- Continue developing interactive web projects
+- Deepen machine learning expertise
+- Share knowledge through teaching and tutorials
+
+---
+
+Thanks for visiting my website! 🚀

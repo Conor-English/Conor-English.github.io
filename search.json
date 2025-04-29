@@ -72,16 +72,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome",
+    "title": "Conor-English.github.io",
     "section": "",
-    "text": "👋 Welcome\nWelcome to my personal portfolio website!\n\nExplore my Projects\nView my Resume\nLearn more About Me\nRead my Reflection\n\nUse the menu above to navigate!"
+    "text": "👋 Welcome!\nWelcome to my portfolio website — a showcase of my projects, skills, and journey in data science and development!\n\n🧠 Explore:\n\nProjects: Discover my featured coding projects and real-world data analyses.\nResume: View my experience, education, and skills.\nReflection: Read insights into my learning journey and challenges.\n\n\nStay tuned as I continue to build, learn, and share more exciting work!\n\n“Success is the sum of small efforts repeated day in and day out.”"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "👤 About Me\nHello! I’m Conor, a passionate learner in the fields of data science, analytics, and web development.\nI enjoy exploring new technologies, analyzing data, and building projects that solve real-world problems.\n\n\n\n🛠️ Skills Overview\n\nProgramming Languages: Python, SQL, JavaScript\nLibraries & Frameworks: Pandas, NumPy, Matplotlib, Scikit-learn\nTools: Git, GitHub, VS Code, Jupyter Notebook\nWeb Development: HTML5, CSS3, Quarto\n\n\n\n\n🎯 Goals\n\nContinue developing interactive web projects\nDeepen machine learning expertise\nShare knowledge through teaching and tutorials\n\n\nThanks for visiting my website! 🚀"
   },
   {
     "objectID": "projects/index.html",
