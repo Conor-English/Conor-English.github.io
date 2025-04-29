@@ -28,5 +28,8 @@
   },
   "projects/resume.qmd": {
     "resume.html": "844a759d"
+  },
+  "projects/reflection.qmd": {
+    "reflection.html": "4fd498d5"
   }
 }

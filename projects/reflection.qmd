@@ -1,0 +1,26 @@
+---
+title: "Reflection"
+format: html
+---
+
+# 📖 Reflection on My Learning Journey
+
+Throughout this project, I developed essential technical and project management skills.
+
+## Technical Growth
+- Improved my Python coding practices, focusing on data analysis and machine learning.
+- Learned how to deploy static websites using **GitHub Pages** and **Quarto**.
+- Designed a professional portfolio website with responsive and modern layouts.
+
+## Challenges Faced
+- Initial setup issues with deployment and Git/GitHub.
+- Formatting and styling HTML/CSS for a clean design required careful attention.
+
+## Future Goals
+- Expand this portfolio with more complex projects.
+- Learn JavaScript frameworks like React.
+- Continue refining web design and UX skills.
+
+---
+
+Thanks for reading!

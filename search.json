@@ -49,32 +49,11 @@
     "text": "📧 Email: example.email@domain.com\n🔗 GitHub: random-user\n🌐 Website: random-user.github.io"
   },
   {
-    "objectID": "projects/project2.html",
-    "href": "projects/project2.html",
-    "title": "Project 2: Linear Regression Modeling",
+    "objectID": "projects/project3.html",
+    "href": "projects/project3.html",
+    "title": "Project 3: Web Scraping and Visualization",
     "section": "",
-    "text": "Overview\nIn this project, I built and evaluated a Linear Regression model using Python and scikit-learn.\n\n\nSkills Demonstrated\n\nPredictive Modeling\nModel Evaluation\nData Visualization\n\n\n\nKey Code Example\n\n# Import Libraries\nimport numpy as np\nimport pandas as pd\nimport matplotlib.pyplot as plt\nfrom sklearn.linear_model import LinearRegression\n\n# Create sample data\nnp.random.seed(0)\nX = 2 * np.random.rand(100, 1)\ny = 4 + 3 * X + np.random.randn(100, 1)\n\n# Train model\nmodel = LinearRegression()\nmodel.fit(X, y)\n\n# Predict values\ny_pred = model.predict(X)\n\n# Model Coefficients\ncoef = model.coef_[0][0]\nintercept = model.intercept_[0]\nprint(\"Coefficient:\", coef)\nprint(\"Intercept:\", intercept)\n\n# Plot data and regression line\nplt.scatter(X, y, color=\"blue\", label=\"Data Points\")\nplt.plot(X, y_pred, color=\"red\", linewidth=2, label=\"Regression Line\")\nplt.title(\"Linear Regression Fit\")\nplt.xlabel(\"X\")\nplt.ylabel(\"y\")\nplt.legend()\nplt.grid(True)\nplt.show()\n\nCoefficient: 2.968467510701018\nIntercept: 4.222151077447232"
-  },
-  {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "🚀 My Featured Projects",
-    "section": "",
-    "text": "📊 Data Analysis with Pandas\n\n\nSkills: Data Cleaning, Manipulation, EDA Tools: Python, Pandas\n\n\nThis project focuses on using Pandas to clean, manipulate, and analyze large datasets.\n\nView Project ➔\n\n\n\n\n\n\n\n📈 Linear Regression Modeling\n\n\nSkills: Predictive Modeling, Evaluation Tools: Python, scikit-learn\n\n\nThis project builds a linear regression model to predict outcomes and evaluate model performance.\n\nView Project ➔\n\n\n\n\n\n\n\n🌐 Web Scraping and Visualization\n\n\nSkills: Web Scraping, Data Visualization Tools: Python, BeautifulSoup, Plotly\n\n\nThis project involves scraping website data and creating interactive visualizations.\n\nView Project ➔"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Conor-English.github.io",
-    "section": "",
-    "text": "Welcome\nWelcome to my portfolio website!\nExplore my projects, experiences, and work below.\nUse the navigation bar to move around."
+    "text": "Overview\nIn this project, I scraped data from the web using Python and created visualizations to present insights.\n\n\nSkills Demonstrated\n\nWeb Scraping\nData Cleaning\nData Visualization\n\n\n\nKey Code Example\n\n# Import Libraries\nimport requests\nfrom bs4 import BeautifulSoup\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\n# Scrape sample data\nurl = \"https://example.com\"\nhtml_content = \"&lt;html&gt;&lt;body&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Item&lt;/th&gt;&lt;th&gt;Value&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Apples&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Oranges&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;\"\nsoup = BeautifulSoup(html_content, \"html.parser\")\n\n# Parse table into DataFrame\ntable = soup.find(\"table\")\nrows = table.find_all(\"tr\")\ndata = []\nfor row in rows[1:]:\n    cols = row.find_all(\"td\")\n    data.append([col.text for col in cols])\n\ndf = pd.DataFrame(data, columns=[\"Item\", \"Value\"])\ndf[\"Value\"] = df[\"Value\"].astype(int)\n\n# Show DataFrame\nprint(df)\n\n# Visualization\nplt.bar(df[\"Item\"], df[\"Value\"], color=[\"green\", \"orange\"])\nplt.title(\"Sample Scraped Data Visualization\")\nplt.xlabel(\"Item\")\nplt.ylabel(\"Value\")\nplt.grid(axis=\"y\")\nplt.show()\n\n      Item  Value\n0   Apples     10\n1  Oranges     15"
   },
   {
     "objectID": "projects/project1.html",
@@ -91,10 +70,59 @@
     "text": "📊 Visualization Example\n\n\nShow the code\n# Create a simple line plot\nplt.plot(df[\"A\"], df[\"B\"], marker=\"o\")\nplt.title(\"Sample Line Plot of A vs B\")\nplt.xlabel(\"A values\")\nplt.ylabel(\"B values\")\nplt.grid(True)\nplt.show()"
   },
   {
-    "objectID": "projects/project3.html",
-    "href": "projects/project3.html",
-    "title": "Project 3: Web Scraping and Visualization",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Conor-English.github.io",
     "section": "",
-    "text": "Overview\nIn this project, I scraped data from the web using Python and created visualizations to present insights.\n\n\nSkills Demonstrated\n\nWeb Scraping\nData Cleaning\nData Visualization\n\n\n\nKey Code Example\n\n# Import Libraries\nimport requests\nfrom bs4 import BeautifulSoup\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\n# Scrape sample data\nurl = \"https://example.com\"\nhtml_content = \"&lt;html&gt;&lt;body&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Item&lt;/th&gt;&lt;th&gt;Value&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Apples&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Oranges&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;\"\nsoup = BeautifulSoup(html_content, \"html.parser\")\n\n# Parse table into DataFrame\ntable = soup.find(\"table\")\nrows = table.find_all(\"tr\")\ndata = []\nfor row in rows[1:]:\n    cols = row.find_all(\"td\")\n    data.append([col.text for col in cols])\n\ndf = pd.DataFrame(data, columns=[\"Item\", \"Value\"])\ndf[\"Value\"] = df[\"Value\"].astype(int)\n\n# Show DataFrame\nprint(df)\n\n# Visualization\nplt.bar(df[\"Item\"], df[\"Value\"], color=[\"green\", \"orange\"])\nplt.title(\"Sample Scraped Data Visualization\")\nplt.xlabel(\"Item\")\nplt.ylabel(\"Value\")\nplt.grid(axis=\"y\")\nplt.show()\n\n      Item  Value\n0   Apples     10\n1  Oranges     15"
+    "text": "Welcome\nWelcome to my portfolio website!\nExplore my projects, experiences, and work below.\nUse the navigation bar to move around."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "🚀 My Featured Projects",
+    "section": "",
+    "text": "📊 Data Analysis with Pandas\n\n\nSkills: Data Cleaning, Manipulation, EDA Tools: Python, Pandas\n\n\nThis project focuses on using Pandas to clean, manipulate, and analyze large datasets.\n\nView Project ➔\n\n\n\n\n\n\n\n📈 Linear Regression Modeling\n\n\nSkills: Predictive Modeling, Evaluation Tools: Python, scikit-learn\n\n\nThis project builds a linear regression model to predict outcomes and evaluate model performance.\n\nView Project ➔\n\n\n\n\n\n\n\n🌐 Web Scraping and Visualization\n\n\nSkills: Web Scraping, Data Visualization Tools: Python, BeautifulSoup, Plotly\n\n\nThis project involves scraping website data and creating interactive visualizations.\n\nView Project ➔"
+  },
+  {
+    "objectID": "projects/project2.html",
+    "href": "projects/project2.html",
+    "title": "Project 2: Linear Regression Modeling",
+    "section": "",
+    "text": "Overview\nIn this project, I built and evaluated a Linear Regression model using Python and scikit-learn.\n\n\nSkills Demonstrated\n\nPredictive Modeling\nModel Evaluation\nData Visualization\n\n\n\nKey Code Example\n\n# Import Libraries\nimport numpy as np\nimport pandas as pd\nimport matplotlib.pyplot as plt\nfrom sklearn.linear_model import LinearRegression\n\n# Create sample data\nnp.random.seed(0)\nX = 2 * np.random.rand(100, 1)\ny = 4 + 3 * X + np.random.randn(100, 1)\n\n# Train model\nmodel = LinearRegression()\nmodel.fit(X, y)\n\n# Predict values\ny_pred = model.predict(X)\n\n# Model Coefficients\ncoef = model.coef_[0][0]\nintercept = model.intercept_[0]\nprint(\"Coefficient:\", coef)\nprint(\"Intercept:\", intercept)\n\n# Plot data and regression line\nplt.scatter(X, y, color=\"blue\", label=\"Data Points\")\nplt.plot(X, y_pred, color=\"red\", linewidth=2, label=\"Regression Line\")\nplt.title(\"Linear Regression Fit\")\nplt.xlabel(\"X\")\nplt.ylabel(\"y\")\nplt.legend()\nplt.grid(True)\nplt.show()\n\nCoefficient: 2.968467510701018\nIntercept: 4.222151077447232"
+  },
+  {
+    "objectID": "projects/reflection.html",
+    "href": "projects/reflection.html",
+    "title": "Reflection",
+    "section": "",
+    "text": "Throughout this project, I developed essential technical and project management skills.\n\n\n\nImproved my Python coding practices, focusing on data analysis and machine learning.\nLearned how to deploy static websites using GitHub Pages and Quarto.\nDesigned a professional portfolio website with responsive and modern layouts.\n\n\n\n\n\nInitial setup issues with deployment and Git/GitHub.\nFormatting and styling HTML/CSS for a clean design required careful attention.\n\n\n\n\n\nExpand this portfolio with more complex projects.\nLearn JavaScript frameworks like React.\nContinue refining web design and UX skills.\n\n\nThanks for reading!"
+  },
+  {
+    "objectID": "projects/reflection.html#technical-growth",
+    "href": "projects/reflection.html#technical-growth",
+    "title": "Reflection",
+    "section": "",
+    "text": "Improved my Python coding practices, focusing on data analysis and machine learning.\nLearned how to deploy static websites using GitHub Pages and Quarto.\nDesigned a professional portfolio website with responsive and modern layouts."
+  },
+  {
+    "objectID": "projects/reflection.html#challenges-faced",
+    "href": "projects/reflection.html#challenges-faced",
+    "title": "Reflection",
+    "section": "",
+    "text": "Initial setup issues with deployment and Git/GitHub.\nFormatting and styling HTML/CSS for a clean design required careful attention."
+  },
+  {
+    "objectID": "projects/reflection.html#future-goals",
+    "href": "projects/reflection.html#future-goals",
+    "title": "Reflection",
+    "section": "",
+    "text": "Expand this portfolio with more complex projects.\nLearn JavaScript frameworks like React.\nContinue refining web design and UX skills.\n\n\nThanks for reading!"
   }
 ]
