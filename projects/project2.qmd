@@ -35,7 +35,8 @@ y_pred = model.predict(X)
 # Model Coefficients
 coef = model.coef_[0][0]
 intercept = model.intercept_[0]
-coef, intercept
+print("Coefficient:", coef)
+print("Intercept:", intercept)
 
 # Plot data and regression line
 plt.scatter(X, y, color="blue", label="Data Points")
