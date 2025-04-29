@@ -6,8 +6,8 @@ format: html
 # 📄 Resume
 
 ## Education
-- 🎓 Bachelor of Science in Computer Science  
-  Springfield University, 2020–2024
+- 🎓 **Bachelor of Science in Computer Science**  
+  Springfield University | 2020–2024
 
 ## Skills
 - **Programming:** Python, JavaScript, SQL
@@ -17,19 +17,21 @@ format: html
 
 ## Experience
 - **Data Science Intern**  
-  Apex Analytics — Summer 2023  
+  Apex Analytics | Summer 2023  
   - Built machine learning models to forecast sales.
   - Automated data collection pipelines using Python.
 
-- **Personal Projects**  
-  - Created an interactive portfolio website with Quarto.
-  - Analyzed environmental data to identify pollution trends.
+## Personal Projects
+- Created an interactive portfolio website with Quarto.
+- Analyzed environmental data to identify pollution trends.
 
 ## Certifications
 - Python for Data Science — Coursera
 - Introduction to SQL — Udemy
 
 ## Contact
-- 📧 Email: example.email@domain.com
-- 🔗 GitHub: [random-user](https://github.com/random-user)
-- 🌐 Website: [random-user.github.io](https://random-user.github.io)
+- 📧 **Email:** example.email@domain.com
+- 🔗 **GitHub:** [random-user](https://github.com/random-user)
+- 🌐 **Website:** [random-user.github.io](https://random-user.github.io)
+
+---

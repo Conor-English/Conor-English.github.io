@@ -4,14 +4,14 @@
     "href": "projects/resume.html",
     "title": "Resume",
     "section": "",
-    "text": "🎓 Bachelor of Science in Computer Science\nSpringfield University, 2020–2024\n\n\n\n\n\nProgramming: Python, JavaScript, SQL\nData Analysis: Pandas, NumPy, Plotly\nWeb Development: HTML5, CSS3, Quarto\nTools: Git, GitHub, Jupyter Notebook, VS Code\n\n\n\n\n\nData Science Intern\nApex Analytics — Summer 2023\n\nBuilt machine learning models to forecast sales.\nAutomated data collection pipelines using Python.\n\nPersonal Projects\n\nCreated an interactive portfolio website with Quarto.\nAnalyzed environmental data to identify pollution trends.\n\n\n\n\n\n\nPython for Data Science — Coursera\nIntroduction to SQL — Udemy\n\n\n\n\n\n📧 Email: example.email@domain.com\n🔗 GitHub: random-user\n🌐 Website: random-user.github.io"
+    "text": "🎓 Bachelor of Science in Computer Science\nSpringfield University | 2020–2024\n\n\n\n\n\nProgramming: Python, JavaScript, SQL\nData Analysis: Pandas, NumPy, Plotly\nWeb Development: HTML5, CSS3, Quarto\nTools: Git, GitHub, Jupyter Notebook, VS Code\n\n\n\n\n\nData Science Intern\nApex Analytics | Summer 2023\n\nBuilt machine learning models to forecast sales.\nAutomated data collection pipelines using Python.\n\n\n\n\n\n\nCreated an interactive portfolio website with Quarto.\nAnalyzed environmental data to identify pollution trends.\n\n\n\n\n\nPython for Data Science — Coursera\nIntroduction to SQL — Udemy\n\n\n\n\n\n📧 Email: example.email@domain.com\n🔗 GitHub: random-user\n🌐 Website: random-user.github.io"
   },
   {
     "objectID": "projects/resume.html#education",
     "href": "projects/resume.html#education",
     "title": "Resume",
     "section": "",
-    "text": "🎓 Bachelor of Science in Computer Science\nSpringfield University, 2020–2024"
+    "text": "🎓 Bachelor of Science in Computer Science\nSpringfield University | 2020–2024"
   },
   {
     "objectID": "projects/resume.html#skills",
@@ -25,7 +25,14 @@
     "href": "projects/resume.html#experience",
     "title": "Resume",
     "section": "",
-    "text": "Data Science Intern\nApex Analytics — Summer 2023\n\nBuilt machine learning models to forecast sales.\nAutomated data collection pipelines using Python.\n\nPersonal Projects\n\nCreated an interactive portfolio website with Quarto.\nAnalyzed environmental data to identify pollution trends."
+    "text": "Data Science Intern\nApex Analytics | Summer 2023\n\nBuilt machine learning models to forecast sales.\nAutomated data collection pipelines using Python."
+  },
+  {
+    "objectID": "projects/resume.html#personal-projects",
+    "href": "projects/resume.html#personal-projects",
+    "title": "Resume",
+    "section": "",
+    "text": "Created an interactive portfolio website with Quarto.\nAnalyzed environmental data to identify pollution trends."
   },
   {
     "objectID": "projects/resume.html#certifications",
