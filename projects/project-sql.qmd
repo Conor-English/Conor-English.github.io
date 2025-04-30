@@ -1,0 +1,42 @@
+---
+title: "Project: SQL Integration Example"
+format: html
+---
+
+# 🧠 Overview
+
+In this project, I demonstrate the use of **SQL** alongside **Python** using `sqlite3` and `pandas`.
+
+This integration allows for efficient data querying and analysis directly from relational databases.
+
+---
+
+# 🔍 Setup and SQL Queries
+
+```{python}
+import sqlite3
+import pandas as pd
+
+# Create an in-memory SQLite database
+conn = sqlite3.connect(":memory:")
+
+# Create table
+conn.execute("""
+CREATE TABLE players (
+    id INTEGER PRIMARY KEY,
+    name TEXT,
+    goals INTEGER,
+    assists INTEGER
+);
+""")
+
+# Insert data
+conn.executemany("INSERT INTO players (name, goals, assists) VALUES (?, ?, ?);", [
+    ('Alice', 10, 3),
+    ('Bob', 7, 5),
+    ('Charlie', 2, 8)
+])
+
+# Query players with more than 5 goals
+df = pd.read_sql_query("SELECT * FROM players WHERE goals > 5;", conn)
+df
