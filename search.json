@@ -4,7 +4,7 @@
     "href": "resume.html",
     "title": "📄 Resume",
     "section": "",
-    "text": "## 📄 Resume\nDownload my full CV:\n\n\n### 🎓 Education - BSc Computer Science — Springfield University (2020–2024)\n### 💼 Experience - Data Science Intern — Apex Analytics\nBuilt ML models, automated pipelines.\n### 🛠 Skills - Python, Pandas, SQL, HTML, CSS, Git\n### 📬 Contact - Email: example@email.com\n- GitHub: github.com/Conor-English"
+    "text": "## 📄 Resume\nDownload my full CV:\n\n### 🎓 Education\nBSc in Computer Science, Springfield University (2020–2024)\n### 💼 Skills\nPython, JavaScript, SQL, Pandas, NumPy, Plotly, HTML, CSS, GitHub\n### 🧪 Experience\nData Science Intern @ Apex Analytics\n- Built predictive ML models\n- Automated data pipelines with Python\n### 🔬 Projects\n- Portfolio website with Quarto\n- Breakout prediction model with XGBoost\n### 📜 Certifications\n- Python for Data Science (Coursera)\n- SQL Foundations (Udemy)"
   },
   {
     "objectID": "projects/project3.html",
@@ -39,7 +39,7 @@
     "href": "about.html",
     "title": "👋 About Me",
     "section": "",
-    "text": "## 👨‍💻 About Me\nI’m a passionate computer science student with a focus on data analysis, machine learning, and web development.\nMy interests include: - Exploring real-world data using Python - Building predictive models using scikit-learn - Creating polished and professional web projects with Quarto and GitHub\nI built this website to showcase my progress and journey throughout this course."
+    "text": "## 👨‍💻 About Me\nI’m a Computer Science student with a passion for: - Data Analysis & Machine Learning\n- Full-stack Web Development\n- Problem solving through Python\nI’m currently exploring ways to predict sports outcomes using real-world data."
   },
   {
     "objectID": "projects/index.html",
@@ -60,6 +60,6 @@
     "href": "reflection.html",
     "title": "🧠 Reflection",
     "section": "",
-    "text": "## 🧠 Reflection\nCreating this portfolio allowed me to: - Deepen my understanding of version control with Git and GitHub - Practice publishing and maintaining a live site with Quarto - Apply data analysis and web development in a real-world context\n### 🔄 Challenges - Troubleshooting deployment errors (404s and path issues) - Structuring content to meet grading rubric standards - Balancing technical accuracy with design appeal\n### 🚀 What I Learned - How to build and publish a data portfolio from scratch - Importance of readable, maintainable code and documentation - Value of iterative feedback and visual polish"
+    "text": "## 🧠 Reflection\nThis portfolio journey helped me:\n\nApply data science principles to real projects\nLearn Git/GitHub version control deeply\nGain web publishing experience with Quarto\n\n### 💡 Key Lessons - Importance of visual design in communicating work - Iteration and polish matter more than perfection - Small bugs are part of the learning process!"
   }
 ]

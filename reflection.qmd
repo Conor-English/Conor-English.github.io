@@ -3,25 +3,39 @@ title: "🧠 Reflection"
 format: html
 ---
 
-<div class="fade-in container mt-4">
-  <div class="card shadow-sm p-4">
+<style>
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.card {
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+</style>
+
+<div class="container fade-in" style="max-width: 900px; margin: auto;">
+  <div class="card shadow p-4">
 
   ## 🧠 Reflection
 
-  Creating this portfolio allowed me to:
-  - Deepen my understanding of version control with Git and GitHub
-  - Practice publishing and maintaining a live site with Quarto
-  - Apply data analysis and web development in a real-world context
+  This portfolio journey helped me:
 
-  ### 🔄 Challenges
-  - Troubleshooting deployment errors (404s and path issues)
-  - Structuring content to meet grading rubric standards
-  - Balancing technical accuracy with design appeal
+  - Apply data science principles to real projects
+  - Learn Git/GitHub version control deeply
+  - Gain web publishing experience with Quarto
 
-  ### 🚀 What I Learned
-  - How to build and publish a data portfolio from scratch
-  - Importance of readable, maintainable code and documentation
-  - Value of iterative feedback and visual polish
+  ### 💡 Key Lessons
+  - Importance of visual design in communicating work
+  - Iteration and polish matter more than perfection
+  - Small bugs are part of the learning process!
 
   </div>
 </div>

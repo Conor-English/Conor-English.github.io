@@ -143,18 +143,42 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="fade-in container mt-4">
-<div class="card shadow-sm p-4">
+<style>
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.card {
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+</style>
+<div class="container fade-in" style="max-width: 900px; margin: auto;">
+<div class="card shadow p-4">
 <p>## 📄 Resume</p>
 <p><strong>Download my full CV:</strong><br>
 <a href="CV.pdf"><img src="https://img.shields.io/badge/Download-My%20CV-blue?style=for-the-badge.png" class="img-fluid" alt="Download CV"></a></p>
-<hr>
-<p>### 🎓 Education - BSc Computer Science — Springfield University (2020–2024)</p>
-<p>### 💼 Experience - <strong>Data Science Intern — Apex Analytics</strong><br>
-Built ML models, automated pipelines.</p>
-<p>### 🛠 Skills - Python, Pandas, SQL, HTML, CSS, Git</p>
-<p>### 📬 Contact - Email: example@email.com<br>
-- GitHub: github.com/Conor-English</p>
+<p>### 🎓 Education<br>
+BSc in Computer Science, Springfield University (2020–2024)</p>
+<p>### 💼 Skills<br>
+Python, JavaScript, SQL, Pandas, NumPy, Plotly, HTML, CSS, GitHub</p>
+<p>### 🧪 Experience<br>
+Data Science Intern @ Apex Analytics<br>
+- Built predictive ML models<br>
+- Automated data pipelines with Python</p>
+<p>### 🔬 Projects<br>
+- Portfolio website with Quarto<br>
+- Breakout prediction model with XGBoost</p>
+<p>### 📜 Certifications<br>
+- Python for Data Science (Coursera)<br>
+- SQL Foundations (Udemy)</p>
 </div>
 </div>
 
