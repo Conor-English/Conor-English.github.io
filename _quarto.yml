@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: .
+  output-dir: _site
 
 website:
   title: "Conor-English.github.io"
@@ -21,6 +21,4 @@ format:
   html:
     theme: cosmo
     toc: true
-    includes:
-      in-header: header.html
-
+    css: styles.css   
