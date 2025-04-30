@@ -1,26 +1,23 @@
 ---
-title: "Reflection"
+title: "🧠 Reflection"
 format: html
 ---
 
-# 📖 Reflection on My Learning Journey
+<div class="container mt-5" style="max-width: 900px;">
+  <div class="card shadow p-4 animate__animated animate__fadeIn">
 
-Throughout this project, I developed essential technical and project management skills.
+  <h2>📘 What I Learned</h2>
+  <p>This portfolio showcases my growth in Python, web development, and version control using Quarto and GitHub Pages.</p>
 
-## Technical Growth
-- Improved my Python coding practices, focusing on data analysis and machine learning.
-- Learned how to deploy static websites using **GitHub Pages** and **Quarto**.
-- Designed a professional portfolio website with responsive and modern layouts.
+  <h2>🛠 Challenges I Faced</h2>
+  <ul>
+    <li>Deploying a site publicly via GitHub Pages</li>
+    <li>Using Quarto and YAML configuration</li>
+    <li>Styling content with HTML/CSS</li>
+  </ul>
 
-## Challenges Faced
-- Initial setup issues with deployment and Git/GitHub.
-- Formatting and styling HTML/CSS for a clean design required careful attention.
+  <h2>🌱 Growth</h2>
+  <p>Since starting this course, I’ve gained confidence in turning code into clean, visual deliverables — like this site!</p>
 
-## Future Goals
-- Expand this portfolio with more complex projects.
-- Learn JavaScript frameworks like React.
-- Continue refining web design and UX skills.
-
----
-
-Thanks for reading!
+  </div>
+</div>

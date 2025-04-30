@@ -3,37 +3,37 @@ title: "📄 Resume"
 format: html
 ---
 
-# 📄 Resume
+<div class="container mt-5" style="max-width: 900px;">
+  <div class="card shadow p-4 animate__animated animate__fadeIn">
 
-**Download my full CV:**  
-[![Download CV](https://img.shields.io/badge/Download-My%20CV-blue?style=for-the-badge)](../CV.pdf)
+  <h2>📥 Download CV</h2>
+  <a href="CV.pdf" class="btn btn-primary mb-4">Download PDF</a>
 
----
+  <h2>🎓 Education</h2>
+  <p><strong>BSc Computer Science</strong> — Springfield University, 2020–2024</p>
 
-# Education
-🎓 Bachelor of Science in Computer Science  
-Springfield University | 2020–2024
+  <h2>💼 Experience</h2>
+  <p><strong>Data Science Intern</strong> — Apex Analytics, Summer 2023</p>
+  <ul>
+    <li>Built ML models to forecast sales</li>
+    <li>Automated pipelines using Python</li>
+  </ul>
 
-# Skills
-**Programming**: Python, JavaScript, SQL  
-**Data Analysis**: Pandas, NumPy, Plotly  
-**Web Development**: HTML5, CSS3, Quarto  
-**Tools**: Git, GitHub, Jupyter Notebook, VS Code
+  <h2>🛠 Skills</h2>
+  <ul>
+    <li>Programming: Python, JavaScript, SQL</li>
+    <li>Analysis: Pandas, NumPy, Plotly</li>
+    <li>Tools: Git, GitHub, Jupyter, VS Code</li>
+  </ul>
 
-# Experience
-🧠 Data Science Intern — Apex Analytics — Summer 2023
-- Built machine learning models to forecast sales.
-- Automated data collection pipelines using Python.
+  <h2>📜 Certifications</h2>
+  <ul>
+    <li>Python for Data Science (Coursera)</li>
+    <li>SQL Foundations (Udemy)</li>
+  </ul>
 
-# Personal Projects
-- Created an interactive portfolio website with Quarto.
-- Analyzed environmental data to identify pollution trends.
+  <h2>📬 Contact</h2>
+  <p>Email: example@email.com | GitHub: github.com/Conor-English</p>
 
-# Certifications
-- Python for Data Science — Coursera
-- Introduction to SQL — Udemy
-
-# Contact
-📧 Email: example.email@domain.com  
-🔗 GitHub: github.com/Conor-English  
-🌐 Website: conor-english.github.io
+  </div>
+</div>

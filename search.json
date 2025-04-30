@@ -4,7 +4,7 @@
     "href": "resume.html",
     "title": "📄 Resume",
     "section": "",
-    "text": "📄 Resume\nDownload my full CV:\n\n\n\n\nEducation\n🎓 Bachelor of Science in Computer Science\nSpringfield University | 2020–2024\n\n\nSkills\nProgramming: Python, JavaScript, SQL\nData Analysis: Pandas, NumPy, Plotly\nWeb Development: HTML5, CSS3, Quarto\nTools: Git, GitHub, Jupyter Notebook, VS Code\n\n\nExperience\n🧠 Data Science Intern — Apex Analytics — Summer 2023 - Built machine learning models to forecast sales. - Automated data collection pipelines using Python.\n\n\nPersonal Projects\n\nCreated an interactive portfolio website with Quarto.\nAnalyzed environmental data to identify pollution trends.\n\n\n\nCertifications\n\nPython for Data Science — Coursera\nIntroduction to SQL — Udemy\n\n\n\nContact\n📧 Email: example.email@domain.com\n🔗 GitHub: github.com/Conor-English\n🌐 Website: conor-english.github.io"
+    "text": "📥 Download CV\n\nDownload PDF\n\n🎓 Education\n\n\nBSc Computer Science — Springfield University, 2020–2024\n\n\n💼 Experience\n\n\nData Science Intern — Apex Analytics, Summer 2023\n\n\n\nBuilt ML models to forecast sales\n\n\nAutomated pipelines using Python\n\n\n\n🛠 Skills\n\n\n\nProgramming: Python, JavaScript, SQL\n\n\nAnalysis: Pandas, NumPy, Plotly\n\n\nTools: Git, GitHub, Jupyter, VS Code\n\n\n\n📜 Certifications\n\n\n\nPython for Data Science (Coursera)\n\n\nSQL Foundations (Udemy)\n\n\n\n📬 Contact\n\n\nEmail: example@email.com | GitHub: github.com/Conor-English"
   },
   {
     "objectID": "projects/project3.html",
@@ -30,9 +30,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Conor-English.github.io",
+    "title": "Welcome to My Portfolio",
     "section": "",
-    "text": "👋 Welcome!\nWelcome to my portfolio website — a showcase of my projects, skills, and journey in data science and development!\n\n\n🧠 Explore:\n\nProjects: Discover my featured coding projects and real-world data analyses.\n\nResume: View my experience, education, and skills.\n\nReflection: Read insights into my learning journey and challenges.\n\n\nStay tuned as I continue to build, learn, and share more exciting work!\n\n“Success is the sum of small efforts repeated day in and day out.”"
+    "text": "&lt;h1 class=\"mb-3\"&gt;👋 Hello, I'm Conor English&lt;/h1&gt;\n&lt;p&gt;Welcome to my personal e-portfolio, built with Quarto! Explore my data science projects, resume, and learning reflections.&lt;/p&gt;\n&lt;p&gt;Use the navigation bar above or quick links below to browse:&lt;/p&gt;\n&lt;ul&gt;\n  &lt;li&gt;📁 &lt;strong&gt;&lt;a href=\"projects/index.html\"&gt;Projects&lt;/a&gt;&lt;/strong&gt; – Real-world Python & Data projects&lt;/li&gt;\n  &lt;li&gt;📄 &lt;strong&gt;&lt;a href=\"resume.html\"&gt;Resume&lt;/a&gt;&lt;/strong&gt; – Education, skills, and experience&lt;/li&gt;\n  &lt;li&gt;🧠 &lt;strong&gt;&lt;a href=\"reflection.html\"&gt;Reflection&lt;/a&gt;&lt;/strong&gt; – Learning journey and insights&lt;/li&gt;\n&lt;/ul&gt;"
   },
   {
     "objectID": "about.html",
@@ -58,29 +58,8 @@
   {
     "objectID": "reflection.html",
     "href": "reflection.html",
-    "title": "Reflection",
+    "title": "🧠 Reflection",
     "section": "",
-    "text": "Throughout this project, I developed essential technical and project management skills.\n\n\n\nImproved my Python coding practices, focusing on data analysis and machine learning.\nLearned how to deploy static websites using GitHub Pages and Quarto.\nDesigned a professional portfolio website with responsive and modern layouts.\n\n\n\n\n\nInitial setup issues with deployment and Git/GitHub.\nFormatting and styling HTML/CSS for a clean design required careful attention.\n\n\n\n\n\nExpand this portfolio with more complex projects.\nLearn JavaScript frameworks like React.\nContinue refining web design and UX skills.\n\n\nThanks for reading!"
-  },
-  {
-    "objectID": "reflection.html#technical-growth",
-    "href": "reflection.html#technical-growth",
-    "title": "Reflection",
-    "section": "",
-    "text": "Improved my Python coding practices, focusing on data analysis and machine learning.\nLearned how to deploy static websites using GitHub Pages and Quarto.\nDesigned a professional portfolio website with responsive and modern layouts."
-  },
-  {
-    "objectID": "reflection.html#challenges-faced",
-    "href": "reflection.html#challenges-faced",
-    "title": "Reflection",
-    "section": "",
-    "text": "Initial setup issues with deployment and Git/GitHub.\nFormatting and styling HTML/CSS for a clean design required careful attention."
-  },
-  {
-    "objectID": "reflection.html#future-goals",
-    "href": "reflection.html#future-goals",
-    "title": "Reflection",
-    "section": "",
-    "text": "Expand this portfolio with more complex projects.\nLearn JavaScript frameworks like React.\nContinue refining web design and UX skills.\n\n\nThanks for reading!"
+    "text": "📘 What I Learned\n\n\nThis portfolio showcases my growth in Python, web development, and version control using Quarto and GitHub Pages.\n\n\n🛠 Challenges I Faced\n\n\n\nDeploying a site publicly via GitHub Pages\n\n\nUsing Quarto and YAML configuration\n\n\nStyling content with HTML/CSS\n\n\n\n🌱 Growth\n\n\nSince starting this course, I’ve gained confidence in turning code into clean, visual deliverables — like this site!"
   }
 ]

@@ -1,23 +1,18 @@
 ---
-title: "Conor-English.github.io"
+title: "Welcome to My Portfolio"
 format: html
+page-layout: full
 ---
 
-![](banner.png){width=100% style="border-radius: 12px; margin-bottom: 20px;"}
-
-# 👋 Welcome!
-
-Welcome to my portfolio website — a showcase of my projects, skills, and journey in data science and development!
-
-# 🧠 Explore:
-
-- **[Projects](projects/index.html)**: Discover my featured coding projects and real-world data analyses.  
-- **[Resume](resume.html)**: View my experience, education, and skills.  
-- **[Reflection](reflection.html)**: Read insights into my learning journey and challenges.
-
-
----
-
-Stay tuned as I continue to build, learn, and share more exciting work!
-
-> “Success is the sum of small efforts repeated day in and day out.”
+<div class="container mt-5" style="max-width: 900px;">
+  <div class="card shadow p-4 animate__animated animate__fadeIn">
+    <h1 class="mb-3">👋 Hello, I'm Conor English</h1>
+    <p>Welcome to my personal e-portfolio, built with Quarto! Explore my data science projects, resume, and learning reflections.</p>
+    <p>Use the navigation bar above or quick links below to browse:</p>
+    <ul>
+      <li>📁 <strong><a href="projects/index.html">Projects</a></strong> – Real-world Python & Data projects</li>
+      <li>📄 <strong><a href="resume.html">Resume</a></strong> – Education, skills, and experience</li>
+      <li>🧠 <strong><a href="reflection.html">Reflection</a></strong> – Learning journey and insights</li>
+    </ul>
+  </div>
+</div>
