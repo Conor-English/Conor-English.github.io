@@ -16,8 +16,6 @@ website:
         text: About
       - href: reflection.qmd
         text: Reflection
-      - href: project-sql.qmd
-        text: SQL Example
 
 format:
   html:
