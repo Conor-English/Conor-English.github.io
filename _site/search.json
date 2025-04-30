@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "📄 Resume",
+    "section": "",
+    "text": "## 📄 Resume\nDownload my full CV:\n\n### 🎓 Education\nBSc in Computer Science, Springfield University (2020–2024)\n### 💼 Skills\nPython, JavaScript, SQL, Pandas, NumPy, Plotly, HTML, CSS, GitHub\n### 🧪 Experience\nData Science Intern @ Apex Analytics\n- Built predictive ML models\n- Automated data pipelines with Python\n### 🔬 Projects\n- Portfolio website with Quarto\n- Breakout prediction model with XGBoost\n### 📜 Certifications\n- Python for Data Science (Coursera)\n- SQL Foundations (Udemy)"
+  },
+  {
+    "objectID": "projects/project3.html",
+    "href": "projects/project3.html",
+    "title": "Project 3: Web Scraping and Visualization",
+    "section": "",
+    "text": "Overview\nIn this project, I scraped data from the web using Python and created visualizations to present insights.\n\n\nSkills Demonstrated\n\nWeb Scraping\nData Cleaning\nData Visualization\n\n\n\nKey Code Example\n\n# Import Libraries\nimport requests\nfrom bs4 import BeautifulSoup\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\n# Scrape sample data\nurl = \"https://example.com\"\nhtml_content = \"&lt;html&gt;&lt;body&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Item&lt;/th&gt;&lt;th&gt;Value&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Apples&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Oranges&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;\"\nsoup = BeautifulSoup(html_content, \"html.parser\")\n\n# Parse table into DataFrame\ntable = soup.find(\"table\")\nrows = table.find_all(\"tr\")\ndata = []\nfor row in rows[1:]:\n    cols = row.find_all(\"td\")\n    data.append([col.text for col in cols])\n\ndf = pd.DataFrame(data, columns=[\"Item\", \"Value\"])\ndf[\"Value\"] = df[\"Value\"].astype(int)\n\n# Show DataFrame\nprint(df)\n\n# Visualization\nplt.bar(df[\"Item\"], df[\"Value\"], color=[\"green\", \"orange\"])\nplt.title(\"Sample Scraped Data Visualization\")\nplt.xlabel(\"Item\")\nplt.ylabel(\"Value\")\nplt.grid(axis=\"y\")\nplt.show()\n\n      Item  Value\n0   Apples     10\n1  Oranges     15"
+  },
+  {
+    "objectID": "projects/project1.html",
+    "href": "projects/project1.html",
+    "title": "Project 1: Data Analysis with Pandas",
+    "section": "",
+    "text": "In this project, I analyzed real-world datasets using Python and Pandas to extract meaningful insights."
+  },
+  {
+    "objectID": "projects/project1.html#visualization-example",
+    "href": "projects/project1.html#visualization-example",
+    "title": "Project 1: Data Analysis with Pandas",
+    "section": "📊 Visualization Example",
+    "text": "📊 Visualization Example\n\n\nShow the code\n# Create a simple line plot\nplt.plot(df[\"A\"], df[\"B\"], marker=\"o\")\nplt.title(\"Sample Line Plot of A vs B\")\nplt.xlabel(\"A values\")\nplt.ylabel(\"B values\")\nplt.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "👋 Welcome",
+    "section": "",
+    "text": "👋 Hello, I’m Conor English\n\n\nWelcome to my personal e-portfolio, built with Quarto! Explore my data science projects, resume, and learning reflections.\n\n\n\n📁 Projects – Real-world Python & Data projects\n\n\n📄 Resume – Education, skills, and experience\n\n\n🧠 Reflection – Learning journey and insights\n\n\n\n\n\n“Success is the sum of small efforts repeated day in and day out.”"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "👋 About Me",
+    "section": "",
+    "text": "## 👨‍💻 About Me\nI’m a Computer Science student with a passion for: - Data Analysis & Machine Learning\n- Full-stack Web Development\n- Problem solving through Python\nI’m currently exploring ways to predict sports outcomes using real-world data."
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "🚀 My Featured Projects",
+    "section": "",
+    "text": "📊 Data Analysis with Pandas\n\n\nSkills: Data Cleaning, Manipulation, EDA Tools: Python, Pandas\n\n\nThis project focuses on using Pandas to clean, manipulate, and analyze large datasets.\n\nView Project ➔\n\n\n\n\n\n\n\n📈 Linear Regression Modeling\n\n\nSkills: Predictive Modeling, Evaluation Tools: Python, scikit-learn\n\n\nThis project builds a linear regression model to predict outcomes and evaluate model performance.\n\nView Project ➔\n\n\n\n\n\n\n\n🌐 Web Scraping and Visualization\n\n\nSkills: Web Scraping, Data Visualization Tools: Python, BeautifulSoup, Plotly\n\n\nThis project involves scraping website data and creating interactive visualizations.\n\nView Project ➔"
+  },
+  {
+    "objectID": "projects/project2.html",
+    "href": "projects/project2.html",
+    "title": "Project 2: Linear Regression Modeling",
+    "section": "",
+    "text": "Overview\nIn this project, I built and evaluated a Linear Regression model using Python and scikit-learn.\n\n\nSkills Demonstrated\n\nPredictive Modeling\nModel Evaluation\nData Visualization\n\n\n\nKey Code Example\n\n# Import Libraries\nimport numpy as np\nimport pandas as pd\nimport matplotlib.pyplot as plt\nfrom sklearn.linear_model import LinearRegression\n\n# Create sample data\nnp.random.seed(0)\nX = 2 * np.random.rand(100, 1)\ny = 4 + 3 * X + np.random.randn(100, 1)\n\n# Train model\nmodel = LinearRegression()\nmodel.fit(X, y)\n\n# Predict values\ny_pred = model.predict(X)\n\n# Model Coefficients\ncoef = model.coef_[0][0]\nintercept = model.intercept_[0]\nprint(\"Coefficient:\", coef)\nprint(\"Intercept:\", intercept)\n\n# Plot data and regression line\nplt.scatter(X, y, color=\"blue\", label=\"Data Points\")\nplt.plot(X, y_pred, color=\"red\", linewidth=2, label=\"Regression Line\")\nplt.title(\"Linear Regression Fit\")\nplt.xlabel(\"X\")\nplt.ylabel(\"y\")\nplt.legend()\nplt.grid(True)\nplt.show()\n\nCoefficient: 2.968467510701018\nIntercept: 4.222151077447232"
+  },
+  {
+    "objectID": "reflection.html",
+    "href": "reflection.html",
+    "title": "🧠 Reflection",
+    "section": "",
+    "text": "## 🧠 Reflection\nThis portfolio journey helped me:\n\nApply data science principles to real projects\nLearn Git/GitHub version control deeply\nGain web publishing experience with Quarto\n\n### 💡 Key Lessons - Importance of visual design in communicating work - Iteration and polish matter more than perfection - Small bugs are part of the learning process!"
+  }
+]
