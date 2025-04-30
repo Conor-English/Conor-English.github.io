@@ -1,4 +1,3 @@
-/* === Button Glow on Hover === */
 .btn-primary {
   transition: all 0.3s ease;
   box-shadow: 0 0 0 transparent;
@@ -9,24 +8,23 @@
   transform: translateY(-2px);
 }
 
-/* === Card Hover Lift === */
 .card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.95); /* Cards also slightly transparent */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
 }
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
 
-/* === Navbar Hover Link === */
 .navbar a.nav-link:hover {
   color: #007bff;
   text-decoration: underline;
 }
 
-/* === Fade-in Animation === */
 .fade-in {
   animation: fadeIn 1s ease-in-out;
 }
@@ -36,18 +34,20 @@
   100% { opacity: 1; transform: translateY(0); }
 }
 
-/* === Gradient Background === */
 body {
-  background: linear-gradient(135deg, #e0f7fa, #ffffff, #f0f4ff);
+  background: linear-gradient(135deg, #e0f7fa, #f0f4ff, #ffffff);
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: system-ui, sans-serif;
+  margin: 0;
 }
 
-/* === Content Container Styling === */
 .container {
-  background-color: rgba(255, 255, 255, 0.92);  /* translucent white */
+  background-color: rgba(255, 255, 255, 0.88); 
   padding: 2rem;
   border-radius: 14px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
-  backdrop-filter: blur(2px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+  backdrop-filter: blur(3px);
+  margin-top: 2rem;
 }
