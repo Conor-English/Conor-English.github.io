@@ -21,29 +21,20 @@ In this project, I analyzed real-world datasets using **Python** and **Pandas** 
 # Key Code Example
 
 ```{python}
-# Import Libraries
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Load sample data
 df = pd.DataFrame({
     "A": [1, 2, 3, 4, 5],
     "B": [5, 4, 3, 2, 1]
 })
 
-# Basic summary
 summary = df.describe()
 summary
-```
 
-## 📊 Visualization Example
-
-```{python}
-# Create a simple line plot
 plt.plot(df["A"], df["B"], marker="o")
 plt.title("Sample Line Plot of A vs B")
 plt.xlabel("A values")
 plt.ylabel("B values")
 plt.grid(True)
 plt.show()
-```
