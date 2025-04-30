@@ -30,9 +30,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome to My Portfolio",
+    "title": "Welcome",
     "section": "",
-    "text": "&lt;h1 class=\"mb-3\"&gt;👋 Hello, I'm Conor English&lt;/h1&gt;\n&lt;p&gt;Welcome to my personal e-portfolio, built with Quarto! Explore my data science projects, resume, and learning reflections.&lt;/p&gt;\n&lt;p&gt;Use the navigation bar above or quick links below to browse:&lt;/p&gt;\n&lt;ul&gt;\n  &lt;li&gt;📁 &lt;strong&gt;&lt;a href=\"projects/index.html\"&gt;Projects&lt;/a&gt;&lt;/strong&gt; – Real-world Python & Data projects&lt;/li&gt;\n  &lt;li&gt;📄 &lt;strong&gt;&lt;a href=\"resume.html\"&gt;Resume&lt;/a&gt;&lt;/strong&gt; – Education, skills, and experience&lt;/li&gt;\n  &lt;li&gt;🧠 &lt;strong&gt;&lt;a href=\"reflection.html\"&gt;Reflection&lt;/a&gt;&lt;/strong&gt; – Learning journey and insights&lt;/li&gt;\n&lt;/ul&gt;"
+    "text": "👋 Hello, I’m Conor English\n\n\nWelcome to my personal e-portfolio, built with Quarto! Explore my data science projects, resume, and learning reflections.\n\n\nUse the navigation bar above or quick links below to browse:\n\n\n\n📁 Projects – Real-world Python & Data projects\n\n\n📄 Resume – Education, skills, and experience\n\n\n🧠 Reflection – Learning journey and insights\n\n\n\n\n\n“Success is the sum of small efforts repeated day in and day out.”"
   },
   {
     "objectID": "about.html",
