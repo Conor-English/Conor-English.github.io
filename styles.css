@@ -1,4 +1,3 @@
-/* === Button Glow on Hover === */
 .btn-primary {
   transition: all 0.3s ease;
   box-shadow: 0 0 0 transparent;
@@ -9,7 +8,6 @@
   transform: translateY(-2px);
 }
 
-/* === Card Hover Lift === */
 .card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-radius: 10px;
@@ -20,13 +18,11 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* === Navbar Hover Link === */
 .navbar a.nav-link:hover {
   color: #007bff;
   text-decoration: underline;
 }
 
-/* === Fade-in Animation === */
 .fade-in {
   animation: fadeIn 1s ease-in-out;
 }
@@ -36,16 +32,14 @@
   100% { opacity: 1; transform: translateY(0); }
 }
 
-/* === Gradient Background === */
 body {
   background: linear-gradient(to right, #e3f2fd, #ffffff);
   background-attachment: fixed;
   font-family: system-ui, sans-serif;
 }
 
-/* === Content Container Styling === */
 .container {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.9); /* Slight transparency to show background */
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
