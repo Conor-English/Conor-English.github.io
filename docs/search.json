@@ -28,11 +28,11 @@
     "text": "📊 Visualization Example\n\n\nShow the code\n# Create a simple line plot\nplt.plot(df[\"A\"], df[\"B\"], marker=\"o\")\nplt.title(\"Sample Line Plot of A vs B\")\nplt.xlabel(\"A values\")\nplt.ylabel(\"B values\")\nplt.grid(True)\nplt.show()"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "👋 Welcome",
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "🚀 My Featured Projects",
     "section": "",
-    "text": "👋 Hello, I’m Conor English\n\n\nWelcome to my personal e-portfolio, built with Quarto! Explore my data science projects, resume, and learning reflections.\n\n\n\n📁 Projects – Real-world Python & Data projects\n\n\n📄 Resume – Education, skills, and experience\n\n\n🧠 Reflection – Learning journey and insights\n\n\n\n\n\n“Success is the sum of small efforts repeated day in and day out.”"
+    "text": "📊 Data Analysis with Pandas\n\n\nSkills: Data Cleaning, Manipulation, EDA Tools: Python, Pandas\n\n\nThis project focuses on using Pandas to clean, manipulate, and analyze large datasets.\n\nView Project ➔\n\n\n\n\n\n\n\n📈 Linear Regression Modeling\n\n\nSkills: Predictive Modeling, Evaluation Tools: Python, scikit-learn\n\n\nThis project builds a linear regression model to predict outcomes and evaluate model performance.\n\nView Project ➔\n\n\n\n\n\n\n\n🌐 Web Scraping and Visualization\n\n\nSkills: Web Scraping, Data Visualization Tools: Python, BeautifulSoup, Plotly\n\n\nThis project involves scraping website data and creating interactive visualizations.\n\nView Project ➔"
   },
   {
     "objectID": "about.html",
@@ -42,11 +42,18 @@
     "text": "## 👨‍💻 About Me\nI’m a Computer Science student with a passion for: - Data Analysis & Machine Learning\n- Full-stack Web Development\n- Problem solving through Python\nI’m currently exploring ways to predict sports outcomes using real-world data."
   },
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "🚀 My Featured Projects",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "👋 Welcome",
     "section": "",
-    "text": "📊 Data Analysis with Pandas\n\n\nSkills: Data Cleaning, Manipulation, EDA Tools: Python, Pandas\n\n\nThis project focuses on using Pandas to clean, manipulate, and analyze large datasets.\n\nView Project ➔\n\n\n\n\n\n\n\n📈 Linear Regression Modeling\n\n\nSkills: Predictive Modeling, Evaluation Tools: Python, scikit-learn\n\n\nThis project builds a linear regression model to predict outcomes and evaluate model performance.\n\nView Project ➔\n\n\n\n\n\n\n\n🌐 Web Scraping and Visualization\n\n\nSkills: Web Scraping, Data Visualization Tools: Python, BeautifulSoup, Plotly\n\n\nThis project involves scraping website data and creating interactive visualizations.\n\nView Project ➔"
+    "text": "👋 Hello, I’m Conor English\n\n\nWelcome to my personal e-portfolio, built with Quarto! Explore my data science projects, resume, and learning reflections.\n\n\n\n📁 Projects – Real-world Python & Data projects\n\n\n📄 Resume – Education, skills, and experience\n\n\n🧠 Reflection – Learning journey and insights\n\n\n\n\n\n“Success is the sum of small efforts repeated day in and day out.”"
+  },
+  {
+    "objectID": "projects/project-sql.html",
+    "href": "projects/project-sql.html",
+    "title": "Project: SQL Integration Example",
+    "section": "",
+    "text": "🧠 Overview\nIn this project, I demonstrate the use of SQL alongside Python using sqlite3 and pandas.\nThis integration allows for efficient data querying and analysis directly from relational databases.\n\n\n\n🔍 Setup and SQL Queries\nimport sqlite3 import pandas as pd\n\n\nCreate an in-memory SQLite database\nconn = sqlite3.connect(“:memory:”)\n\n\nCreate table\nconn.execute(““” CREATE TABLE players ( id INTEGER PRIMARY KEY, name TEXT, goals INTEGER, assists INTEGER ); “““)\n\n\nInsert data\nconn.executemany(“INSERT INTO players (name, goals, assists) VALUES (?, ?, ?);”, [ (‘Alice’, 10, 3), (‘Bob’, 7, 5), (‘Charlie’, 2, 8)])\n\n\nQuery players with more than 5 goals\ndf = pd.read_sql_query(“SELECT * FROM players WHERE goals &gt; 5;”, conn) df"
   },
   {
     "objectID": "projects/project2.html",

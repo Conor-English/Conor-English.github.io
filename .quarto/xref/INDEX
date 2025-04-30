@@ -40,5 +40,8 @@
   },
   "resume.qmd": {
     "resume.html": "9874a15c"
+  },
+  "projects/project-sql.qmd": {
+    "project-sql.html": "a1a0f629"
   }
 }

@@ -16,9 +16,11 @@ website:
         text: About
       - href: reflection.qmd
         text: Reflection
+      - href: project-sql.qmd
+        text: SQL Example
 
 format:
   html:
     theme: cosmo
     toc: true
-    css: styles.css   
+    css: styles.css
