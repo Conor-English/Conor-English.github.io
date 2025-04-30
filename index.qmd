@@ -11,9 +11,10 @@ Welcome to my portfolio website — a showcase of my projects, skills, and journ
 
 # 🧠 Explore:
 
-- **[Projects](projects/index.qmd)**: Discover my featured coding projects and real-world data analyses.  
-- **[Resume](projects/resume.qmd)**: View my experience, education, and skills.  
-- **[Reflection](reflection.qmd)**: Read insights into my learning journey and challenges.
+- **[Projects](projects/index.html)**: Discover my featured coding projects and real-world data analyses.  
+- **[Resume](resume.html)**: View my experience, education, and skills.  
+- **[Reflection](reflection.html)**: Read insights into my learning journey and challenges.
+
 
 ---
 
