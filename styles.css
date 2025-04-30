@@ -1,3 +1,4 @@
+/* === Button Glow on Hover === */
 .btn-primary {
   transition: all 0.3s ease;
   box-shadow: 0 0 0 transparent;
@@ -8,8 +9,10 @@
   transform: translateY(-2px);
 }
 
+/* === Card Hover Lift === */
 .card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
 }
 
 .card:hover {
@@ -17,7 +20,18 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
+/* === Navbar Hover Link === */
 .navbar a.nav-link:hover {
   color: #007bff;
   text-decoration: underline;
+}
+
+/* === Fade-in Animation === */
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
 }
