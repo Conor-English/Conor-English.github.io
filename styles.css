@@ -35,3 +35,18 @@
   0% { opacity: 0; transform: translateY(20px); }
   100% { opacity: 1; transform: translateY(0); }
 }
+
+/* === Gradient Background === */
+body {
+  background: linear-gradient(to right, #e3f2fd, #ffffff);
+  background-attachment: fixed;
+  font-family: system-ui, sans-serif;
+}
+
+/* === Content Container Styling === */
+.container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
