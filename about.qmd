@@ -1,35 +1,21 @@
 ---
-title: "👤 About Me"
+title: "👋 About Me"
 format: html
 ---
 
 <div class="fade-in container mt-4">
+  <div class="card shadow-sm p-4">
 
-<div class="card shadow-sm p-4">
-<h2>👋 Hi, I'm Conor English</h2>
+  ## 👨‍💻 About Me
 
-<p>
-I'm a computer science student passionate about data science, machine learning, and web development. This portfolio showcases my journey, learning, and achievements.
-</p>
+  I'm a passionate computer science student with a focus on **data analysis**, **machine learning**, and **web development**.
 
-<hr>
+  My interests include:
+  - Exploring real-world data using Python
+  - Building predictive models using scikit-learn
+  - Creating polished and professional web projects with Quarto and GitHub
 
-<h3>🎓 Education</h3>
-<ul>
-  <li>BSc in Computer Science – Springfield University (2020–2024)</li>
-</ul>
+  I built this website to showcase my progress and journey throughout this course.
 
-<h3>🛠️ Technical Skills</h3>
-<ul>
-  <li><strong>Languages:</strong> Python, SQL, JavaScript</li>
-  <li><strong>Libraries/Tools:</strong> Pandas, NumPy, scikit-learn, Plotly, Git</li>
-</ul>
-
-<h3>🌱 Interests</h3>
-<ul>
-  <li>Data Visualization</li>
-  <li>Machine Learning</li>
-  <li>Building interactive web tools with Quarto</li>
-</ul>
-</div>
+  </div>
 </div>

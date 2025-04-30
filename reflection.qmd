@@ -4,37 +4,24 @@ format: html
 ---
 
 <div class="fade-in container mt-4">
+  <div class="card shadow-sm p-4">
 
-<div class="card shadow-sm p-4">
+  ## 🧠 Reflection
 
-<h2>🧠 Reflection</h2>
+  Creating this portfolio allowed me to:
+  - Deepen my understanding of version control with Git and GitHub
+  - Practice publishing and maintaining a live site with Quarto
+  - Apply data analysis and web development in a real-world context
 
-<p>
-Creating this portfolio was a valuable learning experience. I applied skills in data analysis, web development, and Git version control to showcase my progress.
-</p>
+  ### 🔄 Challenges
+  - Troubleshooting deployment errors (404s and path issues)
+  - Structuring content to meet grading rubric standards
+  - Balancing technical accuracy with design appeal
 
-<h3>📈 What I Learned</h3>
-<ul>
-  <li>Publishing interactive content using Quarto</li>
-  <li>Using GitHub and version control effectively</li>
-  <li>Designing with HTML/CSS to enhance presentation</li>
-</ul>
+  ### 🚀 What I Learned
+  - How to build and publish a data portfolio from scratch
+  - Importance of readable, maintainable code and documentation
+  - Value of iterative feedback and visual polish
 
-<h3>💡 Challenges</h3>
-<ul>
-  <li>Deploying with GitHub Pages and fixing 404 errors</li>
-  <li>Customizing visual style with CSS</li>
-</ul>
-
-<h3>🎯 What's Next?</h3>
-<ul>
-  <li>Refining my ML projects and adding real-world examples</li>
-  <li>Using Quarto Pub to share future technical reports</li>
-</ul>
-
-<blockquote>
-“Growth comes at the edge of your comfort zone.”
-</blockquote>
-
-</div>
+  </div>
 </div>

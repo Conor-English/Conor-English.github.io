@@ -4,53 +4,28 @@ format: html
 ---
 
 <div class="fade-in container mt-4">
+  <div class="card shadow-sm p-4">
 
-<div class="card shadow-sm p-4">
+  ## 📄 Resume
 
-<h2>📄 Resume</h2>
+  **Download my full CV:**  
+  [![Download CV](https://img.shields.io/badge/Download-My%20CV-blue?style=for-the-badge)](CV.pdf)
 
-<p><strong>Download my full CV:</strong></p>
-<a href="CV.pdf" class="btn btn-primary mb-4" download>Download PDF</a>
+  ---
 
-<hr>
+  ### 🎓 Education
+  - BSc Computer Science — Springfield University (2020–2024)
 
-<h3>🎓 Education</h3>
-<ul>
-  <li>BSc Computer Science – Springfield University (2020–2024)</li>
-</ul>
+  ### 💼 Experience
+  - **Data Science Intern — Apex Analytics**  
+    Built ML models, automated pipelines.
 
-<h3>🛠 Skills</h3>
-<ul>
-  <li><strong>Programming:</strong> Python, JavaScript, SQL</li>
-  <li><strong>Data Analysis:</strong> Pandas, NumPy, Plotly</li>
-  <li><strong>Web Development:</strong> HTML5, CSS3, Quarto</li>
-  <li><strong>Tools:</strong> Git, GitHub, Jupyter Notebook, VS Code</li>
-</ul>
+  ### 🛠 Skills
+  - Python, Pandas, SQL, HTML, CSS, Git
 
-<h3>💼 Experience</h3>
-<p><strong>Data Science Intern</strong> – Apex Analytics (Summer 2023)</p>
-<ul>
-  <li>Built ML models to forecast sales</li>
-  <li>Automated data collection pipelines using Python</li>
-</ul>
+  ### 📬 Contact
+  - Email: example@email.com  
+  - GitHub: github.com/Conor-English
 
-<h3>📁 Projects</h3>
-<ul>
-  <li>Portfolio website using Quarto</li>
-  <li>Predictive analysis of environmental trends</li>
-</ul>
-
-<h3>📜 Certifications</h3>
-<ul>
-  <li>Python for Data Science – Coursera</li>
-  <li>Introduction to SQL – Udemy</li>
-</ul>
-
-<h3>📬 Contact</h3>
-<ul>
-  <li><strong>Email:</strong> example.email@domain.com</li>
-  <li><strong>GitHub:</strong> github.com/Conor-English</li>
-</ul>
-
-</div>
+  </div>
 </div>

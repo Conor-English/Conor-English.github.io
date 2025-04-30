@@ -4,7 +4,7 @@
     "href": "resume.html",
     "title": "📄 Resume",
     "section": "",
-    "text": "📄 Resume\n\n\nDownload my full CV:\n\nDownload PDF\n\n\n🎓 Education\n\n\n\nBSc Computer Science – Springfield University (2020–2024)\n\n\n\n🛠 Skills\n\n\n\nProgramming: Python, JavaScript, SQL\n\n\nData Analysis: Pandas, NumPy, Plotly\n\n\nWeb Development: HTML5, CSS3, Quarto\n\n\nTools: Git, GitHub, Jupyter Notebook, VS Code\n\n\n\n💼 Experience\n\n\nData Science Intern – Apex Analytics (Summer 2023)\n\n\n\nBuilt ML models to forecast sales\n\n\nAutomated data collection pipelines using Python\n\n\n\n📁 Projects\n\n\n\nPortfolio website using Quarto\n\n\nPredictive analysis of environmental trends\n\n\n\n📜 Certifications\n\n\n\nPython for Data Science – Coursera\n\n\nIntroduction to SQL – Udemy\n\n\n\n📬 Contact\n\n\n\nEmail: example.email@domain.com\n\n\nGitHub: github.com/Conor-English"
+    "text": "## 📄 Resume\nDownload my full CV:\n\n\n### 🎓 Education - BSc Computer Science — Springfield University (2020–2024)\n### 💼 Experience - Data Science Intern — Apex Analytics\nBuilt ML models, automated pipelines.\n### 🛠 Skills - Python, Pandas, SQL, HTML, CSS, Git\n### 📬 Contact - Email: example@email.com\n- GitHub: github.com/Conor-English"
   },
   {
     "objectID": "projects/project3.html",
@@ -37,9 +37,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "👤 About Me",
+    "title": "👋 About Me",
     "section": "",
-    "text": "👋 Hi, I’m Conor English\n\n\nI’m a computer science student passionate about data science, machine learning, and web development. This portfolio showcases my journey, learning, and achievements.\n\n\n\n🎓 Education\n\n\n\nBSc in Computer Science – Springfield University (2020–2024)\n\n\n\n🛠️ Technical Skills\n\n\n\nLanguages: Python, SQL, JavaScript\n\n\nLibraries/Tools: Pandas, NumPy, scikit-learn, Plotly, Git\n\n\n\n🌱 Interests\n\n\n\nData Visualization\n\n\nMachine Learning\n\n\nBuilding interactive web tools with Quarto"
+    "text": "## 👨‍💻 About Me\nI’m a passionate computer science student with a focus on data analysis, machine learning, and web development.\nMy interests include: - Exploring real-world data using Python - Building predictive models using scikit-learn - Creating polished and professional web projects with Quarto and GitHub\nI built this website to showcase my progress and journey throughout this course."
   },
   {
     "objectID": "projects/index.html",
@@ -60,6 +60,6 @@
     "href": "reflection.html",
     "title": "🧠 Reflection",
     "section": "",
-    "text": "🧠 Reflection\n\n\nCreating this portfolio was a valuable learning experience. I applied skills in data analysis, web development, and Git version control to showcase my progress.\n\n\n📈 What I Learned\n\n\n\nPublishing interactive content using Quarto\n\n\nUsing GitHub and version control effectively\n\n\nDesigning with HTML/CSS to enhance presentation\n\n\n\n💡 Challenges\n\n\n\nDeploying with GitHub Pages and fixing 404 errors\n\n\nCustomizing visual style with CSS\n\n\n\n🎯 What’s Next?\n\n\n\nRefining my ML projects and adding real-world examples\n\n\nUsing Quarto Pub to share future technical reports\n\n\n\n“Growth comes at the edge of your comfort zone.”"
+    "text": "## 🧠 Reflection\nCreating this portfolio allowed me to: - Deepen my understanding of version control with Git and GitHub - Practice publishing and maintaining a live site with Quarto - Apply data analysis and web development in a real-world context\n### 🔄 Challenges - Troubleshooting deployment errors (404s and path issues) - Structuring content to meet grading rubric standards - Balancing technical accuracy with design appeal\n### 🚀 What I Learned - How to build and publish a data portfolio from scratch - Importance of readable, maintainable code and documentation - Value of iterative feedback and visual polish"
   }
 ]
