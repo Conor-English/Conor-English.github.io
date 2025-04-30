@@ -1,31 +1,21 @@
 ---
-title: "About"
+title: "📘 About Me"
 format: html
 ---
 
-# 👤 About Me
+<div class="container fade-in" style="max-width: 900px; margin: auto;">
+  <div class="card shadow p-4">
 
-Hello! I'm Conor, a passionate learner in the fields of **data science**, **analytics**, and **web development**.
+  <h2>📘 About Me</h2>
+  <p>Hi! I'm Conor English, a computer science student passionate about data analysis, modeling, and coding meaningful tools.</p>
 
-I enjoy exploring new technologies, analyzing data, and building projects that solve real-world problems.
+  <p>I’ve built this portfolio to highlight my journey and share the technical work I’ve completed in Python, Quarto, and machine learning tools.</p>
 
----
+  <ul>
+    <li>🎯 Learning: Python, data science, machine learning, visualization</li>
+    <li>🏫 Currently Studying: BSc Computer Science</li>
+    <li>🌱 Currently improving: Portfolio design, data storytelling</li>
+  </ul>
 
-# 🛠️ Skills Overview
-
-- **Programming Languages:** Python, SQL, JavaScript
-- **Libraries & Frameworks:** Pandas, NumPy, Matplotlib, Scikit-learn
-- **Tools:** Git, GitHub, VS Code, Jupyter Notebook
-- **Web Development:** HTML5, CSS3, Quarto
-
----
-
-# 🎯 Goals
-
-- Continue developing interactive web projects
-- Deepen machine learning expertise
-- Share knowledge through teaching and tutorials
-
----
-
-Thanks for visiting my website! 🚀
+  </div>
+</div>

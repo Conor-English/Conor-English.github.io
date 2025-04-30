@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Welcome – Conor-English.github.io</title>
+<title>👋 Welcome – Conor-English.github.io</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -115,23 +115,23 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Welcome</h1>
+<h1 class="title">👋 Welcome</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta">
 
     
   
@@ -143,16 +143,30 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="container mt-5" style="max-width: 900px;">
-<div class="card shadow p-4 animate__animated animate__fadeIn">
+<style>
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.card {
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+</style>
+<div class="container fade-in" style="max-width: 900px; margin: auto;">
+<div class="card shadow p-4">
 <h1 class="mb-3">
 👋 Hello, I’m Conor English
 </h1>
 <p>
 Welcome to my personal e-portfolio, built with Quarto! Explore my data science projects, resume, and learning reflections.
-</p>
-<p>
-Use the navigation bar above or quick links below to browse:
 </p>
 <ul>
 <li>

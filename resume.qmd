@@ -3,37 +3,43 @@ title: "📄 Resume"
 format: html
 ---
 
-<div class="container mt-5" style="max-width: 900px;">
-  <div class="card shadow p-4 animate__animated animate__fadeIn">
+<div class="container fade-in" style="max-width: 900px; margin: auto;">
+  <div class="card shadow p-4">
 
-  <h2>📥 Download CV</h2>
-  <a href="CV.pdf" class="btn btn-primary mb-4">Download PDF</a>
+  <h2>📄 Resume</h2>
 
-  <h2>🎓 Education</h2>
-  <p><strong>BSc Computer Science</strong> — Springfield University, 2020–2024</p>
+  <p><strong>Download PDF:</strong><br>
+  <a href="CV.pdf" class="btn btn-outline-primary" download>📥 Download My CV</a></p>
 
-  <h2>💼 Experience</h2>
-  <p><strong>Data Science Intern</strong> — Apex Analytics, Summer 2023</p>
-  <ul>
-    <li>Built ML models to forecast sales</li>
-    <li>Automated pipelines using Python</li>
-  </ul>
+  <h3>🎓 Education</h3>
+  <p><strong>BSc in Computer Science</strong><br>Springfield University, 2020–2024</p>
 
-  <h2>🛠 Skills</h2>
+  <h3>🛠 Skills</h3>
   <ul>
     <li>Programming: Python, JavaScript, SQL</li>
-    <li>Analysis: Pandas, NumPy, Plotly</li>
+    <li>Data Analysis: Pandas, NumPy, Plotly</li>
+    <li>Web Dev: HTML5, CSS3, Quarto</li>
     <li>Tools: Git, GitHub, Jupyter, VS Code</li>
   </ul>
 
-  <h2>📜 Certifications</h2>
+  <h3>🧠 Experience</h3>
+  <p><strong>Data Science Intern</strong><br>Apex Analytics, Summer 2023</p>
   <ul>
-    <li>Python for Data Science (Coursera)</li>
-    <li>SQL Foundations (Udemy)</li>
+    <li>Built machine learning models to forecast sales</li>
+    <li>Automated data pipelines using Python</li>
   </ul>
 
-  <h2>📬 Contact</h2>
-  <p>Email: example@email.com | GitHub: github.com/Conor-English</p>
+  <h3>🏗 Personal Projects</h3>
+  <ul>
+    <li>Interactive portfolio site (this one!)</li>
+    <li>Data analysis on environmental impact trends</li>
+  </ul>
+
+  <h3>📜 Certifications</h3>
+  <ul>
+    <li>Python for Data Science — Coursera</li>
+    <li>Intro to SQL — Udemy</li>
+  </ul>
 
   </div>
 </div>

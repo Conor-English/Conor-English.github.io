@@ -3,21 +3,29 @@ title: "🧠 Reflection"
 format: html
 ---
 
-<div class="container mt-5" style="max-width: 900px;">
-  <div class="card shadow p-4 animate__animated animate__fadeIn">
+<div class="container fade-in" style="max-width: 900px; margin: auto;">
+  <div class="card shadow p-4">
 
-  <h2>📘 What I Learned</h2>
-  <p>This portfolio showcases my growth in Python, web development, and version control using Quarto and GitHub Pages.</p>
+  <h2>🧠 Reflection</h2>
 
-  <h2>🛠 Challenges I Faced</h2>
+  <p>This space is dedicated to my personal learning journey and critical reflections throughout the project.</p>
+
+  <h3>📅 Challenges Faced</h3>
   <ul>
-    <li>Deploying a site publicly via GitHub Pages</li>
-    <li>Using Quarto and YAML configuration</li>
-    <li>Styling content with HTML/CSS</li>
+    <li>Understanding real-world data complexity</li>
+    <li>Improving Quarto deployment and build tools</li>
+    <li>Balancing design polish with content clarity</li>
   </ul>
 
-  <h2>🌱 Growth</h2>
-  <p>Since starting this course, I’ve gained confidence in turning code into clean, visual deliverables — like this site!</p>
+  <h3>🎯 Skills Gained</h3>
+  <ul>
+    <li>Version control with GitHub</li>
+    <li>ML model development using scikit-learn and XGBoost</li>
+    <li>Creating interactive and professional web content</li>
+  </ul>
+
+  <h3>🔍 What I'd Do Differently</h3>
+  <p>Spend more time on visual polish earlier, and create visuals during model development for storytelling.</p>
 
   </div>
 </div>
