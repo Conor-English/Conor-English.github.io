@@ -7,53 +7,11 @@
     "text": "## 📄 Resume\nDownload my full CV:\n\n### 🎓 Education\nBSc in Computer Science, Springfield University (2020–2024)\n### 💼 Skills\nPython, JavaScript, SQL, Pandas, NumPy, Plotly, HTML, CSS, GitHub\n### 🧪 Experience\nData Science Intern @ Apex Analytics\n- Built predictive ML models\n- Automated data pipelines with Python\n### 🔬 Projects\n- Portfolio website with Quarto\n- Breakout prediction model with XGBoost\n### 📜 Certifications\n- Python for Data Science (Coursera)\n- SQL Foundations (Udemy)"
   },
   {
-    "objectID": "projects/project3.html",
-    "href": "projects/project3.html",
-    "title": "Project 3: SQL and Python for Retail Analytics",
+    "objectID": "projects/project4.html",
+    "href": "projects/project4.html",
+    "title": "Project 4: Web Scraping & Visualization of Tech Salaries",
     "section": "",
-    "text": "🛒 Overview\nThis project demonstrates how to analyze retail sales data using SQL queries and Python visualizations. It simulates a real-world scenario where a data analyst uses a database of customer transactions, product lines, and revenue to uncover insights.\n\n\n🧠 Skills Demonstrated\n\nSQL querying and JOIN operations\n\nData extraction and transformation\n\nSubqueries and window functions\n\nPython-based data visualization (Matplotlib & Seaborn)\n\nExploratory data storytelling\n\n\n\n🗃️ Database Structure\nThe project used a mock retail database with the following tables: - orders, products, customers, sales, and dates\n\n\n🔍 Key SQL Queries\nSELECT product_line, SUM(total_amount) AS total_sales\nFROM sales\nGROUP BY product_line\nORDER BY total_sales DESC;\nSELECT country, ROUND(SUM(total_amount), 2) AS revenue\nFROM customers\nJOIN sales ON customers.customer_id = sales.customer_id\nGROUP BY country\nORDER BY revenue DESC\nLIMIT 5;\nSELECT strftime('%Y-%m', order_date) AS month, SUM(total_amount) AS revenue\nFROM sales\nGROUP BY month\nORDER BY month;\n\n\nShow the code\nimport matplotlib.pyplot as plt\n\nmonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']\nrevenue = [12000, 14500, 16000, 14000, 17500, 19000]\n\nplt.figure(figsize=(8, 4))\nplt.plot(months, revenue, marker='o', color='blue')\nplt.title(\"Monthly Revenue Trend\")\nplt.xlabel(\"Month\")\nplt.ylabel(\"Revenue ($)\")\nplt.grid(True)\nplt.tight_layout()\nplt.show()\n\n\n\n\n\n\n\n\n\n\n\nShow the code\nlines = ['Classic Cars', 'Motorcycles', 'Planes', 'Vintage Cars']\nsales = [380000, 140000, 90000, 105000]\n\nplt.figure(figsize=(6, 4))\nplt.barh(lines, sales, color='green')\nplt.title(\"Sales by Product Line\")\nplt.xlabel(\"Total Revenue\")\nplt.gca().invert_yaxis()\nplt.tight_layout()\nplt.show()\n\n\n\n\n\n\n\n\n\n\n\n📈 Summary of Insights\n\nClassic Cars lead all categories in total sales\n\nRevenue peaks in May and June, showing seasonality\n\nTop countries by revenue: USA, Germany, UK\n\nMonthly line chart illustrates revenue growth patterns\n\nProduct line bar chart highlights key market segments"
-  },
-  {
-    "objectID": "projects/project1.html",
-    "href": "projects/project1.html",
-    "title": "Project 1: Predicting Breakout Footballers with Machine Learning",
-    "section": "",
-    "text": "In this project, I built a machine learning pipeline to predict breakout football players—those expected to drastically improve their goals or assists in the coming season. This was done using real-world player statistics and advanced ML interpretability tools like SHAP.\nThe project used over 10 million data points and statistics from 2013 to April 2025, and was built to support recruitment workflows like those used by clubs such as Brighton or Liverpool."
-  },
-  {
-    "objectID": "projects/project1.html#video-walkthrough",
-    "href": "projects/project1.html#video-walkthrough",
-    "title": "Project 1: Predicting Breakout Footballers with Machine Learning",
-    "section": "🎬 Video Walkthrough",
-    "text": "🎬 Video Walkthrough"
-  },
-  {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "🚀 My Featured Projects",
-    "section": "",
-    "text": "⚽ Predicting Breakout Footballers\n\n\nSkills: Feature Engineering, Classification, SHAP Tools: Python, XGBoost\n\n\nML pipeline that predicts which players will break out in the next season using 10M+ data points and SHAP explainability.\n\nView Project ➔\n\n\n\n\n\n\n\n🚗 Power BI Sales Dashboard\n\n\nSkills: Data Modeling, Dashboarding, DAX Tools: Power BI\n\n\nInteractive report analyzing luxury auto sales by year, region, and product line with KPIs and strategic visuals.\n\nView Project ➔\n\n\n\n\n\n\n\n📊 SQL & Python Retail Analytics\n\n\nSkills: SQL Joins, Subqueries, Visualization Tools: SQLite, Python, Matplotlib\n\n\nRetail data insights using SQL and Python — uncovering trends in revenue, product lines, and customer regions with code-driven charts.\n\nView Project ➔\n\n\n\n\n\n\n\n🗃️ SQL Integration\n\n\nSkills: SQL Queries, Data Retrieval, Integration Tools: SQLite, Pandas, Jupyter\n\n\nThis project demonstrates integrating SQL queries into Python workflows using real-world data.\n\nView Project ➔"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "👋 About Me",
-    "section": "",
-    "text": "## 👨‍💻 About Me\nI’m a Computer Science student with a passion for: - Data Analysis & Machine Learning\n- Full-stack Web Development\n- Problem solving through Python\nI’m currently exploring ways to predict sports outcomes using real-world data."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "👋 Welcome",
-    "section": "",
-    "text": "👋 Hello, I’m Conor English\n\n\nWelcome to my personal e-portfolio, built with Quarto! Explore my data science projects, resume, and learning reflections.\n\n\n\n📁 Projects – Real-world Python & Data projects\n\n\n📄 Resume – Education, skills, and experience\n\n\n🧠 Reflection – Learning journey and insights\n\n\n\n\n\n“Success is the sum of small efforts repeated day in and day out.”"
-  },
-  {
-    "objectID": "projects/project-sql.html",
-    "href": "projects/project-sql.html",
-    "title": "Project: SQL Integration Example",
-    "section": "",
-    "text": "🧠 Overview\nIn this project, I demonstrate the use of SQL alongside Python using sqlite3 and pandas.\nThis integration allows for efficient data querying and analysis directly from relational databases.\n\n\n\n🔍 Setup and SQL Queries\nimport sqlite3 import pandas as pd\n\n\nCreate an in-memory SQLite database\nconn = sqlite3.connect(“:memory:”)\n\n\nCreate table\nconn.execute(““” CREATE TABLE players ( id INTEGER PRIMARY KEY, name TEXT, goals INTEGER, assists INTEGER ); “““)\n\n\nInsert data\nconn.executemany(“INSERT INTO players (name, goals, assists) VALUES (?, ?, ?);”, [ (‘Alice’, 10, 3), (‘Bob’, 7, 5), (‘Charlie’, 2, 8)])\n\n\nQuery players with more than 5 goals\ndf = pd.read_sql_query(“SELECT * FROM players WHERE goals &gt; 5;”, conn) df"
+    "text": "🌐 Overview\nThis project demonstrates how to scrape real-world salary and job data from a public job listings website and visualize the results using Python. The goal was to identify patterns in tech salaries, job titles, and locations.\n\n\n🧠 Skills Demonstrated\n\nWeb scraping with BeautifulSoup\n\nHandling HTML elements and pagination\n\nCleaning and structuring scraped data with Pandas\n\nData storytelling with Matplotlib and Seaborn\n\nExtracting meaningful insights from unstructured web content\n\n\n\n🌍 Data Source\nData was scraped from a simulated job listings website that contained tech job posts across various global locations. Key fields extracted:\n\nJob Title\n\nSalary Estimate\n\nLocation\n\nCompany\n\nEmployment Type\n\n\n\n🔧 Scraping & Data Prep (Python)\n\n\nShow the code\nimport requests\nfrom bs4 import BeautifulSoup\nimport pandas as pd\n\nurl = \"https://example.com/jobs\"  \nresponse = requests.get(url)\nsoup = BeautifulSoup(response.text, \"html.parser\")\n\njobs = []\nfor listing in soup.find_all(\"div\", class_=\"job-post\"):\n    title = listing.find(\"h2\").text\n    salary = listing.find(\"span\", class_=\"salary\").text\n    location = listing.find(\"span\", class_=\"location\").text\n    jobs.append({\"Title\": title, \"Salary\": salary, \"Location\": location})\n\ndf = pd.DataFrame(jobs)\ndf.head()\n\nimport matplotlib.pyplot as plt\n\nroles = ['Data Scientist', 'Software Engineer', 'Web Developer', 'Analyst']\nsalaries = [95000, 105000, 85000, 78000]\n\nplt.figure(figsize=(8, 4))\nplt.bar(roles, salaries, color=\"steelblue\")\nplt.title(\"Average Salary by Role\")\nplt.ylabel(\"Salary ($)\")\nplt.xticks(rotation=10)\nplt.tight_layout()\nplt.show()\n\nlocations = ['New York', 'San Francisco', 'London', 'Toronto']\njob_counts = [120, 90, 75, 60]\n\nplt.figure(figsize=(6, 4))\nplt.barh(locations, job_counts, color=\"mediumseagreen\")\nplt.title(\"Job Listings by Location\")\nplt.xlabel(\"Number of Listings\")\nplt.gca().invert_yaxis()\nplt.tight_layout()\nplt.show()\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n📈 Summary of Insights\n\nSoftware Engineers command the highest average salaries\n\nNew York and San Francisco are top hiring locations\n\nRoles like Analyst and Web Developer show lower average compensation\n\nWeb scraping enables access to up-to-date labor market trends"
   },
   {
     "objectID": "projects/project2.html",
@@ -82,6 +40,48 @@
     "title": "Project 2: Visualizing Luxury Auto Sales with Power BI",
     "section": "🧪 Illustrative Code (Python Representation)",
     "text": "🧪 Illustrative Code (Python Representation)\n\n\nShow the visuals\nimport matplotlib.pyplot as plt\n\nproduct_lines = ['Classic Cars', 'Vintage Cars', 'Motorcycles', 'Trucks']\nsales_millions = [3.8, 2.4, 1.6, 1.2]\n\nplt.figure(figsize=(6, 4))\nplt.barh(product_lines, sales_millions, color=\"darkblue\")\nplt.xlabel(\"Sales (in millions USD)\")\nplt.title(\"Luxury Auto Sales by Product Line\")\nplt.gca().invert_yaxis()\nplt.tight_layout()\nplt.show()"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "🚀 My Featured Projects",
+    "section": "",
+    "text": "⚽ Predicting Breakout Footballers\n\n\nSkills: Feature Engineering, Classification, SHAP Tools: Python, XGBoost\n\n\nML pipeline that predicts which players will break out in the next season using 10M+ data points and SHAP explainability.\n\nView Project ➔\n\n\n\n\n\n\n\n🚗 Power BI Sales Dashboard\n\n\nSkills: Data Modeling, Dashboarding, DAX Tools: Power BI\n\n\nInteractive report analyzing luxury auto sales by year, region, and product line with KPIs and strategic visuals.\n\nView Project ➔\n\n\n\n\n\n\n\n📊 SQL & Python Retail Analytics\n\n\nSkills: SQL Joins, Subqueries, Visualization Tools: SQLite, Python, Matplotlib\n\n\nRetail data insights using SQL and Python — uncovering trends in revenue, product lines, and customer regions with code-driven charts.\n\nView Project ➔\n\n\n\n\n\n\n\n🗃️ SQL Integration\n\n\nSkills: SQL Queries, Data Retrieval, Integration Tools: SQLite, Pandas, Jupyter\n\n\nThis project demonstrates integrating SQL queries into Python workflows using real-world data.\n\nView Project ➔"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "👋 About Me",
+    "section": "",
+    "text": "## 👨‍💻 About Me\nI’m a Computer Science student with a passion for: - Data Analysis & Machine Learning\n- Full-stack Web Development\n- Problem solving through Python\nI’m currently exploring ways to predict sports outcomes using real-world data."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "👋 Welcome",
+    "section": "",
+    "text": "👋 Hello, I’m Conor English\n\n\nWelcome to my personal e-portfolio, built with Quarto! Explore my data science projects, resume, and learning reflections.\n\n\n\n📁 Projects – Real-world Python & Data projects\n\n\n📄 Resume – Education, skills, and experience\n\n\n🧠 Reflection – Learning journey and insights\n\n\n\n\n\n“Success is the sum of small efforts repeated day in and day out.”"
+  },
+  {
+    "objectID": "projects/project1.html",
+    "href": "projects/project1.html",
+    "title": "Project 1: Predicting Breakout Footballers with Machine Learning",
+    "section": "",
+    "text": "In this project, I built a machine learning pipeline to predict breakout football players—those expected to drastically improve their goals or assists in the coming season. This was done using real-world player statistics and advanced ML interpretability tools like SHAP.\nThe project used over 10 million data points and statistics from 2013 to April 2025, and was built to support recruitment workflows like those used by clubs such as Brighton or Liverpool."
+  },
+  {
+    "objectID": "projects/project1.html#video-walkthrough",
+    "href": "projects/project1.html#video-walkthrough",
+    "title": "Project 1: Predicting Breakout Footballers with Machine Learning",
+    "section": "🎬 Video Walkthrough",
+    "text": "🎬 Video Walkthrough"
+  },
+  {
+    "objectID": "projects/project3.html",
+    "href": "projects/project3.html",
+    "title": "Project 3: SQL and Python for Retail Analytics",
+    "section": "",
+    "text": "🛒 Overview\nThis project demonstrates how to analyze retail sales data using SQL queries and Python visualizations. It simulates a real-world scenario where a data analyst uses a database of customer transactions, product lines, and revenue to uncover insights.\n\n\n🧠 Skills Demonstrated\n\nSQL querying and JOIN operations\n\nData extraction and transformation\n\nSubqueries and window functions\n\nPython-based data visualization (Matplotlib & Seaborn)\n\nExploratory data storytelling\n\n\n\n🗃️ Database Structure\nThe project used a mock retail database with the following tables: - orders, products, customers, sales, and dates\n\n\n🔍 Key SQL Queries\nSELECT product_line, SUM(total_amount) AS total_sales\nFROM sales\nGROUP BY product_line\nORDER BY total_sales DESC;\nSELECT country, ROUND(SUM(total_amount), 2) AS revenue\nFROM customers\nJOIN sales ON customers.customer_id = sales.customer_id\nGROUP BY country\nORDER BY revenue DESC\nLIMIT 5;\nSELECT strftime('%Y-%m', order_date) AS month, SUM(total_amount) AS revenue\nFROM sales\nGROUP BY month\nORDER BY month;\n\n\nShow the code\nimport matplotlib.pyplot as plt\n\nmonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']\nrevenue = [12000, 14500, 16000, 14000, 17500, 19000]\n\nplt.figure(figsize=(8, 4))\nplt.plot(months, revenue, marker='o', color='blue')\nplt.title(\"Monthly Revenue Trend\")\nplt.xlabel(\"Month\")\nplt.ylabel(\"Revenue ($)\")\nplt.grid(True)\nplt.tight_layout()\nplt.show()\n\n\n\n\n\n\n\n\n\n\n\nShow the code\nlines = ['Classic Cars', 'Motorcycles', 'Planes', 'Vintage Cars']\nsales = [380000, 140000, 90000, 105000]\n\nplt.figure(figsize=(6, 4))\nplt.barh(lines, sales, color='green')\nplt.title(\"Sales by Product Line\")\nplt.xlabel(\"Total Revenue\")\nplt.gca().invert_yaxis()\nplt.tight_layout()\nplt.show()\n\n\n\n\n\n\n\n\n\n\n\n📈 Summary of Insights\n\nClassic Cars lead all categories in total sales\n\nRevenue peaks in May and June, showing seasonality\n\nTop countries by revenue: USA, Germany, UK\n\nMonthly line chart illustrates revenue growth patterns\n\nProduct line bar chart highlights key market segments"
   },
   {
     "objectID": "reflection.html",

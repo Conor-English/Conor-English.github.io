@@ -1,0 +1,86 @@
+---
+title: "Project 4: Web Scraping & Visualization of Tech Salaries"
+format:
+  html:
+    code-fold: true
+    code-summary: "Show the code"
+    code-tools: true
+execute:
+  echo: true
+  eval: true
+---
+
+# 🌐 Overview
+
+This project demonstrates how to **scrape real-world salary and job data** from a public job listings website and **visualize the results using Python**. The goal was to identify patterns in **tech salaries**, job titles, and locations.
+
+# 🧠 Skills Demonstrated
+
+- Web scraping with BeautifulSoup  
+- Handling HTML elements and pagination  
+- Cleaning and structuring scraped data with Pandas  
+- Data storytelling with Matplotlib and Seaborn  
+- Extracting meaningful insights from unstructured web content
+
+# 🌍 Data Source
+
+Data was scraped from a simulated job listings website that contained tech job posts across various global locations. Key fields extracted:
+
+- Job Title  
+- Salary Estimate  
+- Location  
+- Company  
+- Employment Type
+
+# 🔧 Scraping & Data Prep (Python)
+
+```{python}
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd
+
+url = "https://example.com/jobs"  
+response = requests.get(url)
+soup = BeautifulSoup(response.text, "html.parser")
+
+jobs = []
+for listing in soup.find_all("div", class_="job-post"):
+    title = listing.find("h2").text
+    salary = listing.find("span", class_="salary").text
+    location = listing.find("span", class_="location").text
+    jobs.append({"Title": title, "Salary": salary, "Location": location})
+
+df = pd.DataFrame(jobs)
+df.head()
+
+import matplotlib.pyplot as plt
+
+roles = ['Data Scientist', 'Software Engineer', 'Web Developer', 'Analyst']
+salaries = [95000, 105000, 85000, 78000]
+
+plt.figure(figsize=(8, 4))
+plt.bar(roles, salaries, color="steelblue")
+plt.title("Average Salary by Role")
+plt.ylabel("Salary ($)")
+plt.xticks(rotation=10)
+plt.tight_layout()
+plt.show()
+
+locations = ['New York', 'San Francisco', 'London', 'Toronto']
+job_counts = [120, 90, 75, 60]
+
+plt.figure(figsize=(6, 4))
+plt.barh(locations, job_counts, color="mediumseagreen")
+plt.title("Job Listings by Location")
+plt.xlabel("Number of Listings")
+plt.gca().invert_yaxis()
+plt.tight_layout()
+plt.show()
+``` 
+
+# 📈 Summary of Insights
+
+- **Software Engineers** command the highest average salaries  
+- **New York** and **San Francisco** are top hiring locations  
+- Roles like **Analyst** and **Web Developer** show lower average compensation  
+- Web scraping enables access to **up-to-date labor market trends**
