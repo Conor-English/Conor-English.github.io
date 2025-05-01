@@ -168,7 +168,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#download-files" id="toc-download-files" class="nav-link" data-scroll-target="#download-files">📦 Download Files</a></li>
   <li><a href="#illustrative-code-python-representation" id="toc-illustrative-code-python-representation" class="nav-link" data-scroll-target="#illustrative-code-python-representation">🧪 Illustrative Code (Python Representation)</a></li>
-  <li><a href="#simulated-sales-by-category" id="toc-simulated-sales-by-category" class="nav-link" data-scroll-target="#simulated-sales-by-category">Simulated sales by category</a></li>
   </ul>
 </nav>
     </div>
@@ -253,9 +252,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="illustrative-code-python-representation" class="level1">
 <h1>🧪 Illustrative Code (Python Representation)</h1>
 <p>import matplotlib.pyplot as plt</p>
-</section>
-<section id="simulated-sales-by-category" class="level1">
-<h1>Simulated sales by category</h1>
 <p>product_lines = [‘Classic Cars’, ‘Vintage Cars’, ‘Motorcycles’, ‘Trucks’] sales_millions = [3.8, 2.4, 1.6, 1.2]</p>
 <p>plt.figure(figsize=(6, 4)) plt.barh(product_lines, sales_millions, color=“darkblue”) plt.xlabel(“Sales (in millions USD)”) plt.title(“Luxury Auto Sales by Product Line”) plt.gca().invert_yaxis() plt.tight_layout() plt.show()</p>
 
@@ -785,17 +781,16 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="in">```{python}</span></span>
 <span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulated sales by category</span></span>
-<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>product_lines <span class="op">=</span> [<span class="st">'Classic Cars'</span>, <span class="st">'Vintage Cars'</span>, <span class="st">'Motorcycles'</span>, <span class="st">'Trucks'</span>]</span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>sales_millions <span class="op">=</span> [<span class="fl">3.8</span>, <span class="fl">2.4</span>, <span class="fl">1.6</span>, <span class="fl">1.2</span>]</span>
-<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">4</span>))</span>
-<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>plt.barh(product_lines, sales_millions, color<span class="op">=</span><span class="st">"darkblue"</span>)</span>
-<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Sales (in millions USD)"</span>)</span>
-<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Luxury Auto Sales by Product Line"</span>)</span>
-<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>plt.gca().invert_yaxis()</span>
-<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
-<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>product_lines <span class="op">=</span> [<span class="st">'Classic Cars'</span>, <span class="st">'Vintage Cars'</span>, <span class="st">'Motorcycles'</span>, <span class="st">'Trucks'</span>]</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>sales_millions <span class="op">=</span> [<span class="fl">3.8</span>, <span class="fl">2.4</span>, <span class="fl">1.6</span>, <span class="fl">1.2</span>]</span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">4</span>))</span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>plt.barh(product_lines, sales_millions, color<span class="op">=</span><span class="st">"darkblue"</span>)</span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Sales (in millions USD)"</span>)</span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Luxury Auto Sales by Product Line"</span>)</span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>plt.gca().invert_yaxis()</span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
 </code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->

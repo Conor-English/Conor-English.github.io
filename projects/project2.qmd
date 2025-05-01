@@ -50,7 +50,6 @@ The dataset includes sales transactions from multiple regions and product lines.
 ```{python}
 import matplotlib.pyplot as plt
 
-# Simulated sales by category
 product_lines = ['Classic Cars', 'Vintage Cars', 'Motorcycles', 'Trucks']
 sales_millions = [3.8, 2.4, 1.6, 1.2]
 
