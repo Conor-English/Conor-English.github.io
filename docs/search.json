@@ -18,7 +18,14 @@
     "href": "projects/project1.html",
     "title": "Project 1: Data Analysis with Pandas",
     "section": "",
-    "text": "Overview\nIn this project, I analyzed real-world datasets using Python and Pandas to extract meaningful insights.\n\n\nSkills Demonstrated\n\nData Cleaning\nData Manipulation\nExploratory Data Analysis (EDA)\n\n\n\nKey Code Example\nimport pandas as pd import matplotlib.pyplot as plt\ndf = pd.DataFrame({ “A”: [1, 2, 3, 4, 5], “B”: [5, 4, 3, 2, 1] })\nsummary = df.describe() summary\nplt.plot(df[“A”], df[“B”], marker=“o”) plt.title(“Sample Line Plot of A vs B”) plt.xlabel(“A values”) plt.ylabel(“B values”) plt.grid(True) plt.show()"
+    "text": "In this project, I analyzed real-world datasets using Python and Pandas to extract meaningful insights."
+  },
+  {
+    "objectID": "projects/project1.html#video-walkthrough",
+    "href": "projects/project1.html#video-walkthrough",
+    "title": "Project 1: Data Analysis with Pandas",
+    "section": "🎬 Video Walkthrough",
+    "text": "🎬 Video Walkthrough"
   },
   {
     "objectID": "projects/index.html",
