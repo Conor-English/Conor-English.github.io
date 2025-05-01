@@ -33,13 +33,14 @@ The dataset includes sales transactions from multiple regions and product lines.
 
 # 📊 Highlight Visuals
 
-## 🗓️ Sales Per Year
+## 📅 Sales Per Year
 
 ![Sales Per Year](../images/sales_per_year.png)
 
 ## 🏷️ Sales Per Product Line
 
 ![Sales Per Product Line](../images/sales_per_product_line.png)
+
 
 # 📥 Download Files
 
