@@ -16,14 +16,14 @@
   {
     "objectID": "projects/project1.html",
     "href": "projects/project1.html",
-    "title": "Project 1: Data Analysis with Pandas",
+    "title": "Project 1: Predicting Breakout Footballers with Machine Learning",
     "section": "",
-    "text": "In this project, I analyzed real-world datasets using Python and Pandas to extract meaningful insights."
+    "text": "In this project, I built a machine learning pipeline to predict breakout football players—those expected to drastically improve their goals or assists in the coming season. This was done using real-world player statistics and advanced ML interpretability tools like SHAP.\nThe project used over 10 million data points and statistics from 2013 to April 2025, and was built to support recruitment workflows like those used by clubs such as Brighton or Liverpool."
   },
   {
     "objectID": "projects/project1.html#video-walkthrough",
     "href": "projects/project1.html#video-walkthrough",
-    "title": "Project 1: Data Analysis with Pandas",
+    "title": "Project 1: Predicting Breakout Footballers with Machine Learning",
     "section": "🎬 Video Walkthrough",
     "text": "🎬 Video Walkthrough"
   },

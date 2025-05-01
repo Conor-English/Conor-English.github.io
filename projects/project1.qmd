@@ -1,5 +1,5 @@
 ---
-title: "Project 1: Data Analysis with Pandas"
+title: "Project 1: Predicting Breakout Footballers with Machine Learning"
 format:
   html:
     code-fold: true
@@ -10,36 +10,87 @@ execute:
   eval: true
 ---
 
-# Overview
-In this project, I analyzed real-world datasets using **Python** and **Pandas** to extract meaningful insights.
+# ⚽ Overview
 
-# Skills Demonstrated
-- Data Cleaning
-- Data Manipulation
-- Exploratory Data Analysis (EDA)
+In this project, I built a machine learning pipeline to **predict breakout football players**—those expected to drastically improve their goals or assists in the coming season. This was done using real-world player statistics and advanced ML interpretability tools like SHAP.
 
-# Key Code Example
+The project used **over 10 million data points** and statistics from **2013 to April 2025**, and was built to support recruitment workflows like those used by clubs such as Brighton or Liverpool.
+
+# 🛠️ Skills Demonstrated
+
+- Feature engineering on sports datasets  
+- Label construction with domain-specific logic  
+- Model selection and cross-validation  
+- XGBoost classification  
+- SHAP explainability and visual interpretation  
+- Real-world forecasting for 2025/26 season  
+
+# 📊 Dataset and Features
+
+The dataset came from [Transfermarkt](https://www.transfermarkt.com/) via Kaggle and included:
+
+- Player stats: goals, assists, minutes, appearances  
+- Temporal metrics: prior season stats and growth  
+- Per-90 stats and scaled features  
+- Demographics: position, age, birth year  
+
+Key features used:
+- `goal_growth`, `assist_growth`  
+- `goals_per90`, `assists_per90`  
+- `prev_goals`, `minutes_played`, `appearances`
+
+# 🤖 Model Pipeline
+
+- Model: XGBoost Classifier  
+- Training: 80/20 split with 5-fold CV  
+- Performance:  
+  - Accuracy: **91.03%**  
+  - F1-score (Breakout class): **0.61**  
+  - Macro F1: **0.78**  
+  - ROC AUC: **> 0.90**  
+
+Evaluation visualizations include:
+- ROC curve  
+- Confusion matrix  
+- SHAP summary and importance plots  
+- Histogram of predicted breakout probabilities  
+
+# 🔍 Interpretability with SHAP
+
+SHAP values revealed:
+- `goal_growth`, `assist_growth`, and `assists` were the **top predictors**  
+- Visual plots showed how player features like minutes and appearances contribute to breakout probability  
+- SHAP dependence plots gave intuitive, position-specific breakdowns  
+
+# 📦 Download Files
+
+- 🔗 [Download future model predictions (Top 20)](../top_20_future_predicted_breakouts_2526.csv)
+- 💾 [Download future breakout model source code](../Future%20breakthrough%20model.ipynb)
+
+# 🧪 Key Code Example
 
 ```{python}
 import pandas as pd
 import matplotlib.pyplot as plt
 
+# Sample player data
 df = pd.DataFrame({
     "A": [1, 2, 3, 4, 5],
     "B": [5, 4, 3, 2, 1]
 })
 
+# Quick stats summary
 summary = df.describe()
 summary
 
+# Sample plot
 plt.plot(df["A"], df["B"], marker="o")
-plt.title("Sample Line Plot of A vs B")
-plt.xlabel("A values")
-plt.ylabel("B values")
+plt.title("Line Plot Example")
+plt.xlabel("X Axis")
+plt.ylabel("Y Axis")
 plt.grid(True)
 plt.show()
-``` 
-
+```
 
 ## 🎬 Video Walkthrough
 
