@@ -32,10 +32,10 @@ format: html
 <div class="col">
 <div class="card h-100 shadow-sm">
 <div class="card-body">
-<h4>📊 Data Analysis with Pandas</h4>
-<p><strong>Skills:</strong> Data Cleaning, Manipulation, EDA<br>
-<strong>Tools:</strong> Python, Pandas</p>
-<p>This project focuses on using Pandas to clean, manipulate, and analyze large datasets.</p>
+<h4>⚽ Predicting Breakout Footballers</h4>
+<p><strong>Skills:</strong> Feature Engineering, Classification, SHAP<br>
+<strong>Tools:</strong> Python, XGBoost</p>
+<p>ML pipeline that predicts which players will break out in the next season using 10M+ data points and SHAP explainability.</p>
 <a href="project1.html" class="btn btn-primary mt-2">View Project ➔</a>
 </div>
 </div>
@@ -44,10 +44,10 @@ format: html
 <div class="col">
 <div class="card h-100 shadow-sm">
 <div class="card-body">
-<h4>📈 Linear Regression Modeling</h4>
-<p><strong>Skills:</strong> Predictive Modeling, Evaluation<br>
-<strong>Tools:</strong> Python, scikit-learn</p>
-<p>This project builds a linear regression model to predict outcomes and evaluate model performance.</p>
+<h4>🚗 Power BI Sales Dashboard</h4>
+<p><strong>Skills:</strong> Data Modeling, Dashboarding, DAX<br>
+<strong>Tools:</strong> Power BI</p>
+<p>Interactive report analyzing luxury auto sales by year, region, and product line with KPIs and strategic visuals.</p>
 <a href="project2.html" class="btn btn-primary mt-2">View Project ➔</a>
 </div>
 </div>
