@@ -21,6 +21,15 @@ format:
   transform: scale(1.03);
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
+.badge {
+  display: inline-block;
+  background-color: #0d6efd;
+  color: white;
+  padding: 4px 10px;
+  margin: 2px 5px 2px 0;
+  border-radius: 12px;
+  font-size: 0.75rem;
+}
 </style>
 
 <div class="container fade-in" style="max-width: 900px; margin: auto;">
@@ -41,10 +50,11 @@ This project taught me how to build and evaluate a complete machine learning pip
 The modeling stage and SHAP integration worked very smoothly, but cleaning the data and designing useful breakout labels were much more difficult than expected. It taught me that thoughtful definitions matter as much as model performance.
 
 **Skills improved:**  
-- Feature engineering  
-- Model evaluation  
-- XGBoost and SHAP  
-- Real-world application of sports analytics
+<span class="badge">Feature engineering</span>
+<span class="badge">Model evaluation</span>
+<span class="badge">XGBoost</span>
+<span class="badge">SHAP explainability</span>
+<span class="badge">Sports analytics</span>
 
 ---
 
@@ -57,10 +67,10 @@ This project deepened my understanding of how to transform raw business data int
 The visuals and KPIs came together well, and I was especially proud of the product line analysis. However, connecting all filters correctly and managing relationships took longer than expected.
 
 **Skills improved:**  
-- DAX calculations  
-- Visual storytelling  
-- Dashboard design  
-- KPI analysis
+<span class="badge">DAX</span>
+<span class="badge">Power BI dashboarding</span>
+<span class="badge">Visual storytelling</span>
+<span class="badge">KPI tracking</span>
 
 ---
 
@@ -73,10 +83,10 @@ I learned how to structure SQL queries to answer real business questions and int
 Writing efficient SQL and connecting Python visualizations worked nicely. If I were to do it again, I would make the data more realistic and varied to simulate a larger database.
 
 **Skills improved:**  
-- SQL joins and grouping  
-- Query-based analysis  
-- Bar chart and time-series plotting  
-- Combined workflow across tools
+<span class="badge">SQL joins</span>
+<span class="badge">Grouping and aggregation</span>
+<span class="badge">Matplotlib</span>
+<span class="badge">Python-based visual analytics</span>
 
 ---
 
@@ -89,10 +99,10 @@ This was my first time using BeautifulSoup to scrape websites. It showed me how 
 I was happy with the scraping logic and final plots. Some elements of HTML parsing were challenging and required trial-and-error and patience.
 
 **Skills improved:**  
-- Web scraping basics  
-- HTML parsing  
-- Matplotlib & Seaborn usage  
-- Real-time data exploration
+<span class="badge">BeautifulSoup scraping</span>
+<span class="badge">HTML parsing</span>
+<span class="badge">Seaborn</span>
+<span class="badge">Matplotlib</span>
 
 ---
 
@@ -100,9 +110,13 @@ I was happy with the scraping logic and final plots. Some elements of HTML parsi
 
 Looking back, this portfolio has done more than just help me pass a module—it has cemented my confidence in this career path. I began the year interested in data analysis and player recruitment. Now, I’m certain it’s what I want to do.
 
-My understanding of the tools, techniques, and mindset required has grown dramatically. I now know that good analysts aren’t just technical—they think critically, communicate clearly, and reflect honestly. Working in groups on multiple assignments, especially year-long ones, has helped me develop soft skills like **communication**, **teamwork**, and **problem-solving**—the same ones that matter in real-world teams.
+My understanding of the tools, techniques, and mindset required has grown dramatically. I now know that good analysts aren’t just technical—they think critically, communicate clearly, and reflect honestly. Working in groups on multiple assignments, especially year-long ones, has helped me develop soft skills like  
+<span class="badge">Communication</span>
+<span class="badge">Teamwork</span>
+<span class="badge">Problem-solving</span>  
+— the same ones that matter in real-world teams.
 
 > _“Growth begins the moment we choose honesty over ego, and reflection over routine.”_
 
-  </div>
+</div>
 </div>

@@ -19,6 +19,24 @@ format: html
   transform: scale(1.03);
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
+.stack-icon {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 1.4rem;
+  color: #444;
+}
+.cta-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.cta-button:hover {
+  background-color: #0056b3;
+}
 </style>
 
 <div class="container fade-in" style="max-width: 960px; margin: auto;">
@@ -41,9 +59,36 @@ This portfolio includes four end-to-end data projects, each highlighting specifi
 
 ---
 
+## 🧰 Tech Stack Highlights
+
+<span class="stack-icon">🐍 Python</span>
+<span class="stack-icon">🧮 SQL</span>
+<span class="stack-icon">📊 Power BI</span>
+<span class="stack-icon">📘 Jupyter</span>
+<span class="stack-icon">💻 VS Code</span>
+<span class="stack-icon">🔍 BeautifulSoup</span>
+<span class="stack-icon">🔧 Git</span>
+
+---
+
 ## 💼 Why This Portfolio Matters
 
 Through these projects, I’ve explored tools like **Python, SQL, Power BI**, and **BeautifulSoup**, while building fluency with **Git**, **VSCode**, and collaborative project workflows. This site reflects both my technical foundation and a deepening commitment to a career in **data analytics for sports performance and recruitment**.
+
+<a href="projects/index.html" class="cta-button">🚀 Explore the Projects</a>
+
+---
+
+## ⭐ Featured Project: Predicting Breakout Footballers
+
+<div class="card shadow-sm mt-4 p-3" style="display: flex; gap: 20px;">
+  <img src="images/football_project.png" alt="Breakout Footballers Project" style="width: 130px; border-radius: 8px;">
+  <div>
+    <h5 style="margin-top: 0;">⚽ Predicting Breakout Footballers</h5>
+    <p style="margin-bottom: 6px;">ML pipeline to identify potential breakout stars in football using 10M+ datapoints and SHAP analysis.</p>
+    <a href="projects/project1.html" class="btn btn-sm btn-primary">View Case Study ➔</a>
+  </div>
+</div>
 
 ---
 

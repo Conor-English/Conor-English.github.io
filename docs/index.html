@@ -127,7 +127,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#hello-im-conor-english" id="toc-hello-im-conor-english" class="nav-link active" data-scroll-target="#hello-im-conor-english">👋 Hello, I’m Conor English</a>
   <ul class="collapse">
   <li><a href="#what-youll-find-here" id="toc-what-youll-find-here" class="nav-link" data-scroll-target="#what-youll-find-here">🎯 What You’ll Find Here</a></li>
+  <li><a href="#tech-stack-highlights" id="toc-tech-stack-highlights" class="nav-link" data-scroll-target="#tech-stack-highlights">🧰 Tech Stack Highlights</a></li>
   <li><a href="#why-this-portfolio-matters" id="toc-why-this-portfolio-matters" class="nav-link" data-scroll-target="#why-this-portfolio-matters">💼 Why This Portfolio Matters</a></li>
+  <li><a href="#featured-project-predicting-breakout-footballers" id="toc-featured-project-predicting-breakout-footballers" class="nav-link" data-scroll-target="#featured-project-predicting-breakout-footballers">⭐ Featured Project: Predicting Breakout Footballers</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -170,6 +172,24 @@ ul.task-list li input[type="checkbox"] {
   transform: scale(1.03);
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
+.stack-icon {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 1.4rem;
+  color: #444;
+}
+.cta-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.cta-button:hover {
+  background-color: #0056b3;
+}
 </style>
 <div class="container fade-in" style="max-width: 960px; margin: auto;">
 <section id="hello-im-conor-english" class="level1 card shadow p-4">
@@ -187,9 +207,27 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <hr>
 </section>
+<section id="tech-stack-highlights" class="level2">
+<h2 class="anchored" data-anchor-id="tech-stack-highlights">🧰 Tech Stack Highlights</h2>
+<p><span class="stack-icon">🐍 Python</span> <span class="stack-icon">🧮 SQL</span> <span class="stack-icon">📊 Power BI</span> <span class="stack-icon">📘 Jupyter</span> <span class="stack-icon">💻 VS Code</span> <span class="stack-icon">🔍 BeautifulSoup</span> <span class="stack-icon">🔧 Git</span></p>
+<hr>
+</section>
 <section id="why-this-portfolio-matters" class="level2">
 <h2 class="anchored" data-anchor-id="why-this-portfolio-matters">💼 Why This Portfolio Matters</h2>
 <p>Through these projects, I’ve explored tools like <strong>Python, SQL, Power BI</strong>, and <strong>BeautifulSoup</strong>, while building fluency with <strong>Git</strong>, <strong>VSCode</strong>, and collaborative project workflows. This site reflects both my technical foundation and a deepening commitment to a career in <strong>data analytics for sports performance and recruitment</strong>.</p>
+<p><a href="projects/index.html" class="cta-button">🚀 Explore the Projects</a></p>
+<hr>
+</section>
+<section id="featured-project-predicting-breakout-footballers" class="level2">
+<h2 class="anchored" data-anchor-id="featured-project-predicting-breakout-footballers">⭐ Featured Project: Predicting Breakout Footballers</h2>
+<div class="card shadow-sm mt-4 p-3" style="display: flex; gap: 20px;">
+<img src="images/football_project.png" alt="Breakout Footballers Project" style="width: 130px; border-radius: 8px;">
+<div>
+<pre><code>&lt;h5 style="margin-top: 0;"&gt;⚽ Predicting Breakout Footballers&lt;/h5&gt;
+&lt;p style="margin-bottom: 6px;"&gt;ML pipeline to identify potential breakout stars in football using 10M+ datapoints and SHAP analysis.&lt;/p&gt;
+&lt;a href="projects/project1.html" class="btn btn-sm btn-primary"&gt;View Case Study ➔&lt;/a&gt;</code></pre>
+</div>
+</div>
 <hr>
 <blockquote class="blockquote">
 <p><em>“Success is the sum of small efforts, repeated day in and day out.”</em><br>
