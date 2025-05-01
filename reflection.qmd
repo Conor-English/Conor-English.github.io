@@ -1,7 +1,8 @@
 ---
 title: "🧠 Reflection"
 format:
-  html
+  html:
+    code-fold: false
 ---
 
 <style>
@@ -27,9 +28,79 @@ format:
 
 # 🔍 Why Reflection Matters
 
-Reflection is one of the most powerful tools for long-term growth...
+Reflection is one of the most powerful tools for long-term growth—both personally and professionally. By looking back honestly at what went well, what could be improved, and what was learned, we create a feedback loop that sharpens our thinking and strengthens our skills. Being real with yourself is never easy, but it's where meaningful progress begins. This page is an attempt to do just that: to step back and assess not just what I built, but what I learned in the process.
 
-<!-- (keep all your existing content exactly as it is here) -->
+---
+
+# ⚽ Project 1: Predicting Breakout Footballers with Machine Learning
+
+**What I learned:**  
+This project taught me how to build and evaluate a complete machine learning pipeline—from preprocessing and feature engineering to model selection and SHAP explainability. It showed me how complex real-world data can be and the importance of domain-specific labels.
+
+**What went well / what didn’t:**  
+The modeling stage and SHAP integration worked very smoothly, but cleaning the data and designing useful breakout labels were much more difficult than expected. It taught me that thoughtful definitions matter as much as model performance.
+
+**Skills improved:**  
+- Feature engineering  
+- Model evaluation  
+- XGBoost and SHAP  
+- Real-world application of sports analytics
+
+---
+
+# 📊 Project 2: Power BI Sales Dashboard
+
+**What I learned:**  
+This project deepened my understanding of how to transform raw business data into clear, actionable visual insights. It was my first time using Power BI at this scale.
+
+**What went well / what didn’t:**  
+The visuals and KPIs came together well, and I was especially proud of the product line analysis. However, connecting all filters correctly and managing relationships took longer than expected.
+
+**Skills improved:**  
+- DAX calculations  
+- Visual storytelling  
+- Dashboard design  
+- KPI analysis
+
+---
+
+# 🛒 Project 3: SQL and Python for Retail Analytics
+
+**What I learned:**  
+I learned how to structure SQL queries to answer real business questions and integrate that analysis into Python for visual output.
+
+**What went well / what didn’t:**  
+Writing efficient SQL and connecting Python visualizations worked nicely. If I were to do it again, I would make the data more realistic and varied to simulate a larger database.
+
+**Skills improved:**  
+- SQL joins and grouping  
+- Query-based analysis  
+- Bar chart and time-series plotting  
+- Combined workflow across tools
+
+---
+
+# 🌐 Project 4: Web Scraping & Visualization of Tech Salaries
+
+**What I learned:**  
+This was my first time using BeautifulSoup to scrape websites. It showed me how data doesn’t always come clean and structured—and how to handle it when it doesn’t.
+
+**What went well / what didn’t:**  
+I was happy with the scraping logic and final plots. Some elements of HTML parsing were challenging and required trial-and-error and patience.
+
+**Skills improved:**  
+- Web scraping basics  
+- HTML parsing  
+- Matplotlib & Seaborn usage  
+- Real-time data exploration
+
+---
+
+# 🚀 Final Reflection
+
+Looking back, this portfolio has done more than just help me pass a module—it has cemented my confidence in this career path. I began the year interested in data analysis and player recruitment. Now, I’m certain it’s what I want to do.
+
+My understanding of the tools, techniques, and mindset required has grown dramatically. I now know that good analysts aren’t just technical—they think critically, communicate clearly, and reflect honestly. Working in groups on multiple assignments, especially year-long ones, has helped me develop soft skills like **communication**, **teamwork**, and **problem-solving**—the same ones that matter in real-world teams.
 
 > _“Growth begins the moment we choose honesty over ego, and reflection over routine.”_
 
