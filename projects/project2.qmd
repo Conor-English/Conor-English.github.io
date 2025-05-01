@@ -46,7 +46,7 @@ The dataset includes sales transactions from multiple regions and product lines.
 
 <a href="../PowerBI%20Presentation%20FOR%20GROUP%203%20(2).pbix" class="btn btn-primary mt-2" download>📦 Download Power BI Dashboard (.pbix)</a>
 
-# 🧪 Illustrative Code (Python Representation)
+## 🧪 Illustrative Code (Python Representation)
 
 ```{python}
 import matplotlib.pyplot as plt
@@ -61,3 +61,4 @@ plt.title("Luxury Auto Sales by Product Line")
 plt.gca().invert_yaxis()
 plt.tight_layout()
 plt.show()
+```

@@ -77,6 +77,13 @@
     "text": "🏷️ Sales Per Product Line\n\n\n\nSales Per Product Line"
   },
   {
+    "objectID": "projects/project2.html#illustrative-code-python-representation",
+    "href": "projects/project2.html#illustrative-code-python-representation",
+    "title": "Project 2: Visualizing Luxury Auto Sales with Power BI",
+    "section": "🧪 Illustrative Code (Python Representation)",
+    "text": "🧪 Illustrative Code (Python Representation)\n\n\nShow the visuals\nimport matplotlib.pyplot as plt\n\nproduct_lines = ['Classic Cars', 'Vintage Cars', 'Motorcycles', 'Trucks']\nsales_millions = [3.8, 2.4, 1.6, 1.2]\n\nplt.figure(figsize=(6, 4))\nplt.barh(product_lines, sales_millions, color=\"darkblue\")\nplt.xlabel(\"Sales (in millions USD)\")\nplt.title(\"Luxury Auto Sales by Product Line\")\nplt.gca().invert_yaxis()\nplt.tight_layout()\nplt.show()"
+  },
+  {
     "objectID": "reflection.html",
     "href": "reflection.html",
     "title": "🧠 Reflection",
