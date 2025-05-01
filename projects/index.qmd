@@ -54,10 +54,10 @@ format: html
 <div class="col">
 <div class="card h-100 shadow-sm">
 <div class="card-body">
-<h4>🌐 Web Scraping and Visualization</h4>
-<p><strong>Skills:</strong> Web Scraping, Data Visualization<br>
-<strong>Tools:</strong> Python, BeautifulSoup, Plotly</p>
-<p>This project involves scraping website data and creating interactive visualizations.</p>
+<h4>📊 SQL & Python Retail Analytics</h4>
+<p><strong>Skills:</strong> SQL Joins, Subqueries, Visualization<br>
+<strong>Tools:</strong> SQLite, Python, Matplotlib</p>
+<p>Retail data insights using SQL and Python — uncovering trends in revenue, product lines, and customer regions with code-driven charts.</p>
 <a href="project3.html" class="btn btn-primary mt-2">View Project ➔</a>
 </div>
 </div>
