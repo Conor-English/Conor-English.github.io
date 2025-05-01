@@ -39,7 +39,7 @@ The dataset includes sales transactions from multiple regions and product lines.
 
 ## 🏷️ Sales Per Product Line
 
-![Sales Per Product Line](../images/sales_per_product_line.png)
+![Sales Per Deal Size](../images/sales_per_deal_size.png)
 
 
 # 📥 Download Files
