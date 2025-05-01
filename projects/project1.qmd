@@ -64,7 +64,7 @@ SHAP values revealed:
 
 # 📦 Download Files
 
-- 🔗 [Top 20 Future Predictions (CSV)](../top_20_future_predicted_breakouts_2526.csv)
+<a href="../top_20_future_predicted_breakouts_2526.csv" class="btn btn-primary mt-2" download>📥 Download Top 20 Future Predictions (CSV)</a>
 
 # 🧪 Key Code Example
 
