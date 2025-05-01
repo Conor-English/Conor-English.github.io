@@ -1,51 +1,44 @@
 ---
-title: "Project 2: Linear Regression Modeling"
-format: html
+title: "Project 2: Premier League Data Dashboard (Power BI)"
+format:
+  html:
+    code-fold: true
+    code-summary: "Show Power BI Integration"
+    code-tools: true
+execute:
+  echo: false
+  eval: false
 ---
 
-# Overview
-In this project, I built and evaluated a **Linear Regression** model using **Python** and **scikit-learn**.
+# 📊 Overview
 
-# Skills Demonstrated
-- Predictive Modeling
-- Model Evaluation
-- Data Visualization
+This project features a **dynamic Power BI dashboard** built to visualize key insights from Premier League football data. It allows users to explore team performance, player metrics, and trends interactively using filters, slicers, and drilldowns.
 
-# Key Code Example
+> ⚽ Designed for analysts, coaches, or recruitment staff to explore stats visually — no coding required!
 
-```{python}
-# Import Libraries
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-from sklearn.linear_model import LinearRegression
+# 🛠️ Skills Demonstrated
 
-# Create sample data
-np.random.seed(0)
-X = 2 * np.random.rand(100, 1)
-y = 4 + 3 * X + np.random.randn(100, 1)
+- Interactive dashboard design  
+- Power BI DAX formulas and calculated fields  
+- Data transformation using Power Query  
+- Visual storytelling and UX layout principles  
+- Dynamic filters, cards, and time slicers  
 
-# Train model
-model = LinearRegression()
-model.fit(X, y)
+# 📂 Dashboard Pages
 
-# Predict values
-y_pred = model.predict(X)
+The Power BI report includes:
+- 📈 Team Comparison View  
+- 🧍 Player Performance Breakdown  
+- 📅 Season-over-Season Trends  
+- ⚽ Goals & Assists Heatmap  
 
-# Model Coefficients
-coef = model.coef_[0][0]
-intercept = model.intercept_[0]
-print("Coefficient:", coef)
-print("Intercept:", intercept)
+> *Note: All visuals are interactive and filterable in real time.*
 
-# Plot data and regression line
-plt.scatter(X, y, color="blue", label="Data Points")
-plt.plot(X, y_pred, color="red", linewidth=2, label="Regression Line")
-plt.title("Linear Regression Fit")
-plt.xlabel("X")
-plt.ylabel("y")
-plt.legend()
-plt.grid(True)
-plt.show()
-```
-This update was made from the `add-video` branch.
+# 💾 Download Report
+
+[![Download PBIX](https://img.shields.io/badge/Download-Power%20BI%20File-blue?style=for-the-badge)](../PowerBI%20Presentation%20FOR%20GROUP%203%20(2).pbix)
+
+# 🖼️ Sample Dashboard (Placeholder)
+
+*You can upload a static screenshot of your dashboard if needed here later.*
+
