@@ -64,15 +64,15 @@ format: html
 </div>
 
 <div class="col">
-  <div class="card h-100 shadow-sm">
-    <div class="card-body">
-      <h4>💼 Web Scraping: Tech Salaries</h4>
-      <p><strong>Skills:</strong> Web Scraping, Visualization, Python<br>
-      <strong>Tools:</strong> BeautifulSoup, Pandas, Matplotlib</p>
-      <p>Scraped tech job postings to visualize salary trends and identify location-based hiring patterns.</p>
-      <a href="project4.html" class="btn btn-primary mt-2">View Project ➔</a>
-    </div>
-  </div>
+<div class="card h-100 shadow-sm">
+<div class="card-body">
+<h4>💼 Web Scraping: Tech Salaries</h4>
+<p><strong>Skills:</strong> Web Scraping, Visualization, Python<br>
+<strong>Tools:</strong> BeautifulSoup, Pandas, Matplotlib</p>
+<p>Scraped tech job postings to visualize salary trends and identify location-based hiring patterns.</p>
+<a href="project4.html" class="btn btn-primary mt-2">View Project ➔</a>
+</div>
+</div>
 </div>
 
 
