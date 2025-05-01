@@ -31,19 +31,19 @@ The dataset includes sales transactions from multiple regions and product lines.
 - 📍 **Regional trends**: key countries and cities contributing to luxury car demand  
 - 🕒 **Monthly fluctuations**: identifying sales seasonality and promotions impact  
 
-# 📈 Highlight Visuals
+# 📊 Highlight Visuals
 
 ## 🗓️ Sales Per Year
 
-![Sales Per Year](../sales_per_year.png)
+![Sales Per Year](../images/sales_per_year.png)
 
 ## 🏷️ Sales Per Product Line
 
-![Sales Per Product Line](../sales_per_product_line.png)
+![Sales Per Product Line](../images/sales_per_product_line.png)
 
-# 📦 Download Files
+# 📥 Download Files
 
-<a href="../PowerBI%20Presentation%20FOR%20GROUP%203%20(2).pbix" class="btn btn-primary mt-2" download>📥 Download Power BI Dashboard (PBIX)</a>
+<a href="../PowerBI%20Presentation%20FOR%20GROUP%203%20(2).pbix" class="btn btn-primary mt-2" download>📦 Download Power BI Dashboard (.pbix)</a>
 
 # 🧪 Illustrative Code (Python Representation)
 
