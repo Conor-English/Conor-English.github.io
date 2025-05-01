@@ -1,44 +1,67 @@
 ---
-title: "Project 2: Premier League Data Dashboard (Power BI)"
+title: "Project 2: Visualizing Luxury Auto Sales with Power BI"
 format:
   html:
     code-fold: true
-    code-summary: "Show Power BI Integration"
+    code-summary: "Show the visuals"
     code-tools: true
 execute:
-  echo: false
-  eval: false
+  echo: true
+  eval: true
 ---
 
-# 📊 Overview
+# 🚗 Overview
 
-This project features a **dynamic Power BI dashboard** built to visualize key insights from Premier League football data. It allows users to explore team performance, player metrics, and trends interactively using filters, slicers, and drilldowns.
-
-> ⚽ Designed for analysts, coaches, or recruitment staff to explore stats visually — no coding required!
+This project explores the **global sales performance of luxury automobiles** between 2018 and 2020 using Power BI. It uncovers market trends, product line strengths, and customer behavior patterns. The dashboard is tailored for strategic decision-making in high-end automotive businesses.
 
 # 🛠️ Skills Demonstrated
 
-- Interactive dashboard design  
-- Power BI DAX formulas and calculated fields  
-- Data transformation using Power Query  
-- Visual storytelling and UX layout principles  
-- Dynamic filters, cards, and time slicers  
+- Data modeling and transformation in Power BI  
+- DAX calculations for KPIs  
+- Dashboard design and UX considerations  
+- Visual storytelling using interactive reports  
+- Business intelligence and domain analysis  
 
-# 📂 Dashboard Pages
+# 📊 Dataset and Insights
 
-The Power BI report includes:
-- 📈 Team Comparison View  
-- 🧍 Player Performance Breakdown  
-- 📅 Season-over-Season Trends  
-- ⚽ Goals & Assists Heatmap  
+The dataset includes sales transactions from multiple regions and product lines. Key metrics tracked:
 
-> *Note: All visuals are interactive and filterable in real time.*
+- 🏁 **Sales per year**: revealing market peaks and growth
+- 🧾 **Product line performance**: analyzing which segments drive the most revenue
+- 📍 **Regional trends**: key countries and cities contributing to luxury car demand
+- 🕒 **Monthly fluctuations**: identifying sales seasonality and promotions impact
 
-# 💾 Download Report
+# 📈 Highlight Visuals
 
-[![Download PBIX](https://img.shields.io/badge/Download-Power%20BI%20File-blue?style=for-the-badge)](../PowerBI%20Presentation%20FOR%20GROUP%203%20(2).pbix)
+## 🗓️ Sales Over Time
 
-# 🖼️ Sample Dashboard (Placeholder)
+This visualization shows the annual breakdown of total sales across 2018–2020, highlighting **peak periods and overall recovery trends** post-seasonal dips.
 
-*You can upload a static screenshot of your dashboard if needed here later.*
+![Sales per Year](../sales_per_year.png)
 
+## 🏷️ Sales by Product Line
+
+Here we identify top-performing vehicle lines. **Classic Cars** lead in revenue, while **Motorcycles** and **Vintage Cars** follow, indicating consistent premium interest.
+
+![Sales per Product Line](../sales_per_product_line.png)
+
+# 📦 Download Files
+
+<a href="../PowerBI%20Presentation%20FOR%20GROUP%203%20(2).pbix" class="btn btn-primary mt-2" download>📥 Download Power BI Dashboard (PBIX)</a>
+
+# 🧪 Illustrative Code (Python Representation)
+
+```{python}
+import matplotlib.pyplot as plt
+
+# Simulated sales by category
+product_lines = ['Classic Cars', 'Vintage Cars', 'Motorcycles', 'Trucks']
+sales_millions = [3.8, 2.4, 1.6, 1.2]
+
+plt.figure(figsize=(6, 4))
+plt.barh(product_lines, sales_millions, color="darkblue")
+plt.xlabel("Sales (in millions USD)")
+plt.title("Luxury Auto Sales by Product Line")
+plt.gca().invert_yaxis()
+plt.tight_layout()
+plt.show()

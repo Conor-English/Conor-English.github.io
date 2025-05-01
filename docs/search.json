@@ -58,9 +58,23 @@
   {
     "objectID": "projects/project2.html",
     "href": "projects/project2.html",
-    "title": "Project 2: Premier League Data Dashboard (Power BI)",
+    "title": "Project 2: Visualizing Luxury Auto Sales with Power BI",
     "section": "",
-    "text": "📊 Overview\nThis project features a dynamic Power BI dashboard built to visualize key insights from Premier League football data. It allows users to explore team performance, player metrics, and trends interactively using filters, slicers, and drilldowns.\n\n⚽ Designed for analysts, coaches, or recruitment staff to explore stats visually — no coding required!\n\n\n\n🛠️ Skills Demonstrated\n\nInteractive dashboard design\n\nPower BI DAX formulas and calculated fields\n\nData transformation using Power Query\n\nVisual storytelling and UX layout principles\n\nDynamic filters, cards, and time slicers\n\n\n\n📂 Dashboard Pages\nThe Power BI report includes: - 📈 Team Comparison View\n- 🧍 Player Performance Breakdown\n- 📅 Season-over-Season Trends\n- ⚽ Goals & Assists Heatmap\n\nNote: All visuals are interactive and filterable in real time.\n\n\n\n💾 Download Report\n\n\n\nDownload PBIX\n\n\n\n\n🖼️ Sample Dashboard (Placeholder)\nYou can upload a static screenshot of your dashboard if needed here later."
+    "text": "This project explores the global sales performance of luxury automobiles between 2018 and 2020 using Power BI. It uncovers market trends, product line strengths, and customer behavior patterns. The dashboard is tailored for strategic decision-making in high-end automotive businesses."
+  },
+  {
+    "objectID": "projects/project2.html#sales-over-time",
+    "href": "projects/project2.html#sales-over-time",
+    "title": "Project 2: Visualizing Luxury Auto Sales with Power BI",
+    "section": "🗓️ Sales Over Time",
+    "text": "🗓️ Sales Over Time\nThis visualization shows the annual breakdown of total sales across 2018–2020, highlighting peak periods and overall recovery trends post-seasonal dips.\n\n\n\nSales per Year"
+  },
+  {
+    "objectID": "projects/project2.html#sales-by-product-line",
+    "href": "projects/project2.html#sales-by-product-line",
+    "title": "Project 2: Visualizing Luxury Auto Sales with Power BI",
+    "section": "🏷️ Sales by Product Line",
+    "text": "🏷️ Sales by Product Line\nHere we identify top-performing vehicle lines. Classic Cars lead in revenue, while Motorcycles and Vintage Cars follow, indicating consistent premium interest.\n\n\n\nSales per Product Line"
   },
   {
     "objectID": "reflection.html",
