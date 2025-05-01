@@ -1,49 +1,90 @@
 ---
-title: "Project 3: Web Scraping and Visualization"
-format: html
+title: "Project 3: SQL and Python for Retail Analytics"
+format:
+  html:
+    code-fold: true
+    code-summary: "Show the code"
+    code-tools: true
+execute:
+  echo: true
+  eval: true
 ---
 
-# Overview
-In this project, I scraped data from the web using **Python** and created visualizations to present insights.
+# 🛒 Overview
 
-# Skills Demonstrated
-- Web Scraping
-- Data Cleaning
-- Data Visualization
+This project demonstrates how to **analyze retail sales data using SQL queries and Python visualizations**. It simulates a real-world scenario where a data analyst uses a database of customer transactions, product lines, and revenue to uncover insights.
 
-# Key Code Example
+# 🧠 Skills Demonstrated
+
+- SQL querying and JOIN operations  
+- Data extraction and transformation  
+- Subqueries and window functions  
+- Python-based data visualization (Matplotlib & Seaborn)  
+- Exploratory data storytelling  
+
+# 🗃️ Database Structure
+
+The project used a mock retail database with the following tables:
+- `orders`, `products`, `customers`, `sales`, and `dates`
+
+# 🔍 Key SQL Queries
+
+```sql
+SELECT product_line, SUM(total_amount) AS total_sales
+FROM sales
+GROUP BY product_line
+ORDER BY total_sales DESC;
+```
+
+```sql
+SELECT country, ROUND(SUM(total_amount), 2) AS revenue
+FROM customers
+JOIN sales ON customers.customer_id = sales.customer_id
+GROUP BY country
+ORDER BY revenue DESC
+LIMIT 5;
+```
+
+```sql
+SELECT strftime('%Y-%m', order_date) AS month, SUM(total_amount) AS revenue
+FROM sales
+GROUP BY month
+ORDER BY month;
+```
 
 ```{python}
-# Import Libraries
-import requests
-from bs4 import BeautifulSoup
-import pandas as pd
 import matplotlib.pyplot as plt
 
-# Scrape sample data
-url = "https://example.com"
-html_content = "<html><body><table><tr><th>Item</th><th>Value</th></tr><tr><td>Apples</td><td>10</td></tr><tr><td>Oranges</td><td>15</td></tr></table></body></html>"
-soup = BeautifulSoup(html_content, "html.parser")
+months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
+revenue = [12000, 14500, 16000, 14000, 17500, 19000]
 
-# Parse table into DataFrame
-table = soup.find("table")
-rows = table.find_all("tr")
-data = []
-for row in rows[1:]:
-    cols = row.find_all("td")
-    data.append([col.text for col in cols])
-
-df = pd.DataFrame(data, columns=["Item", "Value"])
-df["Value"] = df["Value"].astype(int)
-
-# Show DataFrame
-print(df)
-
-# Visualization
-plt.bar(df["Item"], df["Value"], color=["green", "orange"])
-plt.title("Sample Scraped Data Visualization")
-plt.xlabel("Item")
-plt.ylabel("Value")
-plt.grid(axis="y")
+plt.figure(figsize=(8, 4))
+plt.plot(months, revenue, marker='o', color='blue')
+plt.title("Monthly Revenue Trend")
+plt.xlabel("Month")
+plt.ylabel("Revenue ($)")
+plt.grid(True)
+plt.tight_layout()
 plt.show()
 ```
+
+```{python}
+lines = ['Classic Cars', 'Motorcycles', 'Planes', 'Vintage Cars']
+sales = [380000, 140000, 90000, 105000]
+
+plt.figure(figsize=(6, 4))
+plt.barh(lines, sales, color='green')
+plt.title("Sales by Product Line")
+plt.xlabel("Total Revenue")
+plt.gca().invert_yaxis()
+plt.tight_layout()
+plt.show()
+```
+
+# 📈 Summary of Insights
+
+- **Classic Cars** lead all categories in total sales  
+- Revenue peaks in **May and June**, showing seasonality  
+- Top countries by revenue: **USA, Germany, UK**  
+- Monthly line chart illustrates **revenue growth patterns**  
+- Product line bar chart highlights **key market segments**
