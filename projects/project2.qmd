@@ -26,24 +26,20 @@ This project explores the **global sales performance of luxury automobiles** bet
 
 The dataset includes sales transactions from multiple regions and product lines. Key metrics tracked:
 
-- 🏁 **Sales per year**: revealing market peaks and growth
-- 🧾 **Product line performance**: analyzing which segments drive the most revenue
-- 📍 **Regional trends**: key countries and cities contributing to luxury car demand
-- 🕒 **Monthly fluctuations**: identifying sales seasonality and promotions impact
+- 🏁 **Sales per year**: revealing market peaks and growth  
+- 🧾 **Product line performance**: analyzing which segments drive the most revenue  
+- 📍 **Regional trends**: key countries and cities contributing to luxury car demand  
+- 🕒 **Monthly fluctuations**: identifying sales seasonality and promotions impact  
 
 # 📈 Highlight Visuals
 
-## 🗓️ Sales Over Time
+## 🗓️ Sales Per Year
 
-This visualization shows the annual breakdown of total sales across 2018–2020, highlighting **peak periods and overall recovery trends** post-seasonal dips.
+![Sales Per Year](../sales_per_year.png)
 
-![Sales per Year](../sales_per_year.png)
+## 🏷️ Sales Per Product Line
 
-## 🏷️ Sales by Product Line
-
-Here we identify top-performing vehicle lines. **Classic Cars** lead in revenue, while **Motorcycles** and **Vintage Cars** follow, indicating consistent premium interest.
-
-![Sales per Product Line](../sales_per_product_line.png)
+![Sales Per Product Line](../sales_per_product_line.png)
 
 # 📦 Download Files
 

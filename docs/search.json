@@ -63,18 +63,18 @@
     "text": "This project explores the global sales performance of luxury automobiles between 2018 and 2020 using Power BI. It uncovers market trends, product line strengths, and customer behavior patterns. The dashboard is tailored for strategic decision-making in high-end automotive businesses."
   },
   {
-    "objectID": "projects/project2.html#sales-over-time",
-    "href": "projects/project2.html#sales-over-time",
+    "objectID": "projects/project2.html#sales-per-year",
+    "href": "projects/project2.html#sales-per-year",
     "title": "Project 2: Visualizing Luxury Auto Sales with Power BI",
-    "section": "🗓️ Sales Over Time",
-    "text": "🗓️ Sales Over Time\nThis visualization shows the annual breakdown of total sales across 2018–2020, highlighting peak periods and overall recovery trends post-seasonal dips.\n\n\n\nSales per Year"
+    "section": "🗓️ Sales Per Year",
+    "text": "🗓️ Sales Per Year\n\n\n\nSales Per Year"
   },
   {
-    "objectID": "projects/project2.html#sales-by-product-line",
-    "href": "projects/project2.html#sales-by-product-line",
+    "objectID": "projects/project2.html#sales-per-product-line",
+    "href": "projects/project2.html#sales-per-product-line",
     "title": "Project 2: Visualizing Luxury Auto Sales with Power BI",
-    "section": "🏷️ Sales by Product Line",
-    "text": "🏷️ Sales by Product Line\nHere we identify top-performing vehicle lines. Classic Cars lead in revenue, while Motorcycles and Vintage Cars follow, indicating consistent premium interest.\n\n\n\nSales per Product Line"
+    "section": "🏷️ Sales Per Product Line",
+    "text": "🏷️ Sales Per Product Line\n\n\n\nSales Per Product Line"
   },
   {
     "objectID": "reflection.html",

@@ -163,8 +163,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#dataset-and-insights" id="toc-dataset-and-insights" class="nav-link" data-scroll-target="#dataset-and-insights">📊 Dataset and Insights</a></li>
   <li><a href="#highlight-visuals" id="toc-highlight-visuals" class="nav-link" data-scroll-target="#highlight-visuals">📈 Highlight Visuals</a>
   <ul class="collapse">
-  <li><a href="#sales-over-time" id="toc-sales-over-time" class="nav-link" data-scroll-target="#sales-over-time">🗓️ Sales Over Time</a></li>
-  <li><a href="#sales-by-product-line" id="toc-sales-by-product-line" class="nav-link" data-scroll-target="#sales-by-product-line">🏷️ Sales by Product Line</a></li>
+  <li><a href="#sales-per-year" id="toc-sales-per-year" class="nav-link" data-scroll-target="#sales-per-year">🗓️ Sales Per Year</a></li>
+  <li><a href="#sales-per-product-line" id="toc-sales-per-product-line" class="nav-link" data-scroll-target="#sales-per-product-line">🏷️ Sales Per Product Line</a></li>
   </ul></li>
   <li><a href="#download-files" id="toc-download-files" class="nav-link" data-scroll-target="#download-files">📦 Download Files</a></li>
   <li><a href="#illustrative-code-python-representation" id="toc-illustrative-code-python-representation" class="nav-link" data-scroll-target="#illustrative-code-python-representation">🧪 Illustrative Code (Python Representation)</a></li>
@@ -216,31 +216,32 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h1>📊 Dataset and Insights</h1>
 <p>The dataset includes sales transactions from multiple regions and product lines. Key metrics tracked:</p>
 <ul>
-<li>🏁 <strong>Sales per year</strong>: revealing market peaks and growth</li>
-<li>🧾 <strong>Product line performance</strong>: analyzing which segments drive the most revenue</li>
-<li>📍 <strong>Regional trends</strong>: key countries and cities contributing to luxury car demand</li>
+<li>🏁 <strong>Sales per year</strong>: revealing market peaks and growth<br>
+</li>
+<li>🧾 <strong>Product line performance</strong>: analyzing which segments drive the most revenue<br>
+</li>
+<li>📍 <strong>Regional trends</strong>: key countries and cities contributing to luxury car demand<br>
+</li>
 <li>🕒 <strong>Monthly fluctuations</strong>: identifying sales seasonality and promotions impact</li>
 </ul>
 </section>
 <section id="highlight-visuals" class="level1">
 <h1>📈 Highlight Visuals</h1>
-<section id="sales-over-time" class="level2">
-<h2 class="anchored" data-anchor-id="sales-over-time">🗓️ Sales Over Time</h2>
-<p>This visualization shows the annual breakdown of total sales across 2018–2020, highlighting <strong>peak periods and overall recovery trends</strong> post-seasonal dips.</p>
+<section id="sales-per-year" class="level2">
+<h2 class="anchored" data-anchor-id="sales-per-year">🗓️ Sales Per Year</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../sales_per_year.png" class="img-fluid figure-img"></p>
-<figcaption>Sales per Year</figcaption>
+<figcaption>Sales Per Year</figcaption>
 </figure>
 </div>
 </section>
-<section id="sales-by-product-line" class="level2">
-<h2 class="anchored" data-anchor-id="sales-by-product-line">🏷️ Sales by Product Line</h2>
-<p>Here we identify top-performing vehicle lines. <strong>Classic Cars</strong> lead in revenue, while <strong>Motorcycles</strong> and <strong>Vintage Cars</strong> follow, indicating consistent premium interest.</p>
+<section id="sales-per-product-line" class="level2">
+<h2 class="anchored" data-anchor-id="sales-per-product-line">🏷️ Sales Per Product Line</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../sales_per_product_line.png" class="img-fluid figure-img"></p>
-<figcaption>Sales per Product Line</figcaption>
+<figcaption>Sales Per Product Line</figcaption>
 </figure>
 </div>
 </section>
@@ -760,45 +761,41 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>The dataset includes sales transactions from multiple regions and product lines. Key metrics tracked:</span>
 <span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>🏁 **Sales per year**: revealing market peaks and growth</span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>🧾 **Product line performance**: analyzing which segments drive the most revenue</span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>📍 **Regional trends**: key countries and cities contributing to luxury car demand</span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>🕒 **Monthly fluctuations**: identifying sales seasonality and promotions impact</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>🏁 **Sales per year**: revealing market peaks and growth  </span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>🧾 **Product line performance**: analyzing which segments drive the most revenue  </span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>📍 **Regional trends**: key countries and cities contributing to luxury car demand  </span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>🕒 **Monthly fluctuations**: identifying sales seasonality and promotions impact  </span>
 <span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="fu"># 📈 Highlight Visuals</span></span>
 <span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🗓️ Sales Over Time</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🗓️ Sales Per Year</span></span>
 <span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>This visualization shows the annual breakdown of total sales across 2018–2020, highlighting **peak periods and overall recovery trends** post-seasonal dips.</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="al">![Sales Per Year](../sales_per_year.png)</span></span>
 <span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="al">![Sales per Year](../sales_per_year.png)</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🏷️ Sales Per Product Line</span></span>
 <span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🏷️ Sales by Product Line</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="al">![Sales Per Product Line](../sales_per_product_line.png)</span></span>
 <span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>Here we identify top-performing vehicle lines. **Classic Cars** lead in revenue, while **Motorcycles** and **Vintage Cars** follow, indicating consistent premium interest.</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="fu"># 📦 Download Files</span></span>
 <span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="al">![Sales per Product Line](../sales_per_product_line.png)</span></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>&lt;a href="../PowerBI%20Presentation%20FOR%20GROUP%203%20(2).pbix" class="btn btn-primary mt-2" download&gt;📥 Download Power BI Dashboard (PBIX)&lt;/a&gt;</span>
 <span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="fu"># 📦 Download Files</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="fu"># 🧪 Illustrative Code (Python Representation)</span></span>
 <span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>&lt;a href="../PowerBI%20Presentation%20FOR%20GROUP%203%20(2).pbix" class="btn btn-primary mt-2" download&gt;📥 Download Power BI Dashboard (PBIX)&lt;/a&gt;</span>
-<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="fu"># 🧪 Illustrative Code (Python Representation)</span></span>
-<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a><span class="in">```{python}</span></span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="in">```{python}</span></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulated sales by category</span></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>product_lines <span class="op">=</span> [<span class="st">'Classic Cars'</span>, <span class="st">'Vintage Cars'</span>, <span class="st">'Motorcycles'</span>, <span class="st">'Trucks'</span>]</span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>sales_millions <span class="op">=</span> [<span class="fl">3.8</span>, <span class="fl">2.4</span>, <span class="fl">1.6</span>, <span class="fl">1.2</span>]</span>
 <span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulated sales by category</span></span>
-<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>product_lines <span class="op">=</span> [<span class="st">'Classic Cars'</span>, <span class="st">'Vintage Cars'</span>, <span class="st">'Motorcycles'</span>, <span class="st">'Trucks'</span>]</span>
-<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>sales_millions <span class="op">=</span> [<span class="fl">3.8</span>, <span class="fl">2.4</span>, <span class="fl">1.6</span>, <span class="fl">1.2</span>]</span>
-<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">4</span>))</span>
-<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>plt.barh(product_lines, sales_millions, color<span class="op">=</span><span class="st">"darkblue"</span>)</span>
-<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Sales (in millions USD)"</span>)</span>
-<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Luxury Auto Sales by Product Line"</span>)</span>
-<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>plt.gca().invert_yaxis()</span>
-<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
-<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">4</span>))</span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>plt.barh(product_lines, sales_millions, color<span class="op">=</span><span class="st">"darkblue"</span>)</span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Sales (in millions USD)"</span>)</span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Luxury Auto Sales by Product Line"</span>)</span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>plt.gca().invert_yaxis()</span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
 </code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
