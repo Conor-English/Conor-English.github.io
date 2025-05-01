@@ -60,7 +60,21 @@
     "href": "index.html",
     "title": "👋 Welcome",
     "section": "",
-    "text": "👋 Hello, I’m Conor English\n\n\nWelcome to my personal e-portfolio, built with Quarto! Explore my data science projects, resume, and learning reflections.\n\n\n\n📁 Projects – Real-world Python & Data projects\n\n\n📄 Resume – Education, skills, and experience\n\n\n🧠 Reflection – Learning journey and insights\n\n\n\n\n\n“Success is the sum of small efforts repeated day in and day out.”"
+    "text": "Welcome to my professional e-portfolio, developed using Quarto, Git, and GitHub Pages. This site showcases my academic and technical development, particularly in the field of data analytics and player recruitment in elite-level sports.\n\n\n\nThis portfolio includes four end-to-end data projects, each highlighting specific technical and analytical skills across real-world scenarios:\n\n🧠 About: Learn more about my academic path, goals, and soft skills.\n📄 Resume: View my qualifications, certifications, and technical proficiencies.\n🚀 Projects: Explore machine learning models, dashboards, SQL analysis, and web scraping applications.\n🔍 Reflection: Honest insights into my learning journey, challenges, and growth.\n\n\n\n\n\nThrough these projects, I’ve explored tools like Python, SQL, Power BI, and BeautifulSoup, while building fluency with Git, VSCode, and collaborative project workflows. This site reflects both my technical foundation and a deepening commitment to a career in data analytics for sports performance and recruitment.\n\n\n“Success is the sum of small efforts, repeated day in and day out.”\n— Robert Collier"
+  },
+  {
+    "objectID": "index.html#what-youll-find-here",
+    "href": "index.html#what-youll-find-here",
+    "title": "👋 Welcome",
+    "section": "",
+    "text": "This portfolio includes four end-to-end data projects, each highlighting specific technical and analytical skills across real-world scenarios:\n\n🧠 About: Learn more about my academic path, goals, and soft skills.\n📄 Resume: View my qualifications, certifications, and technical proficiencies.\n🚀 Projects: Explore machine learning models, dashboards, SQL analysis, and web scraping applications.\n🔍 Reflection: Honest insights into my learning journey, challenges, and growth."
+  },
+  {
+    "objectID": "index.html#why-this-portfolio-matters",
+    "href": "index.html#why-this-portfolio-matters",
+    "title": "👋 Welcome",
+    "section": "",
+    "text": "Through these projects, I’ve explored tools like Python, SQL, Power BI, and BeautifulSoup, while building fluency with Git, VSCode, and collaborative project workflows. This site reflects both my technical foundation and a deepening commitment to a career in data analytics for sports performance and recruitment.\n\n\n“Success is the sum of small efforts, repeated day in and day out.”\n— Robert Collier"
   },
   {
     "objectID": "projects/project1.html",

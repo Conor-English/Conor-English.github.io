@@ -5,7 +5,7 @@ format: html
 
 <style>
 .fade-in {
-  animation: fadeIn 1s ease-in-out;
+  animation: fadeIn 1.2s ease-in-out;
 }
 @keyframes fadeIn {
   0% { opacity: 0; transform: translateY(20px); }
@@ -21,22 +21,34 @@ format: html
 }
 </style>
 
-<div class="container fade-in" style="max-width: 900px; margin: auto;">
+<div class="container fade-in" style="max-width: 960px; margin: auto;">
   <div class="card shadow p-4">
 
-  <h1 class="mb-3">👋 Hello, I'm Conor English</h1>
-  <p>Welcome to my personal e-portfolio, built with Quarto! Explore my data science projects, resume, and learning reflections.</p>
+# 👋 Hello, I'm Conor English
 
-  <ul>
-    <li>📁 <strong><a href="projects/index.html">Projects</a></strong> – Real-world Python & Data projects</li>
-    <li>📄 <strong><a href="resume.html">Resume</a></strong> – Education, skills, and experience</li>
-    <li>🧠 <strong><a href="reflection.html">Reflection</a></strong> – Learning journey and insights</li>
-  </ul>
+Welcome to my professional e-portfolio, developed using **Quarto**, **Git**, and **GitHub Pages**. This site showcases my academic and technical development, particularly in the field of **data analytics and player recruitment** in elite-level sports.
 
-  <hr>
-  <blockquote>
-    <p><em>"Success is the sum of small efforts repeated day in and day out."</em></p>
-  </blockquote>
+---
+
+## 🎯 What You'll Find Here
+
+This portfolio includes four end-to-end data projects, each highlighting specific technical and analytical skills across real-world scenarios:
+
+- 🧠 **[About](about.html):** Learn more about my academic path, goals, and soft skills.
+- 📄 **[Resume](resume.html):** View my qualifications, certifications, and technical proficiencies.
+- 🚀 **[Projects](projects/index.html):** Explore machine learning models, dashboards, SQL analysis, and web scraping applications.
+- 🔍 **[Reflection](reflection.html):** Honest insights into my learning journey, challenges, and growth.
+
+---
+
+## 💼 Why This Portfolio Matters
+
+Through these projects, I’ve explored tools like **Python, SQL, Power BI**, and **BeautifulSoup**, while building fluency with **Git**, **VSCode**, and collaborative project workflows. This site reflects both my technical foundation and a deepening commitment to a career in **data analytics for sports performance and recruitment**.
+
+---
+
+> _"Success is the sum of small efforts, repeated day in and day out."_  
+> <span style="float:right">— Robert Collier</span>
 
   </div>
 </div>
