@@ -64,8 +64,7 @@ SHAP values revealed:
 
 # 📦 Download Files
 
-- 🔗 [Top 20 Future Predictions (CSV)](top_20_future_predicted_breakouts_2526.csv)
-- 💾 [Future Model Source Code (Notebook)](Future%20breakthrough%20model.ipynb)
+- 🔗 [Top 20 Future Predictions (CSV)](../top_20_future_predicted_breakouts_2526.csv)
 
 # 🧪 Key Code Example
 
