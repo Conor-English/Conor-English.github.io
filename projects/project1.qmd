@@ -64,31 +64,37 @@ SHAP values revealed:
 
 # 📦 Download Files
 
-- 🔗 [Download future model predictions (Top 20)](../top_20_future_predicted_breakouts_2526.csv)
-- 💾 [Download future breakout model source code](../Future%20breakthrough%20model.ipynb)
+- 🔗 [Top 20 Future Predictions (CSV)](top_20_future_predicted_breakouts_2526.csv)
+- 💾 [Future Model Source Code (Notebook)](Future%20breakthrough%20model.ipynb)
 
 # 🧪 Key Code Example
 
 ```{python}
-import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 
-# Sample player data
-df = pd.DataFrame({
-    "A": [1, 2, 3, 4, 5],
-    "B": [5, 4, 3, 2, 1]
-})
+# Confusion matrix example
+labels = ['True Negative', 'False Positive', 'False Negative', 'True Positive']
+values = [95, 5, 8, 92]
 
-# Quick stats summary
-summary = df.describe()
-summary
+fig, ax = plt.subplots()
+bars = ax.bar(labels, values, color=["#4CAF50", "#F44336", "#FF9800", "#2196F3"])
+ax.set_title("Confusion Matrix Breakdown")
+ax.set_ylabel("Number of Predictions")
+plt.xticks(rotation=15)
+plt.tight_layout()
+plt.show()
 
-# Sample plot
-plt.plot(df["A"], df["B"], marker="o")
-plt.title("Line Plot Example")
-plt.xlabel("X Axis")
-plt.ylabel("Y Axis")
-plt.grid(True)
+# Feature importance example
+features = ['goal_growth', 'assist_growth', 'assists', 'minutes_played']
+importances = [0.32, 0.24, 0.21, 0.13]
+
+plt.figure(figsize=(6, 4))
+plt.barh(features, importances, color="purple")
+plt.xlabel("Importance Score")
+plt.title("Top Feature Importances (XGBoost)")
+plt.gca().invert_yaxis()
+plt.tight_layout()
 plt.show()
 ```
 

@@ -262,40 +262,53 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="download-files" class="level1">
 <h1>📦 Download Files</h1>
 <ul>
-<li>🔗 <a href="../top_20_future_predicted_breakouts_2526.csv">Download future model predictions (Top 20)</a></li>
-<li>💾 <a href="../Future breakthrough model.ipynb">Download future breakout model source code</a></li>
+<li>🔗 <a href="top_20_future_predicted_breakouts_2526.csv">Top 20 Future Predictions (CSV)</a></li>
+<li>💾 <a href="Future breakthrough model.ipynb">Future Model Source Code (Notebook)</a></li>
 </ul>
 </section>
 <section id="key-code-example" class="level1">
 <h1>🧪 Key Code Example</h1>
-<div id="fd690b56" class="cell" data-execution_count="1">
+<div id="293ef7cd" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Show the code</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Sample player data</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame({</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"A"</span>: [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>],</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"B"</span>: [<span class="dv">5</span>, <span class="dv">4</span>, <span class="dv">3</span>, <span class="dv">2</span>, <span class="dv">1</span>]</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>})</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Quick stats summary</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>summary <span class="op">=</span> df.describe()</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>summary</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Sample plot</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>plt.plot(df[<span class="st">"A"</span>], df[<span class="st">"B"</span>], marker<span class="op">=</span><span class="st">"o"</span>)</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Line Plot Example"</span>)</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"X Axis"</span>)</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"Y Axis"</span>)</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Confusion matrix example</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> [<span class="st">'True Negative'</span>, <span class="st">'False Positive'</span>, <span class="st">'False Negative'</span>, <span class="st">'True Positive'</span>]</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>values <span class="op">=</span> [<span class="dv">95</span>, <span class="dv">5</span>, <span class="dv">8</span>, <span class="dv">92</span>]</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>bars <span class="op">=</span> ax.bar(labels, values, color<span class="op">=</span>[<span class="st">"#4CAF50"</span>, <span class="st">"#F44336"</span>, <span class="st">"#FF9800"</span>, <span class="st">"#2196F3"</span>])</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>ax.set_title(<span class="st">"Confusion Matrix Breakdown"</span>)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>ax.set_ylabel(<span class="st">"Number of Predictions"</span>)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation<span class="op">=</span><span class="dv">15</span>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Feature importance example</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>features <span class="op">=</span> [<span class="st">'goal_growth'</span>, <span class="st">'assist_growth'</span>, <span class="st">'assists'</span>, <span class="st">'minutes_played'</span>]</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>importances <span class="op">=</span> [<span class="fl">0.32</span>, <span class="fl">0.24</span>, <span class="fl">0.21</span>, <span class="fl">0.13</span>]</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">4</span>))</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>plt.barh(features, importances, color<span class="op">=</span><span class="st">"purple"</span>)</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Importance Score"</span>)</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Top Feature Importances (XGBoost)"</span>)</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>plt.gca().invert_yaxis()</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="project1_files/figure-html/cell-2-output-1.png" width="589" height="449" class="figure-img"></p>
+<p><img src="project1_files/figure-html/cell-2-output-1.png" width="661" height="469" class="figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="project1_files/figure-html/cell-2-output-2.png" width="566" height="372" class="figure-img"></p>
 </figure>
 </div>
 </div>
@@ -846,37 +859,43 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a><span class="fu"># 📦 Download Files</span></span>
 <span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>🔗 <span class="co">[</span><span class="ot">Download future model predictions (Top 20)</span><span class="co">](../top_20_future_predicted_breakouts_2526.csv)</span></span>
-<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>💾 <span class="co">[</span><span class="ot">Download future breakout model source code</span><span class="co">](../Future%20breakthrough%20model.ipynb)</span></span>
+<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>🔗 <span class="co">[</span><span class="ot">Top 20 Future Predictions (CSV)</span><span class="co">](top_20_future_predicted_breakouts_2526.csv)</span></span>
+<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>💾 <span class="co">[</span><span class="ot">Future Model Source Code (Notebook)</span><span class="co">](Future%20breakthrough%20model.ipynb)</span></span>
 <span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a><span class="fu"># 🧪 Key Code Example</span></span>
 <span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a><span class="in">```{python}</span></span>
-<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
-<span id="cb2-76"><a href="#cb2-76" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb2-76"><a href="#cb2-76" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb2-77"><a href="#cb2-77" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-78"><a href="#cb2-78" aria-hidden="true" tabindex="-1"></a><span class="co"># Sample player data</span></span>
-<span id="cb2-79"><a href="#cb2-79" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame({</span>
-<span id="cb2-80"><a href="#cb2-80" aria-hidden="true" tabindex="-1"></a>    <span class="st">"A"</span>: [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>],</span>
-<span id="cb2-81"><a href="#cb2-81" aria-hidden="true" tabindex="-1"></a>    <span class="st">"B"</span>: [<span class="dv">5</span>, <span class="dv">4</span>, <span class="dv">3</span>, <span class="dv">2</span>, <span class="dv">1</span>]</span>
-<span id="cb2-82"><a href="#cb2-82" aria-hidden="true" tabindex="-1"></a>})</span>
-<span id="cb2-83"><a href="#cb2-83" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-84"><a href="#cb2-84" aria-hidden="true" tabindex="-1"></a><span class="co"># Quick stats summary</span></span>
-<span id="cb2-85"><a href="#cb2-85" aria-hidden="true" tabindex="-1"></a>summary <span class="op">=</span> df.describe()</span>
-<span id="cb2-86"><a href="#cb2-86" aria-hidden="true" tabindex="-1"></a>summary</span>
-<span id="cb2-87"><a href="#cb2-87" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-88"><a href="#cb2-88" aria-hidden="true" tabindex="-1"></a><span class="co"># Sample plot</span></span>
-<span id="cb2-89"><a href="#cb2-89" aria-hidden="true" tabindex="-1"></a>plt.plot(df[<span class="st">"A"</span>], df[<span class="st">"B"</span>], marker<span class="op">=</span><span class="st">"o"</span>)</span>
-<span id="cb2-90"><a href="#cb2-90" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Line Plot Example"</span>)</span>
-<span id="cb2-91"><a href="#cb2-91" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"X Axis"</span>)</span>
-<span id="cb2-92"><a href="#cb2-92" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"Y Axis"</span>)</span>
-<span id="cb2-93"><a href="#cb2-93" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
-<span id="cb2-94"><a href="#cb2-94" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
-<span id="cb2-95"><a href="#cb2-95" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb2-96"><a href="#cb2-96" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-97"><a href="#cb2-97" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🎬 Video Walkthrough</span></span>
-<span id="cb2-98"><a href="#cb2-98" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-99"><a href="#cb2-99" aria-hidden="true" tabindex="-1"></a>&lt;iframe width="100%" height="400" src="https://www.youtube.com/embed/PxgVFp5a0E4?start=14" title="Data Analysis with Pandas - YouTube" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</span>
+<span id="cb2-78"><a href="#cb2-78" aria-hidden="true" tabindex="-1"></a><span class="co"># Confusion matrix example</span></span>
+<span id="cb2-79"><a href="#cb2-79" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> [<span class="st">'True Negative'</span>, <span class="st">'False Positive'</span>, <span class="st">'False Negative'</span>, <span class="st">'True Positive'</span>]</span>
+<span id="cb2-80"><a href="#cb2-80" aria-hidden="true" tabindex="-1"></a>values <span class="op">=</span> [<span class="dv">95</span>, <span class="dv">5</span>, <span class="dv">8</span>, <span class="dv">92</span>]</span>
+<span id="cb2-81"><a href="#cb2-81" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-82"><a href="#cb2-82" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb2-83"><a href="#cb2-83" aria-hidden="true" tabindex="-1"></a>bars <span class="op">=</span> ax.bar(labels, values, color<span class="op">=</span>[<span class="st">"#4CAF50"</span>, <span class="st">"#F44336"</span>, <span class="st">"#FF9800"</span>, <span class="st">"#2196F3"</span>])</span>
+<span id="cb2-84"><a href="#cb2-84" aria-hidden="true" tabindex="-1"></a>ax.set_title(<span class="st">"Confusion Matrix Breakdown"</span>)</span>
+<span id="cb2-85"><a href="#cb2-85" aria-hidden="true" tabindex="-1"></a>ax.set_ylabel(<span class="st">"Number of Predictions"</span>)</span>
+<span id="cb2-86"><a href="#cb2-86" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation<span class="op">=</span><span class="dv">15</span>)</span>
+<span id="cb2-87"><a href="#cb2-87" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb2-88"><a href="#cb2-88" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb2-89"><a href="#cb2-89" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-90"><a href="#cb2-90" aria-hidden="true" tabindex="-1"></a><span class="co"># Feature importance example</span></span>
+<span id="cb2-91"><a href="#cb2-91" aria-hidden="true" tabindex="-1"></a>features <span class="op">=</span> [<span class="st">'goal_growth'</span>, <span class="st">'assist_growth'</span>, <span class="st">'assists'</span>, <span class="st">'minutes_played'</span>]</span>
+<span id="cb2-92"><a href="#cb2-92" aria-hidden="true" tabindex="-1"></a>importances <span class="op">=</span> [<span class="fl">0.32</span>, <span class="fl">0.24</span>, <span class="fl">0.21</span>, <span class="fl">0.13</span>]</span>
+<span id="cb2-93"><a href="#cb2-93" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-94"><a href="#cb2-94" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">4</span>))</span>
+<span id="cb2-95"><a href="#cb2-95" aria-hidden="true" tabindex="-1"></a>plt.barh(features, importances, color<span class="op">=</span><span class="st">"purple"</span>)</span>
+<span id="cb2-96"><a href="#cb2-96" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Importance Score"</span>)</span>
+<span id="cb2-97"><a href="#cb2-97" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Top Feature Importances (XGBoost)"</span>)</span>
+<span id="cb2-98"><a href="#cb2-98" aria-hidden="true" tabindex="-1"></a>plt.gca().invert_yaxis()</span>
+<span id="cb2-99"><a href="#cb2-99" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb2-100"><a href="#cb2-100" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb2-101"><a href="#cb2-101" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb2-102"><a href="#cb2-102" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-103"><a href="#cb2-103" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🎬 Video Walkthrough</span></span>
+<span id="cb2-104"><a href="#cb2-104" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-105"><a href="#cb2-105" aria-hidden="true" tabindex="-1"></a>&lt;iframe width="100%" height="400" src="https://www.youtube.com/embed/PxgVFp5a0E4?start=14" title="Data Analysis with Pandas - YouTube" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</span>
 </code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
