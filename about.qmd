@@ -1,37 +1,46 @@
 ---
-title: "👋 About Me"
-format: html
+title: "About Me"
+format:
+  html:
+    toc: false
+    css: styles.css
 ---
 
-<style>
-.fade-in {
-  animation: fadeIn 1s ease-in-out;
-}
-@keyframes fadeIn {
-  0% { opacity: 0; transform: translateY(20px); }
-  100% { opacity: 1; transform: translateY(0); }
-}
-.card {
-  border-radius: 10px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.card:hover {
-  transform: scale(1.03);
-  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
-}
-</style>
-
 <div class="container fade-in" style="max-width: 900px; margin: auto;">
-  <div class="card shadow p-4">
 
-  ## 👨‍💻 About Me
+<div class="card shadow p-4">
 
-  I'm a Computer Science student with a passion for:
-  - Data Analysis & Machine Learning  
-  - Full-stack Web Development  
-  - Problem solving through Python
+# 👋 About Me
 
-  I'm currently exploring ways to predict sports outcomes using real-world data.
+My name is **Conor English**, and I’m a Business Studies student with a strong focus on analytics. I’m passionate about working as a **data analyst in elite sports environments**, particularly in **player recruitment** for professional teams in football (soccer), the NFL, or the NBA. I created this e-portfolio to showcase my capabilities across data analysis, machine learning, dashboarding, and SQL-driven insights—all applied through realistic, industry-inspired scenarios.
 
-  </div>
+# 🎓 Academic & Technical Background
+
+I’m studying **Business Studies** with a specialism in **Analytics**, where I've completed modules in **machine learning, data management, and statistical modeling**. In addition to my degree, I’ve earned multiple certifications in **Python, Machine Learning, and SQL** through **DataCamp** and **Kubicle**.
+
+My technical toolkit includes:
+- **Programming & Analysis**: Python, SQL, Jupyter Notebook  
+- **Visualization & BI**: Power BI, Matplotlib, Seaborn  
+- **Workflow & Tools**: Excel, Git, VS Code, Quarto
+
+# 🎯 Career Goals
+
+My ultimate aim is to contribute to **data-driven decision-making in professional sports**, especially in identifying undervalued talent and supporting long-term recruitment strategies. I’m continually learning how to build models, manage large datasets, and extract actionable insights—while also improving in areas like **data cleaning, storytelling, exploratory analysis**, and **model validation**.
+
+# 🤝 Collaboration & Soft Skills
+
+Throughout my degree, I’ve participated in several **collaborative, long-term group projects**, including full-year assignments. These experiences have sharpened my abilities in:
+- **Communication** – actively listening, contributing effectively in teams  
+- **Teamwork** – navigating deadlines and sharing responsibilities  
+- **Problem-Solving** – tackling ambiguity and applying critical thinking  
+
+Working closely with peers has taught me how to synthesize feedback and communicate clearly—skills that are crucial for success in any analytical role.
+
+# 💬 Final Thought
+
+> **“Data will never replace intuition—but it can sharpen it.”**  
+> This belief drives my approach to analytics—**blending instinct with insight** to support better decisions, on and off the pitch.
+
+</div>
+
 </div>
