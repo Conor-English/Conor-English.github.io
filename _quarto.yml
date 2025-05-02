@@ -1,6 +1,9 @@
 project:
-  type: website
   output-dir: docs
+  resources:
+    - "*.pdf"
+    - "*.pbix"
+
 
 website:
   title: "Conor-English.github.io"
