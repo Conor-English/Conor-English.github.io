@@ -1,14 +1,13 @@
-project:
+project: 
   output-dir: docs
-  resources:
+  resources: 
     - "*.pdf"
     - "*.pbix"
 
-
-website:
+website: 
   title: "Conor-English.github.io"
-  navbar:
-    left:
+  navbar: 
+    left: 
       - href: index.qmd
         text: Home
       - href: projects/index.qmd
@@ -20,8 +19,8 @@ website:
       - href: reflection.qmd
         text: Reflection
 
-format:
-  html:
+format: 
+  html: 
     theme: cosmo
     toc: true
     css: styles.css
