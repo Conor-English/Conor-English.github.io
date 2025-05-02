@@ -24,4 +24,4 @@ format:
     theme: cosmo
     toc: true
     css: styles.css
-    page-navigation: true     
+    page-navigation: true
