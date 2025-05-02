@@ -116,6 +116,10 @@ My understanding of the tools, techniques, and mindset required has grown dramat
 <span class="badge">Problem-solving</span>  
 — the same ones that matter in real-world teams.
 
+::: {.callout-note title="Branching Decision"}
+While I initially intended to use multiple Git branches to separate distinct features of the portfolio, I encountered significant integration conflicts and time constraints while managing interdependent changes across pages. To maintain the integrity and consistency of the site, I made the decision to keep development on a unified branch. This ensured stability and allowed me to focus more on analysis, design polish, and storytelling—core goals of this portfolio. Each commit has been carefully documented for transparency and traceability.
+:::
+
 > _“Growth begins the moment we choose honesty over ego, and reflection over routine.”_
 
 </div>
