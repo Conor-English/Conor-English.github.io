@@ -97,6 +97,6 @@ plt.tight_layout()
 plt.show()
 ```
 
-## 🎬 Explanation of Algorithmn
+## 🎬 Explanation of Algorithm
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/PxgVFp5a0E4?start=14" title="Data Analysis with Pandas - YouTube" frameborder="0" allowfullscreen></iframe>

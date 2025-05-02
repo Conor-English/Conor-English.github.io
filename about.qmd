@@ -39,7 +39,7 @@ format:
 
 # 👋 About Me
 
-My name is **Conor English**, and I’m a Business Studies student with a strong focus on analytics. I’m passionate about working as a **data analyst in elite sports environments**, particularly in **player recruitment** for professional teams in football, the NFL, or the NBA. I created this e-portfolio to showcase my capabilities across data analysis, machine learning, dashboarding, and SQL-driven insights—all applied through realistic, industry-inspired scenarios.
+My name is **Conor English**, and I’m a Business Studies student with a strong focus on analytics. I’m passionate about working as a **data analyst in elite sports environments**, particularly in **player recruitment** for professional teams in football, the NFL, or the NBA. I created this e-portfolio to showcase my capabilities across data analysis, machine learning, dashboarding, and SQL-driven insights, all applied through realistic, industry-inspired scenarios.
 
 # 🎓 Academic & Technical Background
 

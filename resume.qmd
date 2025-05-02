@@ -27,26 +27,48 @@ format: html
   ## 📄 Resume
 
   **Download my full CV:**  
-  [![Download CV](https://img.shields.io/badge/Download-My%20CV-blue?style=for-the-badge)](CV.pdf)
+  [![Download CV](https://img.shields.io/badge/Download-My%20CV-blue?style=for-the-badge)](Conor%20English%20CV.pdf)
 
   ### 🎓 Education  
-  BSc in Computer Science, Springfield University (2020–2024)
+  **Bachelor’s in Business Studies** (2021–2025), Dublin City University (DCU)  
+  Modules include: Data Analytics, Workflow and Data Management, Machine Learning and Advanced Python, Econometrics, Business Strategy, and Digital Transformation.  
+  **Research Paper:** Breakout Star Prediction using Machine Learning and SHAP-based interpretability in Professional Football.
 
-  ### 💼 Skills  
-  Python, JavaScript, SQL, Pandas, NumPy, Plotly, HTML, CSS, GitHub
+  **Mountview Secondary School** – Leaving Certificate (2015–2021)  
+  Subjects: English, Irish, Spanish, Biology, Economics, Geography, Mathematics
 
-  ### 🧪 Experience  
-  Data Science Intern @ Apex Analytics  
-  - Built predictive ML models  
-  - Automated data pipelines with Python
+  ### 💼 Experience  
+  **Business Administration** – Analyse This (Aug 2023 – May 2024)  
+  - Created custom online forms using Jotform  
+  - Managed LinkedIn marketing and client scheduling  
+  - General business administration
 
-  ### 🔬 Projects  
-  - Portfolio website with Quarto  
-  - Breakout prediction model with XGBoost
+  **Customer Logistics Manager** – Infineon Technologies (Jan 2023 – Jun 2023)  
+  - Coordinated product delivery  
+  - Optimized parts availability  
+  - Provided progress reports for global meetings
 
-  ### 📜 Certifications  
-  - Python for Data Science (Coursera)  
-  - SQL Foundations (Udemy)
+  **Shop Assistant** – Tesco (Jul 2019 – Mar 2020)  
+  - Processed customer transactions  
+  - Managed stock and deliveries  
+  - Assisted with shop closing and audits
+
+  **Business Administration** – BAN Insurance (Various dates 2018–2019)  
+  - Claims reconciliation and validation  
+  - Reception and file organization  
+  - Client communication
+
+  ### 📈 Skills  
+  Python, SQL, Power BI, Git, Quarto, Jotform, VSCode, Jamovi, MS Word/Excel/PowerPoint, Zoom, MS Teams  
+  Strong written communication, teamwork, and typing speed.
+
+  ### 🏆 Certifications  
+  - Machine Learning and Python (via DataCamp/Kubicle)  
+  - SQL for Business Analysis
+
+  ### ⚽ Interests  
+  Data-driven sports analysis (Football, Basketball, NFL)  
+  Passion for analytics, strategy, and sustainable business
 
   </div>
 </div>
