@@ -39,11 +39,11 @@ format:
 
 # 👋 About Me
 
-My name is **Conor English**, and I’m a Business Studies student with a strong focus on analytics. I’m passionate about working as a **data analyst in elite sports environments**, particularly in **player recruitment** for professional teams in football (soccer), the NFL, or the NBA. I created this e-portfolio to showcase my capabilities across data analysis, machine learning, dashboarding, and SQL-driven insights—all applied through realistic, industry-inspired scenarios.
+My name is **Conor English**, and I’m a Business Studies student with a strong focus on analytics. I’m passionate about working as a **data analyst in elite sports environments**, particularly in **player recruitment** for professional teams in football, the NFL, or the NBA. I created this e-portfolio to showcase my capabilities across data analysis, machine learning, dashboarding, and SQL-driven insights—all applied through realistic, industry-inspired scenarios.
 
 # 🎓 Academic & Technical Background
 
-I’m studying **Business Studies** with a specialism in **Analytics**, where I've completed modules in **machine learning, data management, and statistical modeling**. In addition to my degree, I’ve earned multiple certifications in **Python, Machine Learning, and SQL** through **DataCamp** and **Kubicle**.
+I’m studying **Business Studies** at Dublin City University with a specialism in **Analytics**, where I've completed modules in **machine learning, data management, and statistical modeling**. In addition to my degree, I’ve earned multiple certifications in **Python, Machine Learning, and SQL** through **DataCamp** and **Kubicle**.
 
 ### 🧰 Tool Proficiencies
 
@@ -60,7 +60,7 @@ I’m studying **Business Studies** with a specialism in **Analytics**, where I'
 
 # 🎯 Career Goals
 
-My ultimate aim is to contribute to **data-driven decision-making in professional sports**, especially in identifying undervalued talent and supporting long-term recruitment strategies. I’m continually learning how to build models, manage large datasets, and extract actionable insights—while also improving in areas like **data cleaning, storytelling, exploratory analysis**, and **model validation**.
+My ultimate aim is to contribute to **data-driven decision-making in professional sports**, particularly focusing on identifying undervalued and emerging talent and supporting long-term recruitment strategies. I’m continually learning how to build models, manage large datasets, and extract actionable insights while also improving in areas like **data cleaning, storytelling, exploratory analysis**, and **model validation**.
 
 # 🤝 Collaboration & Soft Skills
 
@@ -71,7 +71,7 @@ Throughout my degree, I’ve participated in several **collaborative, long-term 
 - **Problem-Solving** – tackling ambiguity and applying critical thinking  
 
 ::: {.callout-note}
-These soft skills are just as important as technical tools. Working closely with peers has taught me to communicate clearly, resolve conflicts, and deliver quality work in a team setting—essential for real-world analytics roles.
+These soft skills are just as important as technical tools. Working closely with peers has taught me to communicate clearly, resolve conflicts, and deliver quality work in a team setting essential for real-world analytics roles.
 :::
 
 # 💬 Final Thought
