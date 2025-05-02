@@ -80,7 +80,7 @@ The visuals and KPIs came together well, and I was especially proud of the produ
 I learned how to structure SQL queries to answer real business questions and integrate that analysis into Python for visual output.
 
 **What went well / what didn’t:**  
-Writing efficient SQL and connecting Python visualizations worked nicely. If I were to do it again, I would make the data more realistic and varied to simulate a larger database.
+Writing efficient SQL and connecting Python visualizations worked nicely. If I were to do it again, I would make the data more realistic and varied to simulate a larger database as this would provide more accurate results
 
 **Skills improved:**  
 <span class="badge">SQL joins</span>
