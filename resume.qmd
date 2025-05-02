@@ -29,15 +29,15 @@ format: html
   **Download my full CV:**  
   [![Download CV](https://img.shields.io/badge/Download-My%20CV-blue?style=for-the-badge)](Conor%20English%20CV.pdf)
 
-  ### 🎓 Education  
+  ### 🧑‍💼 **Professional Profile**  
+  Business Analytics undergraduate with a passion for data-informed decision-making in elite sport, particularly football recruitment. Proficient in Python, SQL, Power BI, and workflow automation tools. Experienced across analytics, logistics, and administration roles. Committed to continuous learning and bridging the gap between technical solutions and strategic thinking.
+
+  ### 🎓 **Education**  
   **Bachelor’s in Business Studies** (2021–2025), Dublin City University (DCU)  
   Modules include: Data Analytics, Workflow and Data Management, Machine Learning and Advanced Python, Econometrics, Business Strategy, and Digital Transformation.  
   **Research Paper:** Breakout Star Prediction using Machine Learning and SHAP-based interpretability in Professional Football.
 
-  **Mountview Secondary School** – Leaving Certificate (2015–2021)  
-  Subjects: English, Irish, Spanish, Biology, Economics, Geography, Mathematics
-
-  ### 💼 Experience  
+  ### 💼 **Experience**  
   **Business Administration** – Analyse This (Aug 2023 – May 2024)  
   - Created custom online forms using Jotform  
   - Managed LinkedIn marketing and client scheduling  
@@ -58,15 +58,15 @@ format: html
   - Reception and file organization  
   - Client communication
 
-  ### 📈 Skills  
+  ### 📈 **Skills**  
   Python, SQL, Power BI, Git, Quarto, Jotform, VSCode, Jamovi, MS Word/Excel/PowerPoint, Zoom, MS Teams  
-  Strong written communication, teamwork, and typing speed.
+  Strong written communication, teamwork, attention to detail, and fast typing.
 
-  ### 🏆 Certifications  
+  ### 🏆 **Certifications**  
   - Machine Learning and Python (via DataCamp/Kubicle)  
   - SQL for Business Analysis
 
-  ### ⚽ Interests  
+  ### ⚽ **Interests**  
   Data-driven sports analysis (Football, Basketball, NFL)  
   Passion for analytics, strategy, and sustainable business
 
