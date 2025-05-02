@@ -1,4 +1,3 @@
-/* === Button Glow on Hover === */
 .btn-primary {
   transition: all 0.3s ease;
   box-shadow: 0 0 0 transparent;
@@ -9,11 +8,10 @@
   transform: translateY(-2px);
 }
 
-/* === Card Hover Lift === */
 .card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-radius: 12px;
-  background-color: rgba(255, 255, 255, 0.92); /* slightly translucent */
+  background-color: rgba(255, 255, 255, 0.92); 
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
 }
 
@@ -22,13 +20,11 @@
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
 
-/* === Navbar Hover Link === */
 .navbar a.nav-link:hover {
   color: #7b68ee;
   text-decoration: underline;
 }
 
-/* === Fade-in Animation === */
 .fade-in {
   animation: fadeIn 1s ease-in-out;
 }
@@ -38,9 +34,8 @@
   100% { opacity: 1; transform: translateY(0); }
 }
 
-/* === Purple Gradient Background === */
 body {
-  background: linear-gradient(135deg, #e3d7f7, #f5ebff, #ffffff);
+  background: linear-gradient(to right, #5b2c83, #6e3fb6); 
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -49,12 +44,12 @@ body {
   padding: 0;
 }
 
-/* === Content Container Styling === */
 .container {
-  background-color: rgba(255, 255, 255, 0.88); /* translucent white */
+  background-color: #ffffff;
   padding: 2rem;
-  border-radius: 14px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
-  backdrop-filter: blur(4px);
-  margin-top: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+  max-width: 960px;
+  margin: 2rem auto;
 }
+
