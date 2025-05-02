@@ -35,7 +35,7 @@
 }
 
 body {
-  background: linear-gradient(to right, #d8c5f2, #e3d4f8); /* Softer purples */
+  background: linear-gradient(to right, #f3f4f7, #e6e2f1);
   background-attachment: fixed;
   background-size: cover;
 }
