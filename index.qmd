@@ -82,7 +82,6 @@ Through these projects, I’ve explored tools like **Python, SQL, Power BI**, an
 ## ⭐ Featured Project: Predicting Breakout Footballers
 
 <div class="card shadow-sm mt-4 p-3" style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-<img src="images/football_project.png" alt="Breakout Footballers Project" style="width: 130px; border-radius: 8px;">
 <div style="flex: 1;">
 <h5 style="margin-top: 0;">⚽ Predicting Breakout Footballers</h5>
 <p style="margin-bottom: 6px;">ML pipeline to identify potential breakout stars in football using 10M+ datapoints and SHAP analysis.</p>
