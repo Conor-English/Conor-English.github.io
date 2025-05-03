@@ -44,8 +44,7 @@ The dataset includes sales transactions from multiple regions and product lines.
 
 # 📥 Download Files
 
-<a href="PowerBI_Presentation.pbix" class="btn btn-primary mt-2" download>📦 Download Power BI Dashboard (.pbix)</a>
-
+<a href="PowerBI_Presentation.pdf" class="btn btn-primary mt-2" download>📄 Download Power BI Dashboard (.pdf)</a>
 
 ## 🧪 Illustrative Code (Python Representation)
 
